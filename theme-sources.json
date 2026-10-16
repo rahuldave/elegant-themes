@@ -2,21 +2,64 @@
   {
     "name": "folio",
     "repository": "https://github.com/rahuldave/smalldocs-folio",
-    "commit": "bb13e3a7931b7fdec97a90715769199b7b4c1ed1"
+    "commit": "4b6bfb27b39eb90a12c5e69c45a78962c7abb4c8"
+  },
+  {
+    "name": "folio-original",
+    "repository": "https://github.com/rahuldave/smalldocs-folio",
+    "commit": "bb13e3a7931b7fdec97a90715769199b7b4c1ed1",
+    "tag": "before-reading-redesign-2026-10-16"
   },
   {
     "name": "atelier",
     "repository": "https://github.com/rahuldave/smalldocs-atelier",
-    "commit": "f0548fd82212eec26ae3a0e6552e110452950d8f"
+    "commit": "535de3f30b93c12d30d0a7ba51b469907017176a"
+  },
+  {
+    "name": "atelier-original",
+    "repository": "https://github.com/rahuldave/smalldocs-atelier",
+    "commit": "f0548fd82212eec26ae3a0e6552e110452950d8f",
+    "tag": "before-reading-redesign-2026-10-16"
   },
   {
     "name": "nocturne",
     "repository": "https://github.com/rahuldave/smalldocs-nocturne",
-    "commit": "b016f8a7abbe42f0df3e2bfc555f7b5e9a43f6f5"
+    "commit": "c8b515c7727a2426463404eb849f3713b2dd9c29"
+  },
+  {
+    "name": "nocturne-original",
+    "repository": "https://github.com/rahuldave/smalldocs-nocturne",
+    "commit": "b016f8a7abbe42f0df3e2bfc555f7b5e9a43f6f5",
+    "tag": "before-reading-redesign-2026-10-16"
   },
   {
     "name": "tufte",
     "repository": "https://github.com/rahuldave/smalldocs-tufte",
     "commit": "19d0e44e14585d008d99eda568dd9e6565785de3"
+  },
+  {
+    "name": "zephyr-reading",
+    "repository": "https://github.com/rahuldave/smalldocs-zephyr-reading",
+    "commit": "e974279266f0c432e1025665bf1f6747dc00d846"
+  },
+  {
+    "name": "simplex-reading",
+    "repository": "https://github.com/rahuldave/smalldocs-simplex-reading",
+    "commit": "ee8f31851316fb22cac0e4c168e0c4639e355131"
+  },
+  {
+    "name": "pulse-reading",
+    "repository": "https://github.com/rahuldave/smalldocs-pulse-reading",
+    "commit": "6009b27f33950a7640e151c2f08bb0b409f965aa"
+  },
+  {
+    "name": "litera-reading",
+    "repository": "https://github.com/rahuldave/smalldocs-litera-reading",
+    "commit": "40550a9ef803fb7af41af779667f1a7e05984759"
+  },
+  {
+    "name": "darkly-reading",
+    "repository": "https://github.com/rahuldave/smalldocs-darkly-reading",
+    "commit": "6d0797357e034018d10849c022847b37dba2381c"
   }
 ]
