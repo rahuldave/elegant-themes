@@ -1,0 +1,82 @@
+[
+  {
+    "columns": "358px",
+    "h1": "A page witha point of view.",
+    "scrollWidth": 390,
+    "title": "Elegant themes · SmallDocs",
+    "url": "http://127.0.0.1:8438/elegant-themes/example/_site/index.html?group=comparisons",
+    "width": 390
+  },
+  {
+    "columns": null,
+    "h1": "How well do the themes read?",
+    "scrollWidth": 390,
+    "title": "How well do the themes read? · Elegant",
+    "url": "http://127.0.0.1:8438/elegant-themes/example/_site/typography-report.html?group=comparisons",
+    "width": 390
+  },
+  {
+    "columns": null,
+    "h1": "Which themes form a convincing design?",
+    "scrollWidth": 390,
+    "title": "Which themes form a convincing design? · Elegant",
+    "url": "http://127.0.0.1:8438/elegant-themes/example/_site/visual-design-report.html?group=comparisons",
+    "width": 390
+  },
+  {
+    "columns": null,
+    "h1": "A practical guide to reading typography",
+    "scrollWidth": 390,
+    "title": "A practical guide to reading typography · Elegant",
+    "url": "http://127.0.0.1:8438/elegant-themes/example/_site/typography-guide.html?group=comparisons",
+    "width": 390
+  },
+  {
+    "columns": null,
+    "h1": "A practical guide to visual structure",
+    "scrollWidth": 390,
+    "title": "A practical guide to visual structure · Elegant",
+    "url": "http://127.0.0.1:8438/elegant-themes/example/_site/ui-design-guide.html?group=comparisons",
+    "width": 390
+  },
+  {
+    "columns": "718px",
+    "h1": "A page witha point of view.",
+    "scrollWidth": 768,
+    "title": "Elegant themes · SmallDocs",
+    "url": "http://127.0.0.1:8438/elegant-themes/example/_site/index.html?group=comparisons",
+    "width": 768
+  },
+  {
+    "columns": null,
+    "h1": "How well do the themes read?",
+    "scrollWidth": 768,
+    "title": "How well do the themes read? · Elegant",
+    "url": "http://127.0.0.1:8438/elegant-themes/example/_site/typography-report.html?group=comparisons",
+    "width": 768
+  },
+  {
+    "columns": null,
+    "h1": "Which themes form a convincing design?",
+    "scrollWidth": 768,
+    "title": "Which themes form a convincing design? · Elegant",
+    "url": "http://127.0.0.1:8438/elegant-themes/example/_site/visual-design-report.html?group=comparisons",
+    "width": 768
+  },
+  {
+    "columns": null,
+    "h1": "A practical guide to reading typography",
+    "scrollWidth": 768,
+    "title": "A practical guide to reading typography · Elegant",
+    "url": "http://127.0.0.1:8438/elegant-themes/example/_site/typography-guide.html?group=comparisons",
+    "width": 768
+  },
+  {
+    "columns": null,
+    "h1": "A practical guide to visual structure",
+    "scrollWidth": 768,
+    "title": "A practical guide to visual structure · Elegant",
+    "url": "http://127.0.0.1:8438/elegant-themes/example/_site/ui-design-guide.html?group=comparisons",
+    "width": 768
+  }
+]

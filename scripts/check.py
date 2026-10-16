@@ -33,6 +33,11 @@ def main():
     for f in OUTPUT.rglob('*'):
         if f.suffix in ('.html','.json','.txt'):
             assert '/Users/rahul/Attic' not in f.read_text(), f
+    audit = OUTPUT / 'typography-audit'
+    for filename, count in [('measurements.json',184),('controls.json',46)]:
+        records = json.loads((audit / filename).read_text())
+        keys = [(r['id'],r['mode'],r.get('page'),r.get('viewportName')) for r in records]
+        assert len(records) == count and len(keys) == len(set(keys)), filename
     missing = []
     for file in OUTPUT.rglob('*'):
         if file.suffix not in ('.html','.css'):

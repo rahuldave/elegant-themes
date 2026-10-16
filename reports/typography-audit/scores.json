@@ -1,211 +1,5 @@
 [
   {
-    "id": "darkly-reading",
-    "name": "Darkly Reading",
-    "group": "refined",
-    "description": "A reading refinement of Darkly: narrower prose, calmer headings, local code fonts, and a complete control palette.",
-    "type": "Lato \u00b7 IBM Plex Mono",
-    "colors": [
-      "#222222",
-      "#8db9e8",
-      "#eeeeee"
-    ],
-    "paired": false,
-    "revision": "refined",
-    "comparison": "darkly",
-    "source": "https://github.com/rahuldave/smalldocs-darkly-reading",
-    "demo": "https://rahuldave.com/smalldocs-darkly-reading/",
-    "install": "smalldocs add rahuldave/smalldocs-darkly-reading",
-    "typography": 98,
-    "modes": [
-      {
-        "mode": "original",
-        "total": 98,
-        "scores": {
-          "font": 14,
-          "size": 10,
-          "leading": 20,
-          "measure": 15,
-          "space": 10,
-          "hierarchy": 9,
-          "code": 10,
-          "color": 10
-        },
-        "reasons": {
-          "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.45; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 86.8 characters (10/10); mobile 45.9 (5/5, adapted band).",
-          "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
-          "hierarchy": "Section/body ratio 1.40 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
-          "code": "Code 14.45px desktop / 14.45px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
-          "color": "Body 13.71:1 (4/4); link 7.76:1 (2/2); inline code 6.49:1 (2/2); worst sampled syntax 5.01:1 (2/2)."
-        },
-        "metrics": {
-          "bodySize": 17.0,
-          "mobileBodySize": 17.0,
-          "leading": 1.45,
-          "measure": 86.8,
-          "mobileMeasure": 45.9,
-          "allLineMean": 80.5,
-          "bodyContrast": [
-            13.713,
-            13.713
-          ],
-          "linkContrast": [
-            7.756,
-            7.756
-          ],
-          "inlineContrast": [
-            6.492,
-            6.492
-          ],
-          "syntaxContrast": 5.01,
-          "codeSize": 14.45,
-          "mobileCodeSize": 14.45,
-          "paragraphGap": 1.0,
-          "gutter": 17,
-          "overflow": false
-        }
-      }
-    ],
-    "recommendation": "Refined \u00b7 candidate",
-    "note": "The charcoal and Lato identity remain. Pale blue outline links and muted status panels repair weak text contrast; the narrower prose and larger code improve the reading surface.",
-    "design": {
-      "total": 92,
-      "scores": {
-        "hierarchy": 23,
-        "spacing": 18,
-        "color": 20,
-        "layout": 14,
-        "surfaces": 9,
-        "personality": 8
-      },
-      "contexts": [
-        {
-          "mode": "original",
-          "color": 20,
-          "controlContrast": [
-            {
-              "label": "Controls",
-              "ratio": 7.756,
-              "range": [
-                7.756,
-                7.756
-              ]
-            },
-            {
-              "label": "Primary",
-              "ratio": 7.164,
-              "range": [
-                7.164,
-                7.164
-              ]
-            },
-            {
-              "label": "Secondary",
-              "ratio": 11.478,
-              "range": [
-                11.478,
-                11.478
-              ]
-            },
-            {
-              "label": "Outline",
-              "ratio": 7.756,
-              "range": [
-                7.756,
-                7.756
-              ]
-            },
-            {
-              "label": "Notebook title",
-              "ratio": 13.713,
-              "range": [
-                13.713,
-                13.713
-              ]
-            },
-            {
-              "label": "Ideas worth keeping",
-              "ratio": 13.713,
-              "range": [
-                13.713,
-                13.713
-              ]
-            },
-            {
-              "label": "Collection",
-              "ratio": 13.713,
-              "range": [
-                13.713,
-                13.713
-              ]
-            },
-            {
-              "label": "Reading notesCode examplesWorking ideas",
-              "ratio": 13.713,
-              "range": [
-                13.713,
-                13.713
-              ]
-            },
-            {
-              "label": "Keep this note close",
-              "ratio": 13.713,
-              "range": [
-                13.713,
-                13.713
-              ]
-            },
-            {
-              "label": "The note has been saved.",
-              "ratio": 8.989,
-              "range": [
-                8.989,
-                8.989
-              ]
-            },
-            {
-              "label": "A title makes this easier to find.",
-              "ratio": 9.173,
-              "range": [
-                9.173,
-                9.173
-              ]
-            },
-            {
-              "label": "A SmallDocs note",
-              "ratio": 11.478,
-              "range": [
-                11.478,
-                11.478
-              ]
-            },
-            {
-              "label": "The reading notebookA small place to keep a thought, a useful function, or a question.Open the notebook",
-              "ratio": 13.713,
-              "range": [
-                13.713,
-                13.713
-              ]
-            }
-          ],
-          "failures": [],
-          "colorParts": {
-            "body": 4,
-            "controls": 4,
-            "links": 2,
-            "palette": 5,
-            "nonColorCues": 3,
-            "stableSurface": 2
-          }
-        }
-      ],
-      "note": "The charcoal and Lato identity remain. Pale blue outline links and muted status panels repair weak text contrast; the narrower prose and larger code improve the reading surface."
-    }
-  },
-  {
     "id": "folio",
     "name": "Folio \u00b7 Refined",
     "group": "custom",
@@ -787,418 +581,6 @@
     }
   },
   {
-    "id": "simplex-reading",
-    "name": "Simplex Reading",
-    "group": "refined",
-    "description": "A reading refinement of Simplex: narrower prose, calmer headings, local code fonts, and a complete control palette.",
-    "type": "Open Sans \u00b7 IBM Plex Mono",
-    "colors": [
-      "#fcfcfc",
-      "#b81d0e",
-      "#212529"
-    ],
-    "paired": false,
-    "revision": "refined",
-    "comparison": "simplex",
-    "source": "https://github.com/rahuldave/smalldocs-simplex-reading",
-    "demo": "https://rahuldave.com/smalldocs-simplex-reading/",
-    "install": "smalldocs add rahuldave/smalldocs-simplex-reading",
-    "typography": 98,
-    "modes": [
-      {
-        "mode": "original",
-        "total": 98,
-        "scores": {
-          "font": 14,
-          "size": 10,
-          "leading": 20,
-          "measure": 15,
-          "space": 10,
-          "hierarchy": 9,
-          "code": 10,
-          "color": 10
-        },
-        "reasons": {
-          "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.45; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 86.8 characters (10/10); mobile 45.9 (5/5, adapted band).",
-          "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
-          "hierarchy": "Section/body ratio 1.40 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
-          "code": "Code 14.45px desktop / 14.45px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
-          "color": "Body 15.04:1 (4/4); link 6.36:1 (2/2); inline code 5.88:1 (2/2); worst sampled syntax 4.63:1 (2/2)."
-        },
-        "metrics": {
-          "bodySize": 17.0,
-          "mobileBodySize": 17.0,
-          "leading": 1.45,
-          "measure": 86.8,
-          "mobileMeasure": 45.9,
-          "allLineMean": 80.5,
-          "bodyContrast": [
-            15.036,
-            15.036
-          ],
-          "linkContrast": [
-            6.356,
-            6.356
-          ],
-          "inlineContrast": [
-            5.877,
-            5.877
-          ],
-          "syntaxContrast": 4.633,
-          "codeSize": 14.45,
-          "mobileCodeSize": 14.45,
-          "paragraphGap": 1.0,
-          "gutter": 17,
-          "overflow": false
-        }
-      }
-    ],
-    "recommendation": "Refined \u00b7 candidate",
-    "note": "The quiet red identity remains, with flatter controls, bounded prose, and a consistent code face. The system is useful and calm, though less distinctive than the custom designs.",
-    "design": {
-      "total": 90,
-      "scores": {
-        "hierarchy": 22,
-        "spacing": 18,
-        "color": 20,
-        "layout": 14,
-        "surfaces": 9,
-        "personality": 7
-      },
-      "contexts": [
-        {
-          "mode": "original",
-          "color": 20,
-          "controlContrast": [
-            {
-              "label": "Controls",
-              "ratio": 6.356,
-              "range": [
-                6.356,
-                6.356
-              ]
-            },
-            {
-              "label": "Primary",
-              "ratio": 6.521,
-              "range": [
-                6.521,
-                6.521
-              ]
-            },
-            {
-              "label": "Secondary",
-              "ratio": 13.902,
-              "range": [
-                13.902,
-                13.902
-              ]
-            },
-            {
-              "label": "Outline",
-              "ratio": 6.356,
-              "range": [
-                6.356,
-                6.356
-              ]
-            },
-            {
-              "label": "Notebook title",
-              "ratio": 15.036,
-              "range": [
-                15.036,
-                15.036
-              ]
-            },
-            {
-              "label": "Ideas worth keeping",
-              "ratio": 15.036,
-              "range": [
-                15.036,
-                15.036
-              ]
-            },
-            {
-              "label": "Collection",
-              "ratio": 15.036,
-              "range": [
-                15.036,
-                15.036
-              ]
-            },
-            {
-              "label": "Reading notesCode examplesWorking ideas",
-              "ratio": 15.036,
-              "range": [
-                15.036,
-                15.036
-              ]
-            },
-            {
-              "label": "Keep this note close",
-              "ratio": 15.036,
-              "range": [
-                15.036,
-                15.036
-              ]
-            },
-            {
-              "label": "The note has been saved.",
-              "ratio": 8.568,
-              "range": [
-                8.568,
-                8.568
-              ]
-            },
-            {
-              "label": "A title makes this easier to find.",
-              "ratio": 8.018,
-              "range": [
-                8.018,
-                8.018
-              ]
-            },
-            {
-              "label": "A SmallDocs note",
-              "ratio": 13.902,
-              "range": [
-                13.902,
-                13.902
-              ]
-            },
-            {
-              "label": "The reading notebookA small place to keep a thought, a useful function, or a question.Open the notebook",
-              "ratio": 15.036,
-              "range": [
-                15.036,
-                15.036
-              ]
-            }
-          ],
-          "failures": [],
-          "colorParts": {
-            "body": 4,
-            "controls": 4,
-            "links": 2,
-            "palette": 5,
-            "nonColorCues": 3,
-            "stableSurface": 2
-          }
-        }
-      ],
-      "note": "The quiet red identity remains, with flatter controls, bounded prose, and a consistent code face. The system is useful and calm, though less distinctive than the custom designs."
-    }
-  },
-  {
-    "id": "zephyr-reading",
-    "name": "Zephyr Reading",
-    "group": "refined",
-    "description": "A reading refinement of Zephyr: narrower prose, calmer headings, local code fonts, and a complete control palette.",
-    "type": "Inter \u00b7 IBM Plex Mono",
-    "colors": [
-      "#ffffff",
-      "#3459e6",
-      "#495057"
-    ],
-    "paired": false,
-    "revision": "refined",
-    "comparison": "zephyr",
-    "source": "https://github.com/rahuldave/smalldocs-zephyr-reading",
-    "demo": "https://rahuldave.com/smalldocs-zephyr-reading/",
-    "install": "smalldocs add rahuldave/smalldocs-zephyr-reading",
-    "typography": 98,
-    "modes": [
-      {
-        "mode": "original",
-        "total": 98,
-        "scores": {
-          "font": 14,
-          "size": 10,
-          "leading": 20,
-          "measure": 15,
-          "space": 10,
-          "hierarchy": 9,
-          "code": 10,
-          "color": 10
-        },
-        "reasons": {
-          "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.45; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 86.8 characters (10/10); mobile 45.9 (5/5, adapted band).",
-          "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
-          "hierarchy": "Section/body ratio 1.40 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
-          "code": "Code 14.45px desktop / 14.45px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
-          "color": "Body 8.18:1 (4/4); link 5.65:1 (2/2); inline code 5.22:1 (2/2); worst sampled syntax 4.75:1 (2/2)."
-        },
-        "metrics": {
-          "bodySize": 17.0,
-          "mobileBodySize": 17.0,
-          "leading": 1.45,
-          "measure": 86.8,
-          "mobileMeasure": 45.9,
-          "allLineMean": 80.5,
-          "bodyContrast": [
-            8.176,
-            8.176
-          ],
-          "linkContrast": [
-            5.649,
-            5.649
-          ],
-          "inlineContrast": [
-            5.224,
-            5.224
-          ],
-          "syntaxContrast": 4.754,
-          "codeSize": 14.45,
-          "mobileCodeSize": 14.45,
-          "paragraphGap": 1.0,
-          "gutter": 17,
-          "overflow": false
-        }
-      }
-    ],
-    "recommendation": "Refined \u00b7 candidate",
-    "note": "Inter and the original blue identity remain. The bounded prose column and quieter heading scale improve reading fit, with restrained surfaces and strong normal-state controls.",
-    "design": {
-      "total": 93,
-      "scores": {
-        "hierarchy": 23,
-        "spacing": 19,
-        "color": 20,
-        "layout": 14,
-        "surfaces": 9,
-        "personality": 8
-      },
-      "contexts": [
-        {
-          "mode": "original",
-          "color": 20,
-          "controlContrast": [
-            {
-              "label": "Controls",
-              "ratio": 5.649,
-              "range": [
-                5.649,
-                5.649
-              ]
-            },
-            {
-              "label": "Primary",
-              "ratio": 5.649,
-              "range": [
-                5.649,
-                5.649
-              ]
-            },
-            {
-              "label": "Secondary",
-              "ratio": 14.267,
-              "range": [
-                14.267,
-                14.267
-              ]
-            },
-            {
-              "label": "Outline",
-              "ratio": 5.649,
-              "range": [
-                5.649,
-                5.649
-              ]
-            },
-            {
-              "label": "Notebook title",
-              "ratio": 8.176,
-              "range": [
-                8.176,
-                8.176
-              ]
-            },
-            {
-              "label": "Ideas worth keeping",
-              "ratio": 8.176,
-              "range": [
-                8.176,
-                8.176
-              ]
-            },
-            {
-              "label": "Collection",
-              "ratio": 8.176,
-              "range": [
-                8.176,
-                8.176
-              ]
-            },
-            {
-              "label": "Reading notesCode examplesWorking ideas",
-              "ratio": 8.176,
-              "range": [
-                8.176,
-                8.176
-              ]
-            },
-            {
-              "label": "Keep this note close",
-              "ratio": 8.176,
-              "range": [
-                8.176,
-                8.176
-              ]
-            },
-            {
-              "label": "The note has been saved.",
-              "ratio": 8.568,
-              "range": [
-                8.568,
-                8.568
-              ]
-            },
-            {
-              "label": "A title makes this easier to find.",
-              "ratio": 8.018,
-              "range": [
-                8.018,
-                8.018
-              ]
-            },
-            {
-              "label": "A SmallDocs note",
-              "ratio": 7.562,
-              "range": [
-                7.562,
-                7.562
-              ]
-            },
-            {
-              "label": "The reading notebookA small place to keep a thought, a useful function, or a question.Open the notebook",
-              "ratio": 8.176,
-              "range": [
-                8.176,
-                8.176
-              ]
-            }
-          ],
-          "failures": [],
-          "colorParts": {
-            "body": 4,
-            "controls": 4,
-            "links": 2,
-            "palette": 5,
-            "nonColorCues": 3,
-            "stableSurface": 2
-          }
-        }
-      ],
-      "note": "Inter and the original blue identity remain. The bounded prose column and quieter heading scale improve reading fit, with restrained surfaces and strong normal-state controls."
-    }
-  },
-  {
     "id": "atelier",
     "name": "Atelier \u00b7 Refined",
     "group": "custom",
@@ -1574,6 +956,212 @@
     }
   },
   {
+    "id": "darkly-reading",
+    "name": "Darkly Reading",
+    "group": "refined",
+    "description": "A reading refinement of Darkly: narrower prose, calmer headings, local code fonts, and a complete control palette.",
+    "type": "Lato \u00b7 IBM Plex Mono",
+    "colors": [
+      "#222222",
+      "#8db9e8",
+      "#eeeeee"
+    ],
+    "paired": false,
+    "revision": "refined",
+    "comparison": "darkly",
+    "source": "https://github.com/rahuldave/smalldocs-darkly-reading",
+    "demo": "https://rahuldave.com/smalldocs-darkly-reading/",
+    "install": "smalldocs add rahuldave/smalldocs-darkly-reading",
+    "typography": 97,
+    "modes": [
+      {
+        "mode": "original",
+        "total": 97,
+        "scores": {
+          "font": 14,
+          "size": 10,
+          "leading": 20,
+          "measure": 14,
+          "space": 10,
+          "hierarchy": 9,
+          "code": 10,
+          "color": 10
+        },
+        "reasons": {
+          "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
+          "leading": "Body leading 1.45; preferred range 1.20\u20131.45.",
+          "measure": "Desktop complete-line mean 83.2 characters (10/10); mobile 44.2 (4/5, adapted band).",
+          "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
+          "hierarchy": "Section/body ratio 1.40 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
+          "code": "Code 14.45px desktop / 14.45px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
+          "color": "Body 13.71:1 (4/4); link 7.76:1 (2/2); inline code 6.49:1 (2/2); worst sampled syntax 5.01:1 (2/2)."
+        },
+        "metrics": {
+          "bodySize": 17.0,
+          "mobileBodySize": 17.0,
+          "leading": 1.45,
+          "measure": 83.2,
+          "mobileMeasure": 44.2,
+          "allLineMean": 80.5,
+          "bodyContrast": [
+            13.713,
+            13.713
+          ],
+          "linkContrast": [
+            7.756,
+            7.756
+          ],
+          "inlineContrast": [
+            6.492,
+            6.492
+          ],
+          "syntaxContrast": 5.01,
+          "codeSize": 14.45,
+          "mobileCodeSize": 14.45,
+          "paragraphGap": 1.0,
+          "gutter": 17,
+          "overflow": false
+        }
+      }
+    ],
+    "recommendation": "Refined \u00b7 candidate",
+    "note": "The charcoal and Lato identity remain. Pale blue outline links and muted status panels repair weak text contrast; the narrower prose and larger code improve the reading surface.",
+    "design": {
+      "total": 92,
+      "scores": {
+        "hierarchy": 23,
+        "spacing": 18,
+        "color": 20,
+        "layout": 14,
+        "surfaces": 9,
+        "personality": 8
+      },
+      "contexts": [
+        {
+          "mode": "original",
+          "color": 20,
+          "controlContrast": [
+            {
+              "label": "Controls",
+              "ratio": 7.756,
+              "range": [
+                7.756,
+                7.756
+              ]
+            },
+            {
+              "label": "Primary",
+              "ratio": 7.164,
+              "range": [
+                7.164,
+                7.164
+              ]
+            },
+            {
+              "label": "Secondary",
+              "ratio": 11.478,
+              "range": [
+                11.478,
+                11.478
+              ]
+            },
+            {
+              "label": "Outline",
+              "ratio": 7.756,
+              "range": [
+                7.756,
+                7.756
+              ]
+            },
+            {
+              "label": "Notebook title",
+              "ratio": 13.713,
+              "range": [
+                13.713,
+                13.713
+              ]
+            },
+            {
+              "label": "Ideas worth keeping",
+              "ratio": 13.713,
+              "range": [
+                13.713,
+                13.713
+              ]
+            },
+            {
+              "label": "Collection",
+              "ratio": 13.713,
+              "range": [
+                13.713,
+                13.713
+              ]
+            },
+            {
+              "label": "Reading notesCode examplesWorking ideas",
+              "ratio": 13.713,
+              "range": [
+                13.713,
+                13.713
+              ]
+            },
+            {
+              "label": "Keep this note close",
+              "ratio": 13.713,
+              "range": [
+                13.713,
+                13.713
+              ]
+            },
+            {
+              "label": "The note has been saved.",
+              "ratio": 8.989,
+              "range": [
+                8.989,
+                8.989
+              ]
+            },
+            {
+              "label": "A title makes this easier to find.",
+              "ratio": 9.173,
+              "range": [
+                9.173,
+                9.173
+              ]
+            },
+            {
+              "label": "A SmallDocs note",
+              "ratio": 11.478,
+              "range": [
+                11.478,
+                11.478
+              ]
+            },
+            {
+              "label": "The reading notebookA small place to keep a thought, a useful function, or a question.Open the notebook",
+              "ratio": 13.713,
+              "range": [
+                13.713,
+                13.713
+              ]
+            }
+          ],
+          "failures": [],
+          "colorParts": {
+            "body": 4,
+            "controls": 4,
+            "links": 2,
+            "palette": 5,
+            "nonColorCues": 3,
+            "stableSurface": 2
+          }
+        }
+      ],
+      "note": "The charcoal and Lato identity remain. Pale blue outline links and muted status panels repair weak text contrast; the narrower prose and larger code improve the reading surface."
+    }
+  },
+  {
     "id": "nocturne",
     "name": "Nocturne \u00b7 Refined",
     "group": "custom",
@@ -1946,6 +1534,418 @@
         }
       ],
       "note": "Ink and brass retain the evening identity. Narrower prose, quieter headings, and theme-aware controls improve continuity; the title still carries deliberate display emphasis."
+    }
+  },
+  {
+    "id": "simplex-reading",
+    "name": "Simplex Reading",
+    "group": "refined",
+    "description": "A reading refinement of Simplex: narrower prose, calmer headings, local code fonts, and a complete control palette.",
+    "type": "Open Sans \u00b7 IBM Plex Mono",
+    "colors": [
+      "#fcfcfc",
+      "#b81d0e",
+      "#212529"
+    ],
+    "paired": false,
+    "revision": "refined",
+    "comparison": "simplex",
+    "source": "https://github.com/rahuldave/smalldocs-simplex-reading",
+    "demo": "https://rahuldave.com/smalldocs-simplex-reading/",
+    "install": "smalldocs add rahuldave/smalldocs-simplex-reading",
+    "typography": 97,
+    "modes": [
+      {
+        "mode": "original",
+        "total": 97,
+        "scores": {
+          "font": 14,
+          "size": 10,
+          "leading": 20,
+          "measure": 14,
+          "space": 10,
+          "hierarchy": 9,
+          "code": 10,
+          "color": 10
+        },
+        "reasons": {
+          "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
+          "leading": "Body leading 1.45; preferred range 1.20\u20131.45.",
+          "measure": "Desktop complete-line mean 76.0 characters (10/10); mobile 40.1 (4/5, adapted band).",
+          "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
+          "hierarchy": "Section/body ratio 1.40 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
+          "code": "Code 14.45px desktop / 14.45px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
+          "color": "Body 15.04:1 (4/4); link 6.36:1 (2/2); inline code 5.88:1 (2/2); worst sampled syntax 4.63:1 (2/2)."
+        },
+        "metrics": {
+          "bodySize": 17.0,
+          "mobileBodySize": 17.0,
+          "leading": 1.45,
+          "measure": 76.0,
+          "mobileMeasure": 40.1,
+          "allLineMean": 60.1,
+          "bodyContrast": [
+            15.036,
+            15.036
+          ],
+          "linkContrast": [
+            6.356,
+            6.356
+          ],
+          "inlineContrast": [
+            5.877,
+            5.877
+          ],
+          "syntaxContrast": 4.633,
+          "codeSize": 14.45,
+          "mobileCodeSize": 14.45,
+          "paragraphGap": 1.0,
+          "gutter": 17,
+          "overflow": false
+        }
+      }
+    ],
+    "recommendation": "Refined \u00b7 candidate",
+    "note": "The quiet red identity remains, with flatter controls, bounded prose, and a consistent code face. The system is useful and calm, though less distinctive than the custom designs.",
+    "design": {
+      "total": 90,
+      "scores": {
+        "hierarchy": 22,
+        "spacing": 18,
+        "color": 20,
+        "layout": 14,
+        "surfaces": 9,
+        "personality": 7
+      },
+      "contexts": [
+        {
+          "mode": "original",
+          "color": 20,
+          "controlContrast": [
+            {
+              "label": "Controls",
+              "ratio": 6.356,
+              "range": [
+                6.356,
+                6.356
+              ]
+            },
+            {
+              "label": "Primary",
+              "ratio": 6.521,
+              "range": [
+                6.521,
+                6.521
+              ]
+            },
+            {
+              "label": "Secondary",
+              "ratio": 13.902,
+              "range": [
+                13.902,
+                13.902
+              ]
+            },
+            {
+              "label": "Outline",
+              "ratio": 6.356,
+              "range": [
+                6.356,
+                6.356
+              ]
+            },
+            {
+              "label": "Notebook title",
+              "ratio": 15.036,
+              "range": [
+                15.036,
+                15.036
+              ]
+            },
+            {
+              "label": "Ideas worth keeping",
+              "ratio": 15.036,
+              "range": [
+                15.036,
+                15.036
+              ]
+            },
+            {
+              "label": "Collection",
+              "ratio": 15.036,
+              "range": [
+                15.036,
+                15.036
+              ]
+            },
+            {
+              "label": "Reading notesCode examplesWorking ideas",
+              "ratio": 15.036,
+              "range": [
+                15.036,
+                15.036
+              ]
+            },
+            {
+              "label": "Keep this note close",
+              "ratio": 15.036,
+              "range": [
+                15.036,
+                15.036
+              ]
+            },
+            {
+              "label": "The note has been saved.",
+              "ratio": 8.568,
+              "range": [
+                8.568,
+                8.568
+              ]
+            },
+            {
+              "label": "A title makes this easier to find.",
+              "ratio": 8.018,
+              "range": [
+                8.018,
+                8.018
+              ]
+            },
+            {
+              "label": "A SmallDocs note",
+              "ratio": 13.902,
+              "range": [
+                13.902,
+                13.902
+              ]
+            },
+            {
+              "label": "The reading notebookA small place to keep a thought, a useful function, or a question.Open the notebook",
+              "ratio": 15.036,
+              "range": [
+                15.036,
+                15.036
+              ]
+            }
+          ],
+          "failures": [],
+          "colorParts": {
+            "body": 4,
+            "controls": 4,
+            "links": 2,
+            "palette": 5,
+            "nonColorCues": 3,
+            "stableSurface": 2
+          }
+        }
+      ],
+      "note": "The quiet red identity remains, with flatter controls, bounded prose, and a consistent code face. The system is useful and calm, though less distinctive than the custom designs."
+    }
+  },
+  {
+    "id": "zephyr-reading",
+    "name": "Zephyr Reading",
+    "group": "refined",
+    "description": "A reading refinement of Zephyr: narrower prose, calmer headings, local code fonts, and a complete control palette.",
+    "type": "Inter \u00b7 IBM Plex Mono",
+    "colors": [
+      "#ffffff",
+      "#3459e6",
+      "#495057"
+    ],
+    "paired": false,
+    "revision": "refined",
+    "comparison": "zephyr",
+    "source": "https://github.com/rahuldave/smalldocs-zephyr-reading",
+    "demo": "https://rahuldave.com/smalldocs-zephyr-reading/",
+    "install": "smalldocs add rahuldave/smalldocs-zephyr-reading",
+    "typography": 97,
+    "modes": [
+      {
+        "mode": "original",
+        "total": 97,
+        "scores": {
+          "font": 14,
+          "size": 10,
+          "leading": 20,
+          "measure": 14,
+          "space": 10,
+          "hierarchy": 9,
+          "code": 10,
+          "color": 10
+        },
+        "reasons": {
+          "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
+          "leading": "Body leading 1.45; preferred range 1.20\u20131.45.",
+          "measure": "Desktop complete-line mean 73.2 characters (10/10); mobile 40.1 (4/5, adapted band).",
+          "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
+          "hierarchy": "Section/body ratio 1.40 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
+          "code": "Code 14.45px desktop / 14.45px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
+          "color": "Body 8.18:1 (4/4); link 5.65:1 (2/2); inline code 5.22:1 (2/2); worst sampled syntax 4.75:1 (2/2)."
+        },
+        "metrics": {
+          "bodySize": 17.0,
+          "mobileBodySize": 17.0,
+          "leading": 1.45,
+          "measure": 73.2,
+          "mobileMeasure": 40.1,
+          "allLineMean": 60.1,
+          "bodyContrast": [
+            8.176,
+            8.176
+          ],
+          "linkContrast": [
+            5.649,
+            5.649
+          ],
+          "inlineContrast": [
+            5.224,
+            5.224
+          ],
+          "syntaxContrast": 4.754,
+          "codeSize": 14.45,
+          "mobileCodeSize": 14.45,
+          "paragraphGap": 1.0,
+          "gutter": 17,
+          "overflow": false
+        }
+      }
+    ],
+    "recommendation": "Refined \u00b7 candidate",
+    "note": "Inter and the original blue identity remain. The bounded prose column and quieter heading scale improve reading fit, with restrained surfaces and strong normal-state controls.",
+    "design": {
+      "total": 93,
+      "scores": {
+        "hierarchy": 23,
+        "spacing": 19,
+        "color": 20,
+        "layout": 14,
+        "surfaces": 9,
+        "personality": 8
+      },
+      "contexts": [
+        {
+          "mode": "original",
+          "color": 20,
+          "controlContrast": [
+            {
+              "label": "Controls",
+              "ratio": 5.649,
+              "range": [
+                5.649,
+                5.649
+              ]
+            },
+            {
+              "label": "Primary",
+              "ratio": 5.649,
+              "range": [
+                5.649,
+                5.649
+              ]
+            },
+            {
+              "label": "Secondary",
+              "ratio": 14.267,
+              "range": [
+                14.267,
+                14.267
+              ]
+            },
+            {
+              "label": "Outline",
+              "ratio": 5.649,
+              "range": [
+                5.649,
+                5.649
+              ]
+            },
+            {
+              "label": "Notebook title",
+              "ratio": 8.176,
+              "range": [
+                8.176,
+                8.176
+              ]
+            },
+            {
+              "label": "Ideas worth keeping",
+              "ratio": 8.176,
+              "range": [
+                8.176,
+                8.176
+              ]
+            },
+            {
+              "label": "Collection",
+              "ratio": 8.176,
+              "range": [
+                8.176,
+                8.176
+              ]
+            },
+            {
+              "label": "Reading notesCode examplesWorking ideas",
+              "ratio": 8.176,
+              "range": [
+                8.176,
+                8.176
+              ]
+            },
+            {
+              "label": "Keep this note close",
+              "ratio": 8.176,
+              "range": [
+                8.176,
+                8.176
+              ]
+            },
+            {
+              "label": "The note has been saved.",
+              "ratio": 8.568,
+              "range": [
+                8.568,
+                8.568
+              ]
+            },
+            {
+              "label": "A title makes this easier to find.",
+              "ratio": 8.018,
+              "range": [
+                8.018,
+                8.018
+              ]
+            },
+            {
+              "label": "A SmallDocs note",
+              "ratio": 7.562,
+              "range": [
+                7.562,
+                7.562
+              ]
+            },
+            {
+              "label": "The reading notebookA small place to keep a thought, a useful function, or a question.Open the notebook",
+              "ratio": 8.176,
+              "range": [
+                8.176,
+                8.176
+              ]
+            }
+          ],
+          "failures": [],
+          "colorParts": {
+            "body": 4,
+            "controls": 4,
+            "links": 2,
+            "palette": 5,
+            "nonColorCues": 3,
+            "stableSurface": 2
+          }
+        }
+      ],
+      "note": "Inter and the original blue identity remain. The bounded prose column and quieter heading scale improve reading fit, with restrained surfaces and strong normal-state controls."
     }
   },
   {

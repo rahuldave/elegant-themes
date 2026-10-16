@@ -300,6 +300,8 @@ def assess(id,mode):
     return dict(mode=mode,total=sum(scores.values()),scores=scores,reasons=reasons,metrics=dict(bodySize=size,mobileBodySize=mobile_size,leading=leading,measure=round(measure,1),mobileMeasure=round(mobile_measure,1),allLineMean=round(all_measure(d),1),bodyContrast=br,linkContrast=lr,inlineContrast=ir,syntaxContrast=round(code_min,3),codeSize=code_size,mobileCodeSize=mobile_code,paragraphGap=round(gap,2),gutter=gutters,overflow=not no_overflow))
 
 def main():
+    keys=[(r['id'],r['mode'],r['page'],r['viewportName']) for r in RAW]
+    assert len(keys)==len(set(keys)), 'Capture keys must be unique; score final observations only'
     out=[]
     for t in THEMES:
         modes=[assess(t['id'],mode) for mode in (['light','dark'] if t['paired'] else ['original'])]
