@@ -1,0 +1,43 @@
+/*-- scss:defaults --*/
+$body-bg: #1c2030 !default;
+$body-color: #ede8de !default;
+$primary: #e2bd82 !default;
+$link-color: #e2bd82 !default;
+$border-color: #42485d !default;
+$font-family-sans-serif: "Source Serif 4", Georgia, serif !default;
+$font-family-monospace: "IBM Plex Mono", monospace !default;
+$headings-font-weight: 400 !default;
+$font-size-root: 17px !default;
+$font-size-base: 1.08rem !default;
+$line-height-base: 1.75 !default;
+/*-- scss:rules --*/
+:root, [data-bs-theme] {
+  --e-paper: #1c2030;
+  --e-ink: #ede8de;
+  --e-muted: #b5b6c3;
+  --e-panel: #242a3c;
+  --e-line: #42485d;
+  --e-accent: #e2bd82;
+  --e-secondary: #c6b4e1;
+  --e-code: #252b3e;
+  --bs-body-bg: #1c2030;
+  --bs-body-bg-rgb: 28, 32, 48;
+  --bs-body-color: #ede8de;
+  --bs-body-color-rgb: 237, 232, 222;
+  --bs-emphasis-color: #ede8de;
+  --bs-emphasis-color-rgb: 237, 232, 222;
+  --bs-secondary-color: #b5b6c3;
+  --bs-secondary-color-rgb: 181, 182, 195;
+  --bs-secondary-bg: #242a3c;
+  --bs-secondary-bg-rgb: 36, 42, 60;
+  --bs-tertiary-bg: #242a3c;
+  --bs-tertiary-bg-rgb: 36, 42, 60;
+  --bs-link-color: #e2bd82;
+  --bs-link-color-rgb: 226, 189, 130;
+  --bs-link-hover-color: #c6b4e1;
+  --bs-link-hover-color-rgb: 198, 180, 225;
+  --bs-primary: #e2bd82;
+  --bs-primary-rgb: 226, 189, 130;
+  --bs-heading-color: #ede8de; --bs-border-color: #42485d; --bs-border-color-translucent: #42485d; --bs-code-color: #c6b4e1;
+  --bs-primary-text-emphasis: #e2bd82; --bs-primary-bg-subtle: #242a3c; --bs-primary-border-subtle: #42485d; --bs-focus-ring-color: rgba(226, 189, 130, .25);
+}

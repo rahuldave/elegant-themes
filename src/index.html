@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Compare Folio, Atelier, Nocturne, Tufte, Bootstrap, and all 25 Bootswatch themes on the same SmallDocs page.">
+  <title>Elegant themes · SmallDocs</title>
+  <link rel="icon" href="previews/folio/site_libs/themes/folio/logo.svg">
+  <link rel="stylesheet" href="site_libs/gallery/gallery.css">
+  <script src="site_libs/gallery/themes.js" defer></script>
+  <script src="site_libs/gallery/gallery.js" defer></script>
+</head>
+<body>
+  <a href="#designs" class="skip-link">Skip to the designs</a>
+  <header class="masthead">
+    <a class="wordmark" href="./">Elegant themes<span> / SmallDocs</span></a>
+    <a class="source-link" href="https://github.com/rahuldave/elegant-themes" target="_blank" rel="noopener">Source & build ↗</a>
+  </header>
+  <main>
+    <section class="introduction" aria-labelledby="page-title">
+      <div><p class="eyebrow">Thirty-eight designs · One document</p><h1 id="page-title">A page with<br><em>a point of view.</em></h1></div>
+      <div class="introduction-copy"><p>Compare the quiet details: the shape of a heading, the rhythm of the prose, the way code sits on the page.</p><p>Original and refined custom themes, five Bootswatch reading refinements, stock Bootstrap, and the complete Bootswatch collection. The words stay the same.</p></div>
+    </section>
+    <nav class="report-links" aria-label="Assessments and guides"><a href="typography-report.html">Typography scores</a><a href="visual-design-report.html">Design scores</a><a href="typography-guide.html">Typography guide</a><a href="ui-design-guide.html">UI design guide</a></nav>
+    <p class="study-note">Eight original/refined pairs, assessed with the same two 100-point rubrics. Grounded in <a href="https://practicaltypography.com/">Butterick’s Practical Typography</a> and <a href="https://refactoringui.com/">Adam Wathan and Steve Schoger’s Refactoring UI</a>. The reports are our interpretation; the books are not distributed here.</p>
+    <div class="controls" aria-label="Comparison controls">
+      <div class="filter-row">
+        <div class="groups" role="group" aria-label="Theme family">
+          <button data-group="all" aria-pressed="true">All <span>38</span></button>
+          <button data-group="comparisons" aria-pressed="false">Before / after <span>16</span></button>
+          <button data-group="refined" aria-pressed="false">Reading <span>5</span></button>
+          <button data-group="custom" aria-pressed="false">Custom <span>7</span></button>
+          <button data-group="bootstrap" aria-pressed="false">Bootstrap <span>1</span></button>
+          <button data-group="bootswatch" aria-pressed="false">Bootswatch <span>25</span></button>
+        </div>
+        <label class="search"><span class="sr-only">Find a theme</span><input id="theme-search" type="search" placeholder="Find a theme…" autocomplete="off"></label>
+      </div>
+      <div class="view-row">
+        <div class="view-options"><label for="specimen-page">Specimen</label><select id="specimen-page"><option value="index.html">Overview</option><option value="typography.html">Typography</option><option value="code.html">Code & data</option><option value="components.html">Buttons & forms</option></select></div>
+        <div class="mode-picker" role="group" aria-label="Mode for all paired themes"><button data-global-mode="light" aria-pressed="true">☼ Light</button><button data-global-mode="dark" aria-pressed="false">☾ Dark</button></div>
+        <p class="mode-note">Custom themes + Bootstrap switch together. Bootswatch keeps its original palettes.</p>
+      </div>
+    </div>
+    <div class="results-heading" id="designs"><p id="result-count" aria-live="polite">38 designs</p><p>Two columns to compare. One column when space is tighter.</p></div>
+    <div class="theme-grid" id="theme-grid"></div>
+    <p id="empty-state" hidden>No themes match that search. Try a name or font.</p>
+    <noscript><p>This comparison needs JavaScript. The independent demos remain available: <a href="https://rahuldave.com/smalldocs-folio/">Folio</a>, <a href="https://rahuldave.com/smalldocs-atelier/">Atelier</a>, <a href="https://rahuldave.com/smalldocs-nocturne/">Nocturne</a>, and <a href="https://rahuldave.com/smalldocs-tufte/">Tufte</a>.</p></noscript>
+  </main>
+  <footer><div><span class="footer-wordmark">Elegant themes</span><p>One shared SmallDocs specimen. Full theme files, with their original fonts and licenses.</p></div><p><a href="https://github.com/rahuldave/elegant-themes">Gallery source</a> · <a href="https://github.com/rahuldave/smalldocs">SmallDocs</a> · <a href="https://bootswatch.com/">Bootswatch</a> · <a href="https://getbootstrap.com/">Bootstrap</a></p></footer>
+</body>
+</html>

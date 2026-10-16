@@ -1,0 +1,5 @@
+# The smalldocs theme. Each file is Bootstrap 5.3.8 followed by the Tufte rules.
+css:
+  light: tufte.css
+  dark: tufte-dark.css
+favicon: logo.svg

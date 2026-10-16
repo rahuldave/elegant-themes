@@ -1,0 +1,22 @@
+[
+  {
+    "name": "folio",
+    "repository": "https://github.com/rahuldave/smalldocs-folio",
+    "commit": "bb13e3a7931b7fdec97a90715769199b7b4c1ed1"
+  },
+  {
+    "name": "atelier",
+    "repository": "https://github.com/rahuldave/smalldocs-atelier",
+    "commit": "f0548fd82212eec26ae3a0e6552e110452950d8f"
+  },
+  {
+    "name": "nocturne",
+    "repository": "https://github.com/rahuldave/smalldocs-nocturne",
+    "commit": "b016f8a7abbe42f0df3e2bfc555f7b5e9a43f6f5"
+  },
+  {
+    "name": "tufte",
+    "repository": "https://github.com/rahuldave/smalldocs-tufte",
+    "commit": "19d0e44e14585d008d99eda568dd9e6565785de3"
+  }
+]
