@@ -118,9 +118,10 @@ $line-height-base: 1.45 !default;
   --bs-primary-rgb: 37, 79, 56;
   --bs-heading-color: #25372d; --bs-border-color: #d4d6c7; --bs-border-color-translucent: #d4d6c7; --bs-code-color: #9d442b;
   --bs-primary-text-emphasis: #254f38; --bs-primary-bg-subtle: #efe9dc; --bs-primary-border-subtle: #d4d6c7; --bs-focus-ring-color: rgba(37, 79, 56, .25);
-  --e-check-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill="none" stroke="%23f8f4eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m4 8 3 3 5-6"/></svg>");
-  --e-radio-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx="8" cy="8" r="4" fill="%23f8f4eb"/></svg>");
-  --e-dash-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path stroke="%23f8f4eb" stroke-linecap="round" stroke-width="3" d="M4 8h8"/></svg>");
+  --e-select-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%2325372d' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m3 6 5 5 5-5'/></svg>");
+  --e-check-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23f8f4eb' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m4 8 3 3 5-6'/></svg>");
+  --e-radio-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='4' fill='%23f8f4eb'/></svg>");
+  --e-dash-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path stroke='%23f8f4eb' stroke-linecap='round' stroke-width='3' d='M4 8h8'/></svg>");
 }
 :root, [data-bs-theme] { --e-heading: "Libre Caslon Display", Georgia, serif; --e-body: "Source Serif 4", Georgia, serif; }
 /* SmallDocs loads its layout after the theme; html prefixes preserve theme rules. */
@@ -244,6 +245,8 @@ html .form-check-input[type=radio]:checked { --bs-form-check-bg-image: var(--e-r
 html .form-check-input[type=checkbox]:indeterminate { --bs-form-check-bg-image: var(--e-dash-image); }
 html .callout { --sd-callout: var(--e-accent); }
 html .callout-warning, html .callout-important, html .callout-caution { --sd-callout: var(--e-secondary); }
+
+html .form-select { --bs-form-select-bg-img: var(--e-select-image); }
 html .quarto-title-block { border-bottom: 1px solid var(--e-line); padding-bottom: 1.2rem; }
 html .quarto-title h1.title { font-size: clamp(2rem, 3.3vw, 2.6rem); line-height: 1.08; letter-spacing: -.025em; }
 html .navbar-title { font-size: 2rem; }

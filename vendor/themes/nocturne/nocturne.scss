@@ -111,9 +111,10 @@ $line-height-base: 1.45 !default;
   --bs-primary-rgb: 113, 80, 47;
   --bs-heading-color: #292d43; --bs-border-color: #d0cddc; --bs-border-color-translucent: #d0cddc; --bs-code-color: #624e85;
   --bs-primary-text-emphasis: #71502f; --bs-primary-bg-subtle: #eae9ef; --bs-primary-border-subtle: #d0cddc; --bs-focus-ring-color: rgba(113, 80, 47, .25);
-  --e-check-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill="none" stroke="%23f4f3f6" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m4 8 3 3 5-6"/></svg>");
-  --e-radio-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx="8" cy="8" r="4" fill="%23f4f3f6"/></svg>");
-  --e-dash-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path stroke="%23f4f3f6" stroke-linecap="round" stroke-width="3" d="M4 8h8"/></svg>");
+  --e-select-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23292d43' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m3 6 5 5 5-5'/></svg>");
+  --e-check-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23f4f3f6' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m4 8 3 3 5-6'/></svg>");
+  --e-radio-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='4' fill='%23f4f3f6'/></svg>");
+  --e-dash-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path stroke='%23f4f3f6' stroke-linecap='round' stroke-width='3' d='M4 8h8'/></svg>");
 }
 :root, [data-bs-theme] { --e-heading: "Source Serif 4", Georgia, serif; --e-body: "Source Serif 4", Georgia, serif; }
 /* SmallDocs loads its layout after the theme; html prefixes preserve theme rules. */
@@ -237,6 +238,8 @@ html .form-check-input[type=radio]:checked { --bs-form-check-bg-image: var(--e-r
 html .form-check-input[type=checkbox]:indeterminate { --bs-form-check-bg-image: var(--e-dash-image); }
 html .callout { --sd-callout: var(--e-accent); }
 html .callout-warning, html .callout-important, html .callout-caution { --sd-callout: var(--e-secondary); }
+
+html .form-select { --bs-form-select-bg-img: var(--e-select-image); }
 html .sd-navbar-default { border-bottom-color: var(--e-accent); }
 html .quarto-title h1.title { font-size: clamp(2rem, 3.3vw, 2.6rem); font-weight: 400; letter-spacing: -.025em; }
 html .quarto-title::before { content: "THE NOTEBOOK · VOL. 01"; display: block; font: 400 .59rem var(--bs-font-monospace); letter-spacing: .14em; color: var(--e-accent); margin-bottom: 1.5rem; }

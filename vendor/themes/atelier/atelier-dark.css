@@ -91,9 +91,10 @@
   --bs-primary-rgb: 132, 208, 198;
   --bs-heading-color: #e0eeeb; --bs-border-color: #365255; --bs-border-color-translucent: #365255; --bs-code-color: #efb0a0;
   --bs-primary-text-emphasis: #84d0c6; --bs-primary-bg-subtle: #1b3034; --bs-primary-border-subtle: #365255; --bs-focus-ring-color: rgba(132, 208, 198, .25);
-  --e-check-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill="none" stroke="%23152428" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m4 8 3 3 5-6"/></svg>");
-  --e-radio-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx="8" cy="8" r="4" fill="%23152428"/></svg>");
-  --e-dash-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path stroke="%23152428" stroke-linecap="round" stroke-width="3" d="M4 8h8"/></svg>");
+  --e-select-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23e0eeeb' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m3 6 5 5 5-5'/></svg>");
+  --e-check-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23152428' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m4 8 3 3 5-6'/></svg>");
+  --e-radio-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='4' fill='%23152428'/></svg>");
+  --e-dash-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path stroke='%23152428' stroke-linecap='round' stroke-width='3' d='M4 8h8'/></svg>");
 }
 :root, [data-bs-theme] { color-scheme: dark; }
 :root, [data-bs-theme] { --e-heading: "DM Sans", system-ui, sans-serif; --e-body: "DM Sans", system-ui, sans-serif; }
@@ -218,6 +219,8 @@ html .form-check-input[type=radio]:checked { --bs-form-check-bg-image: var(--e-r
 html .form-check-input[type=checkbox]:indeterminate { --bs-form-check-bg-image: var(--e-dash-image); }
 html .callout { --sd-callout: var(--e-accent); }
 html .callout-warning, html .callout-important, html .callout-caution { --sd-callout: var(--e-secondary); }
+
+html .form-select { --bs-form-select-bg-img: var(--e-select-image); }
 :root, [data-bs-theme] { --bs-body-font-size: 1rem; --bs-body-line-height: 1.45; }
 html main.content { border-left: 1px solid var(--e-line); padding-left: 2rem; }
 html .quarto-title h1.title { font-weight: 400; font-size: clamp(1.8rem, 2.7vw, 2.2rem); letter-spacing: -.04em; line-height: 1.08; }

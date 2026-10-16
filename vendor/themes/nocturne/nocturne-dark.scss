@@ -40,7 +40,8 @@ $line-height-base: 1.45 !default;
   --bs-primary-rgb: 226, 189, 130;
   --bs-heading-color: #ede8de; --bs-border-color: #42485d; --bs-border-color-translucent: #42485d; --bs-code-color: #c6b4e1;
   --bs-primary-text-emphasis: #e2bd82; --bs-primary-bg-subtle: #242a3c; --bs-primary-border-subtle: #42485d; --bs-focus-ring-color: rgba(226, 189, 130, .25);
-  --e-check-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill="none" stroke="%231c2030" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m4 8 3 3 5-6"/></svg>");
-  --e-radio-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx="8" cy="8" r="4" fill="%231c2030"/></svg>");
-  --e-dash-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path stroke="%231c2030" stroke-linecap="round" stroke-width="3" d="M4 8h8"/></svg>");
+  --e-select-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23ede8de' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m3 6 5 5 5-5'/></svg>");
+  --e-check-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%231c2030' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m4 8 3 3 5-6'/></svg>");
+  --e-radio-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='4' fill='%231c2030'/></svg>");
+  --e-dash-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path stroke='%231c2030' stroke-linecap='round' stroke-width='3' d='M4 8h8'/></svg>");
 }
