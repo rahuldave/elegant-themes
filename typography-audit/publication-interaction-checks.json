@@ -1,0 +1,23 @@
+[
+  {
+    "count": "2 designs of 38",
+    "test": "pair search"
+  },
+  {
+    "frames": [
+      "previews/atelier-original/typography.html?mode=light",
+      "previews/atelier/typography.html?mode=light"
+    ],
+    "test": "paired mode switch"
+  },
+  {
+    "status": "5 of 38 themes",
+    "test": "Reading score filter",
+    "visible": 5
+  },
+  {
+    "leading": "1.50",
+    "measurement": "Rendered width 640px · 73.0 chars / complete line · 63.9 including final line",
+    "test": "interactive type laboratory"
+  }
+]

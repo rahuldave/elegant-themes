@@ -73,6 +73,7 @@
 --r-danger-bg: #3d2424;
 --r-danger-ink: #f1beb7;
 --r-danger-line: #a67570;
+--r-select-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23eeeeee' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m3 6 5 5 5-5'/></svg>");
 }
 /* Reading refinements layered over an intact, pinned Bootswatch theme. */
 html:root, html.quarto-dark:root {
@@ -126,5 +127,7 @@ html a:focus-visible, html button:focus-visible, html input:focus-visible, html 
   html main.content { padding-top: 1.6rem; }
   html pre { font-size: .85rem; }
 }
+
+html .form-select { --bs-form-select-bg-img: var(--r-select-image); }
 :root, [data-bs-theme] { color-scheme: dark; }
 :root { --bs-font-sans-serif: "Lato", system-ui, sans-serif; }

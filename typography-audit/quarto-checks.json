@@ -1,0 +1,44 @@
+[
+  {
+    "bg": "rgb(248, 244, 235)",
+    "code": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font": "\"Source Serif 4\", Georgia, serif",
+    "overflow": false,
+    "title": "A reading page",
+    "url": "http://127.0.0.1:8438/.build/quarto-check/folio/index.html"
+  },
+  {
+    "bg": "rgb(20, 39, 30)",
+    "mode": "",
+    "overflow": false,
+    "url": "http://127.0.0.1:8438/.build/quarto-check/folio/index.html"
+  },
+  {
+    "bg": "rgb(21, 36, 40)",
+    "code": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font": "\"DM Sans\", system-ui, sans-serif",
+    "overflow": false,
+    "title": "A reading page",
+    "url": "http://127.0.0.1:8438/.build/quarto-check/atelier/index.html"
+  },
+  {
+    "bg": "rgb(251, 252, 250)",
+    "mode": "",
+    "overflow": false,
+    "url": "http://127.0.0.1:8438/.build/quarto-check/atelier/index.html"
+  },
+  {
+    "bg": "rgb(244, 243, 246)",
+    "code": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font": "\"Source Serif 4\", Georgia, serif",
+    "overflow": false,
+    "title": "A reading page",
+    "url": "http://127.0.0.1:8438/.build/quarto-check/nocturne/index.html"
+  },
+  {
+    "bg": "rgb(28, 32, 48)",
+    "mode": "",
+    "overflow": false,
+    "url": "http://127.0.0.1:8438/.build/quarto-check/nocturne/index.html"
+  }
+]

@@ -115485,7 +115485,7 @@
     "mode": "light",
     "page": "typography",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -116035,7 +116035,7 @@
     "mode": "light",
     "page": "typography",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -116877,7 +116877,7 @@
     "mode": "light",
     "page": "code",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -117723,7 +117723,7 @@
     "mode": "light",
     "page": "code",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -118257,7 +118257,7 @@
     "mode": "dark",
     "page": "typography",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -118807,7 +118807,7 @@
     "mode": "dark",
     "page": "typography",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -119649,7 +119649,7 @@
     "mode": "dark",
     "page": "code",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -120495,7 +120495,7 @@
     "mode": "dark",
     "page": "code",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -121029,7 +121029,7 @@
     "mode": "light",
     "page": "typography",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -121579,7 +121579,7 @@
     "mode": "light",
     "page": "typography",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -122421,7 +122421,7 @@
     "mode": "light",
     "page": "code",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -123267,7 +123267,7 @@
     "mode": "light",
     "page": "code",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -123801,7 +123801,7 @@
     "mode": "dark",
     "page": "typography",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -124351,7 +124351,7 @@
     "mode": "dark",
     "page": "typography",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -125193,7 +125193,7 @@
     "mode": "dark",
     "page": "code",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -126039,7 +126039,7 @@
     "mode": "dark",
     "page": "code",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -126573,7 +126573,7 @@
     "mode": "light",
     "page": "typography",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -127123,7 +127123,7 @@
     "mode": "light",
     "page": "typography",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -127965,7 +127965,7 @@
     "mode": "light",
     "page": "code",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -128811,7 +128811,7 @@
     "mode": "light",
     "page": "code",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -129345,7 +129345,7 @@
     "mode": "dark",
     "page": "typography",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -129895,7 +129895,7 @@
     "mode": "dark",
     "page": "typography",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -130737,7 +130737,7 @@
     "mode": "dark",
     "page": "code",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -131583,7 +131583,7 @@
     "mode": "dark",
     "page": "code",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -132117,7 +132117,7 @@
     "mode": "original",
     "page": "typography",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -132667,7 +132667,7 @@
     "mode": "original",
     "page": "typography",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -133889,7 +133889,7 @@
     "mode": "original",
     "page": "code",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -135115,7 +135115,7 @@
     "mode": "original",
     "page": "code",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -135649,7 +135649,7 @@
     "mode": "original",
     "page": "typography",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -136199,7 +136199,7 @@
     "mode": "original",
     "page": "typography",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -137421,7 +137421,7 @@
     "mode": "original",
     "page": "code",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -138647,7 +138647,7 @@
     "mode": "original",
     "page": "code",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -139177,7 +139177,7 @@
     "mode": "original",
     "page": "typography",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -139727,7 +139727,7 @@
     "mode": "original",
     "page": "typography",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -140949,7 +140949,7 @@
     "mode": "original",
     "page": "code",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -142175,7 +142175,7 @@
     "mode": "original",
     "page": "code",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -142709,7 +142709,7 @@
     "mode": "original",
     "page": "typography",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -143259,7 +143259,7 @@
     "mode": "original",
     "page": "typography",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -144481,7 +144481,7 @@
     "mode": "original",
     "page": "code",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -145707,7 +145707,7 @@
     "mode": "original",
     "page": "code",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -146233,7 +146233,7 @@
     "mode": "original",
     "page": "typography",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -146783,7 +146783,7 @@
     "mode": "original",
     "page": "typography",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -147720,7 +147720,7 @@
     "mode": "original",
     "page": "code",
     "viewportName": "desktop",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   },
   {
     "body": {
@@ -148661,6 +148661,6 @@
     "mode": "original",
     "page": "code",
     "viewportName": "mobile",
-    "capture": "reading-refinement"
+    "capture": "final-reading-refinement"
   }
 ]
