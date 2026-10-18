@@ -244,7 +244,6 @@ html .callout-warning, html .callout-important, html .callout-caution { --sd-cal
 html .form-select { --bs-form-select-bg-img: var(--e-select-image); }
 html .sd-navbar-default { border-bottom-color: var(--e-accent); }
 html .quarto-title h1.title { font-size: clamp(2rem, 3.3vw, 2.6rem); font-weight: 400; letter-spacing: -.025em; }
-html .quarto-title::before { content: "THE NOTEBOOK · VOL. 01"; display: block; font: 400 .59rem var(--bs-font-monospace); letter-spacing: .14em; color: var(--e-accent); margin-bottom: 1.5rem; }
 html .quarto-title::after { content: ""; display: block; width: 3rem; border-top: 2px solid var(--e-accent); margin-top: 1.4rem; }
 html main.content h2 { font-size: 1.5rem; color: var(--e-ink); }
 html .navbar-title { font-family: "Source Serif 4", Georgia, serif; font-size: 1.45rem; letter-spacing: -.025em; }

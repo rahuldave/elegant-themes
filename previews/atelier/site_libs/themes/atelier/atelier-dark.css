@@ -224,7 +224,6 @@ html .form-select { --bs-form-select-bg-img: var(--e-select-image); }
 :root, [data-bs-theme] { --bs-body-font-size: 1rem; --bs-body-line-height: 1.45; }
 html main.content { border-left: 1px solid var(--e-line); padding-left: 2rem; }
 html .quarto-title h1.title { font-weight: 400; font-size: clamp(1.8rem, 2.7vw, 2.2rem); letter-spacing: -.04em; line-height: 1.08; }
-html .quarto-title::before { content: "STUDIO NOTES — 001"; font: 400 .58rem var(--bs-font-monospace); letter-spacing: .05em; color: var(--e-accent); display: block; margin-bottom: 1.5rem; }
 html main.content h2 { font-size: 1.4rem; font-weight: 600; letter-spacing: -.045em; }
 html main.content h3 { font-size: 1.1rem; font-weight: 600; letter-spacing: -.03em; }
 html .navbar-title { font-size: 1.35rem; font-weight: 600; }

@@ -1,0 +1,30 @@
+body { font-size: 17px; line-height: 1.55; }
+:root { scroll-padding-top: 2rem; }
+.handbook { max-width: 1060px; padding-top: 3rem; padding-bottom: 4rem; }
+.handbook h1 { font-size: clamp(2.6rem, 6vw, 4rem); line-height: 1.05; }
+.handbook h2 { font: 400 2rem/1.15 "Libre Caslon Display", Georgia, serif; margin: 0 0 1rem; }
+.handbook h3 { font-size: 1.1rem; font-weight: 500; margin: 2rem 0 .75rem; }
+.handbook p, .handbook li { max-width: 72ch; }
+.handbook .lede { font-size: 1.15rem; max-width: 60ch; }
+.handbook section { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--line); }
+.handbook nav { display: flex; flex-wrap: wrap; gap: .6rem 1.3rem; margin: 1.5rem 0; }
+.handbook .contents { padding: 1.2rem; background: var(--panel); }
+.handbook .notice { border-left: 3px solid var(--accent); padding: .2rem 1.2rem; background: var(--panel); }
+.handbook pre { background: var(--panel); border: 1px solid var(--line); padding: 1.2rem; overflow-x: auto; line-height: 1.5; }
+.handbook code { font-family: "IBM Plex Mono", monospace; font-size: .85em; }
+.handbook :not(pre) > code { overflow-wrap: anywhere; }
+.handbook details { border: 1px solid var(--line); padding: 1rem 1.2rem; margin: 1.5rem 0; }
+.handbook summary { cursor: pointer; font-weight: 500; }
+.handbook details pre { margin-bottom: 0; }
+.handbook .theme-meta { color: var(--muted); font-size: .95rem; }
+.handbook .table-wrap { overflow-x: auto; }
+.handbook table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+.handbook th, .handbook td { text-align: left; padding: .8rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+.handbook th { font-weight: 500; }
+.handbook caption { text-align: left; margin-bottom: .7rem; color: var(--muted); }
+@media (max-width: 650px) {
+  .handbook { padding-top: 2rem; }
+  .handbook pre { padding: .85rem; }
+  .handbook details { padding: .85rem; }
+  .handbook th, .handbook td { padding: .6rem .4rem; }
+}
