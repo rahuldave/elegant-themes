@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Documentation for the Elegant SmallDocs themes: installation, fonts, color modes, custom CSS, and optional title labels for Folio, Atelier, and Nocturne.">
+  <title>Theme handbook · Elegant themes</title>
+  <link rel="stylesheet" href="site_libs/gallery/gallery.css">
+  <link rel="stylesheet" href="site_libs/gallery/theme-guide.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the handbook</a>
+  <header class="masthead">
+    <a class="wordmark" href="./">Elegant themes<span> / SmallDocs</span></a>
+    <a class="source-link" href="https://github.com/rahuldave/elegant-themes">Source &amp; build ↗</a>
+  </header>
+  <main id="main" class="handbook">
+    <p class="eyebrow">Documentation / configuration / optional effects</p>
+    <h1>Theme handbook</h1>
+    <p class="lede">Choose a theme, set its color modes, and add the details that belong to your own site.</p>
+    <nav aria-label="Collection and guides">
+      <a href="./">Compare themes</a>
+      <a href="using-themes.html">Installation and versions</a>
+      <a href="typography-report.html">Typography assessment</a>
+      <a href="visual-design-report.html">Design assessment</a>
+      <a href="typography-guide.html">Typography principles</a>
+      <a href="ui-design-guide.html">UI design principles</a>
+    </nav>
+    <div class="notice">
+      <p><strong>Title labels are optional.</strong> Current Folio, Atelier, and Nocturne styles leave the title text to your page. The recipes below restore the small labels from the earlier designs.</p>
+      <p>The fixed <code>v0.2.0</code> release and the preserved original snapshots still include those labels. To get the cleanup, install the current default branch with the commands below. Add <code>--force</code> when replacing an installed copy.</p>
+    </div>
+    <p>The assessments record the reading refinement before this label cleanup. Their measurements, scores, and original snapshots remain available as review evidence.</p>
+    <nav class="contents" aria-label="Themes and configuration">
+      <a href="#folio">Folio</a><a href="#atelier">Atelier</a><a href="#nocturne">Nocturne</a>
+      <a href="#zephyr-reading">Zephyr Reading</a><a href="#simplex-reading">Simplex Reading</a>
+      <a href="#pulse-reading">Pulse Reading</a><a href="#litera-reading">Litera Reading</a><a href="#darkly-reading">Darkly Reading</a>
+      <a href="#tufte">Tufte</a><a href="#bootstrap">Bootstrap</a><a href="#bootswatch">Stock Bootswatch</a>
+      <a href="#custom-css">Your own stylesheet</a><a href="#pairing">Pair light and dark themes</a>
+    </nav>
+
+    <section id="custom-css" aria-labelledby="custom-css-title">
+      <h2 id="custom-css-title">Your own stylesheet</h2>
+      <p>Keep custom rules in a file named <code>styles.css</code> in your site folder. SmallDocs loads that file after the theme. Theme updates can then replace <code>_extensions/</code> without replacing your rules.</p>
+      <p>In <code>_smalldocs.yml</code>, add the stylesheet beside the theme setting:</p>
+      <pre><code>theme: atelier
+css: styles.css</code></pre>
+      <p>If you already have stylesheets in <code>css:</code>, add <code>styles.css</code> to that list. In a <code>_quarto.yml</code> built by SmallDocs, put <code>css:</code> under <code>format.html</code> and <code>theme:</code> under <code>smalldocs:</code>:</p>
+      <pre><code>format:
+  html:
+    css: styles.css
+smalldocs:
+  theme: atelier</code></pre>
+      <p>For Quarto itself, add the file to the custom format. Replace <code>atelier-html</code> with <code>folio-html</code> or <code>nocturne-html</code> for those themes:</p>
+      <pre><code>format:
+  atelier-html:
+    toc: true
+    css: styles.css</code></pre>
+      <p>Each label recipe adds decorative text above every page title. Change the quoted text to suit your site. Remove the rule to turn the effect off.</p>
+      <p>For information that changes with the page, use page content or a <code>subtitle:</code> in its front matter. A subtitle appears below the title and remains real page text. Keep essential information out of CSS-generated labels.</p>
+    </section>
+
+    <section id="folio" aria-labelledby="folio-title">
+      <h2 id="folio-title">Folio</h2>
+      <p>Cream paper and forest green in light mode; deep green and warm pale text in dark mode. Libre Caslon Display sets the headings, Source Serif 4 sets the prose, and DM Sans sets navigation. Code uses IBM Plex Mono.</p>
+      <p class="theme-meta">Configuration: <code>folio</code>. Light and dark modes. SmallDocs and Quarto. Fonts are bundled locally.</p>
+      <pre><code>smalldocs add rahuldave/smalldocs-folio</code></pre>
+      <pre><code>theme: folio</code></pre>
+      <p>The reading refinement uses a 640px prose column and 1.45 line spacing. Folio keeps a fine rule beneath the title block.</p>
+      <nav aria-label="Folio links"><a href="previews/folio/index.html">Preview</a><a href="https://rahuldave.com/smalldocs-folio/">Example site</a><a href="https://github.com/rahuldave/smalldocs-folio">Source and builds</a></nav>
+      <details><summary>Restore the optional “Field notes” label</summary>
+        <p>Add this rule to <code>styles.css</code> after <a href="#custom-css">connecting your stylesheet</a>. It uses Folio’s secondary color in each mode.</p>
+        <pre><code>html .quarto-title::before {
+  content: "FIELD NOTES / SMALLDOCS";
+  display: block;
+  font: 500 .6rem var(--bs-font-sans-serif);
+  letter-spacing: .16em;
+  color: var(--e-secondary);
+  margin-bottom: 1.3rem;
+}</code></pre>
+      </details>
+    </section>
+
+    <section id="atelier" aria-labelledby="atelier-title">
+      <h2 id="atelier-title">Atelier</h2>
+      <p>Chalk white, deep teal, and DM Sans for headings and prose. The dark palette keeps the same restrained character. IBM Plex Mono sets code.</p>
+      <p class="theme-meta">Configuration: <code>atelier</code>. Light and dark modes. SmallDocs and Quarto. Fonts are bundled locally.</p>
+      <pre><code>smalldocs add rahuldave/smalldocs-atelier</code></pre>
+      <pre><code>theme: atelier</code></pre>
+      <p>The reading refinement uses a 640px prose column and 1.45 line spacing. A fine vertical rule marks the reading column on larger screens. Code blocks have a teal edge.</p>
+      <nav aria-label="Atelier links"><a href="previews/atelier/index.html">Preview</a><a href="https://rahuldave.com/smalldocs-atelier/">Example site</a><a href="https://github.com/rahuldave/smalldocs-atelier">Source and builds</a></nav>
+      <details><summary>Restore the optional “Studio notes” label</summary>
+        <p>Add this rule to <code>styles.css</code> after <a href="#custom-css">connecting your stylesheet</a>. It uses Atelier’s accent color in each mode.</p>
+        <pre><code>html .quarto-title::before {
+  content: "STUDIO NOTES — 001";
+  font: 400 .58rem var(--bs-font-monospace);
+  letter-spacing: .05em;
+  color: var(--e-accent);
+  display: block;
+  margin-bottom: 1.5rem;
+}</code></pre>
+      </details>
+    </section>
+
+    <section id="nocturne" aria-labelledby="nocturne-title">
+      <h2 id="nocturne-title">Nocturne</h2>
+      <p>Pearl paper in light mode; midnight ink and warm brass in dark mode. Source Serif 4 sets headings and prose, DM Sans sets navigation, and IBM Plex Mono sets code.</p>
+      <p class="theme-meta">Configuration: <code>nocturne</code>. Light and dark modes. SmallDocs and Quarto. Fonts are bundled locally.</p>
+      <pre><code>smalldocs add rahuldave/smalldocs-nocturne</code></pre>
+      <pre><code>theme: nocturne</code></pre>
+      <p>The reading refinement uses a 640px prose column and 1.45 line spacing. The short accent rule below the title remains part of the design.</p>
+      <nav aria-label="Nocturne links"><a href="previews/nocturne/index.html">Preview</a><a href="https://rahuldave.com/smalldocs-nocturne/">Example site</a><a href="https://github.com/rahuldave/smalldocs-nocturne">Source and builds</a></nav>
+      <details><summary>Restore the optional notebook label</summary>
+        <p>Add this rule to <code>styles.css</code> after <a href="#custom-css">connecting your stylesheet</a>. The volume number is text you choose; the theme does not count pages.</p>
+        <pre><code>html .quarto-title::before {
+  content: "THE NOTEBOOK · VOL. 01";
+  display: block;
+  font: 400 .59rem var(--bs-font-monospace);
+  letter-spacing: .14em;
+  color: var(--e-accent);
+  margin-bottom: 1.5rem;
+}</code></pre>
+      </details>
+    </section>
+
+    <section id="reading-themes" aria-labelledby="reading-title">
+      <h2 id="reading-title">The Reading themes</h2>
+      <p>Each Reading extension keeps one native Bootswatch palette. The shared refinement gives prose a 640px column, 1.45 line spacing, smaller headings, and bundled IBM Plex Mono for code. The control colors follow the theme palette.</p>
+      <p>Install an extension with its repository name, then set the shorter name in <code>theme:</code>. These extensions support SmallDocs. Folio, Atelier, Nocturne, and Tufte also include Quarto formats.</p>
+      <div class="table-wrap"><table>
+        <caption>Separate extensions; the bundled Bootswatch themes stay unchanged.</caption>
+        <thead><tr><th scope="col">Theme</th><th scope="col">Palette and prose font</th><th scope="col">Links</th></tr></thead>
+        <tbody>
+          <tr id="zephyr-reading"><th scope="row">Zephyr Reading<br><code>zephyr-reading</code></th><td>Light; Inter. White surfaces, blue accents, and soft shadows.</td><td><a href="previews/zephyr-reading/index.html">Preview</a> / <a href="https://github.com/rahuldave/smalldocs-zephyr-reading">Source</a></td></tr>
+          <tr id="simplex-reading"><th scope="row">Simplex Reading<br><code>simplex-reading</code></th><td>Light; Open Sans. Near-white paper and restrained red accents.</td><td><a href="previews/simplex-reading/index.html">Preview</a> / <a href="https://github.com/rahuldave/smalldocs-simplex-reading">Source</a></td></tr>
+          <tr id="pulse-reading"><th scope="row">Pulse Reading<br><code>pulse-reading</code></th><td>Light; system sans. White paper and purple accents.</td><td><a href="previews/pulse-reading/index.html">Preview</a> / <a href="https://github.com/rahuldave/smalldocs-pulse-reading">Source</a></td></tr>
+          <tr id="litera-reading"><th scope="row">Litera Reading<br><code>litera-reading</code></th><td>Light; Georgia. Paragraphs and lists share the serif type, with blue accents.</td><td><a href="previews/litera-reading/index.html">Preview</a> / <a href="https://github.com/rahuldave/smalldocs-litera-reading">Source</a></td></tr>
+          <tr id="darkly-reading"><th scope="row">Darkly Reading<br><code>darkly-reading</code></th><td>Dark; Lato. Charcoal surfaces and pale blue links.</td><td><a href="previews/darkly-reading/index.html">Preview</a> / <a href="https://github.com/rahuldave/smalldocs-darkly-reading">Source</a></td></tr>
+        </tbody>
+      </table></div>
+      <p>For example, install Litera Reading:</p>
+      <pre><code>smalldocs add rahuldave/smalldocs-litera-reading</code></pre>
+      <pre><code>theme: litera-reading</code></pre>
+      <p>Substitute any configuration name from the table in both places. A name without <code>-reading</code>, such as <code>litera</code>, selects the bundled original.</p>
+    </section>
+
+    <section id="pairing" aria-labelledby="pairing-title">
+      <h2 id="pairing-title">Pair light and dark themes</h2>
+      <p>Folio, Atelier, Nocturne, and Tufte include both modes under one configuration name. SmallDocs shows a mode toggle on a site with a navbar or sidebar.</p>
+      <p>For a Reading pair, install a light extension and Darkly Reading:</p>
+      <pre><code>smalldocs add rahuldave/smalldocs-litera-reading
+smalldocs add rahuldave/smalldocs-darkly-reading</code></pre>
+      <pre><code>theme:
+  light: litera-reading
+  dark: darkly-reading</code></pre>
+      <p>The first visit follows the browser’s color preference. The mode toggle saves the reader’s choice. The <code>?mode=light</code> and <code>?mode=dark</code> controls in the gallery are preview tools.</p>
+    </section>
+
+    <section id="tufte" aria-labelledby="tufte-title">
+      <h2 id="tufte-title">Tufte</h2>
+      <p>The original point of departure for this collection uses ET Book, cream paper, italic headings, and a narrow reading column. The extension includes light and dark modes for SmallDocs and Quarto.</p>
+      <pre><code>smalldocs add rahuldave/smalldocs-tufte</code></pre>
+      <pre><code>theme: tufte
+reference-location: margin</code></pre>
+      <p><code>reference-location: margin</code> places footnotes beside the text. Omit that line for the normal footnote placement.</p>
+      <nav aria-label="Tufte links"><a href="previews/tufte/index.html">Preview</a><a href="https://github.com/rahuldave/smalldocs-tufte">Full Tufte documentation</a></nav>
+    </section>
+
+    <section id="bootstrap" aria-labelledby="bootstrap-title">
+      <h2 id="bootstrap-title">Bootstrap</h2>
+      <p>Use the bundled Bootstrap stylesheet as a baseline with system fonts and standard component styles. No extension installation is needed.</p>
+      <pre><code>theme: bootstrap</code></pre>
+      <p>The gallery supplies a separate dark preview for comparison. For the full SmallDocs theme configuration, see the <a href="https://docs.smallish.dev/guide/themes.html">theme reference</a>.</p>
+      <nav aria-label="Bootstrap links"><a href="previews/bootstrap/index.html">Preview</a><a href="https://getbootstrap.com/docs/5.3/">Bootstrap documentation</a></nav>
+    </section>
+
+    <section id="bootswatch" aria-labelledby="bootswatch-title">
+      <h2 id="bootswatch-title">Stock Bootswatch themes</h2>
+      <p>SmallDocs bundles all 25 Bootswatch themes. Use the theme’s lowercase name without installing an extension:</p>
+      <pre><code>theme: zephyr</code></pre>
+      <p>The gallery keeps these styles unchanged. Each stock theme has one native palette. You can pair a light theme such as Zephyr with a dark theme such as Darkly:</p>
+      <pre><code>theme:
+  light: zephyr
+  dark: darkly</code></pre>
+      <nav aria-label="Bootswatch links"><a href="./?group=bootswatch">Compare all stock themes</a><a href="https://bootswatch.com/">Bootswatch themes and documentation</a><a href="https://docs.smallish.dev/guide/themes.html">SmallDocs theme reference</a></nav>
+    </section>
+    <p><a href="#main">Back to the handbook</a> / <a href="./">Back to the collection</a></p>
+  </main>
+  <footer><p><a href="https://docs.smallish.dev/guide/themes.html">SmallDocs documentation</a> / <a href="https://smallish.dev/">Smallish</a></p><p>Theme sources include their build instructions and font licenses.</p></footer>
+</body>
+</html>

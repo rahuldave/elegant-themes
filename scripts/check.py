@@ -13,9 +13,12 @@ class Links(HTMLParser):
     def __init__(self):
         super().__init__()
         self.refs = []
+        self.ids = set()
 
     def handle_starttag(self, tag, attrs):
         for name, value in attrs:
+            if name == 'id' and value:
+                self.ids.add(value)
             if name in ('src','href') and value:
                 self.refs.append(value)
 
@@ -29,6 +32,15 @@ def main():
     assert not any('ac215' in json.dumps(t).lower() for t in themes)
     assert len([t for t in themes if t['group']=='refined']) == 5
     assert len([t for t in themes if t.get('comparison')]) == 16
+    handbook = Links()
+    handbook.feed((OUTPUT / 'theme-guide.html').read_text())
+    for theme in themes:
+        guide = urlsplit(theme['guide'])
+        assert (OUTPUT / guide.path).is_file(), theme['id']
+        assert guide.fragment in handbook.ids, theme['id']
+    for ref in handbook.refs:
+        if ref.startswith('#'):
+            assert ref[1:] in handbook.ids, ref
     assert not list(OUTPUT.rglob('*.pdf')), 'PDF must never enter the public output'
     for f in OUTPUT.rglob('*'):
         if f.suffix in ('.html','.json','.txt'):
@@ -59,7 +71,7 @@ def main():
     for theme in themes:
         for page in ('index.html','typography.html','code.html','components.html'):
             assert (OUTPUT / 'previews' / theme['id'] / page).is_file()
-    print('Verified 38 themes, 152 specimen pages, and all local HTML/CSS assets. AC215 is excluded.')
+    print('Verified 38 themes, 152 specimen pages, theme handbook links and anchors, and all local HTML/CSS assets. AC215 is excluded.')
 
 
 if __name__ == '__main__':

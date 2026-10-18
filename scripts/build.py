@@ -65,6 +65,7 @@ def themes():
     for t in result:
         if t["group"] in ("custom", "refined"):
             repo = t["id"].removesuffix("-original")
+            t["guide"] = f"theme-guide.html#{repo}"
             t["source"] = f"https://github.com/rahuldave/smalldocs-{repo}"
             t["demo"] = f"https://rahuldave.com/smalldocs-{repo}/"
             t["install"] = f"smalldocs add rahuldave/smalldocs-{repo}"
@@ -72,7 +73,7 @@ def themes():
                 t["source"] += "/tree/before-reading-redesign-2026-10-16"
                 t["install"] += "@before-reading-redesign-2026-10-16"
         else:
-            t.update(source="https://github.com/twbs/bootstrap", demo="https://getbootstrap.com/docs/5.3/", install="theme: bootstrap")
+            t.update(source="https://github.com/twbs/bootstrap", demo="https://getbootstrap.com/docs/5.3/", install="theme: bootstrap", guide="theme-guide.html#bootstrap")
     for file in sorted((ROOT / "vendor/bootswatch").glob("*.css")):
         name = file.name.split('.')[0]
         css = file.read_text()
@@ -81,6 +82,7 @@ def themes():
             family = "System sans"
         result.append({"id":name,"name":name.title(),"group":"bootswatch","description":DESCRIPTIONS[name],"type":family + " · Original Bootswatch type", "colors":[variable(css,"body-bg"),variable(css,"primary"),variable(css,"body-color")], "paired":False,"source":f"https://bootswatch.com/{name}/", "demo":f"https://bootswatch.com/{name}/", "install":f"theme: {name}"})
     for t in result:
+        t.setdefault("guide", "theme-guide.html#bootswatch")
         if t["id"] in ("zephyr","simplex","pulse","litera","darkly"):
             t.update(comparison=t["id"], revision="original")
     return result
@@ -133,7 +135,7 @@ def main():
     assets = OUTPUT / "site_libs/gallery"
     assets.mkdir(parents=True)
     shutil.copytree(ROOT / "vendor/fonts",assets / "fonts")
-    for source, dest in (("index.html",OUTPUT / "index.html"),("using-themes.html",OUTPUT / "using-themes.html"),("gallery.css",assets / "gallery.css"),("gallery.js",assets / "gallery.js")):
+    for source, dest in (("index.html",OUTPUT / "index.html"),("using-themes.html",OUTPUT / "using-themes.html"),("theme-guide.html",OUTPUT / "theme-guide.html"),("theme-guide.css",assets / "theme-guide.css"),("gallery.css",assets / "gallery.css"),("gallery.js",assets / "gallery.js")):
         shutil.copy2(ROOT / "src" / source,dest)
     (assets / "themes.js").write_text("window.THEME_LIBRARY = " + json.dumps(library,ensure_ascii=False) + ";\n")
     # Reports are plain HTML and our own evidence, copied using an explicit export.

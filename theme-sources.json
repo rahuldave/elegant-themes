@@ -2,7 +2,7 @@
   {
     "name": "folio",
     "repository": "https://github.com/rahuldave/smalldocs-folio",
-    "commit": "560abeed22af67f33b35dd16b0c4503be09e38d8"
+    "commit": "3c841ad747cc859e06d2d3b1c4c1cf8537f22a6a"
   },
   {
     "name": "folio-original",
@@ -13,7 +13,7 @@
   {
     "name": "atelier",
     "repository": "https://github.com/rahuldave/smalldocs-atelier",
-    "commit": "6e521e3a5cfc75d0f4aec553d2ca29787f36c9ec"
+    "commit": "b04bde0e2895a0d95c0b106fd40c51537258dd7c"
   },
   {
     "name": "atelier-original",
@@ -24,7 +24,7 @@
   {
     "name": "nocturne",
     "repository": "https://github.com/rahuldave/smalldocs-nocturne",
-    "commit": "bcd66436601e0f1a8a18aa308c0074919e355862"
+    "commit": "e9def52c79cb84ec55736a97a4b8cd32cfd12f69"
   },
   {
     "name": "nocturne-original",
@@ -40,26 +40,26 @@
   {
     "name": "zephyr-reading",
     "repository": "https://github.com/rahuldave/smalldocs-zephyr-reading",
-    "commit": "6450a1b579a576f07b26f3fd71f35e9188230677"
+    "commit": "de0795ac7a9cbc3cc5038a0c6e518ecdc6a686ce"
   },
   {
     "name": "simplex-reading",
     "repository": "https://github.com/rahuldave/smalldocs-simplex-reading",
-    "commit": "dec1ac4026157ef088ceac5f0d8c7b4f7041904d"
+    "commit": "cb8aaed33c6d7b3a0cee8b07cdeaf35508c92eb8"
   },
   {
     "name": "pulse-reading",
     "repository": "https://github.com/rahuldave/smalldocs-pulse-reading",
-    "commit": "386000efc941e37f7c76da3e86b4763edfbbfef9"
+    "commit": "a9fd4a379425679b4c9c1e0d958f73a857e1d8be"
   },
   {
     "name": "litera-reading",
     "repository": "https://github.com/rahuldave/smalldocs-litera-reading",
-    "commit": "346cf1e50d544bf6dc058bf94e800663c6cdf646"
+    "commit": "51e3540ca972138f45d29f611a38781f7df2033b"
   },
   {
     "name": "darkly-reading",
     "repository": "https://github.com/rahuldave/smalldocs-darkly-reading",
-    "commit": "2d540a664f6fe51a38452a993d193f4f787d448c"
+    "commit": "f749cfc6ca537323616d6948770244c397966ace"
   }
 ]
