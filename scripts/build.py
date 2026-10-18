@@ -133,7 +133,7 @@ def main():
     assets = OUTPUT / "site_libs/gallery"
     assets.mkdir(parents=True)
     shutil.copytree(ROOT / "vendor/fonts",assets / "fonts")
-    for source, dest in (("index.html",OUTPUT / "index.html"),("gallery.css",assets / "gallery.css"),("gallery.js",assets / "gallery.js")):
+    for source, dest in (("index.html",OUTPUT / "index.html"),("using-themes.html",OUTPUT / "using-themes.html"),("gallery.css",assets / "gallery.css"),("gallery.js",assets / "gallery.js")):
         shutil.copy2(ROOT / "src" / source,dest)
     (assets / "themes.js").write_text("window.THEME_LIBRARY = " + json.dumps(library,ensure_ascii=False) + ";\n")
     # Reports are plain HTML and our own evidence, copied using an explicit export.

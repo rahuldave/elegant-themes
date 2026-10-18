@@ -1,6 +1,6 @@
 # Elegant themes
 
-A public comparison of 38 SmallDocs designs, including eight original/refined pairs, all 25 unchanged Bootswatch themes, Tufte and native Bootstrap. Start with [the live site](https://rahuldave.com/elegant-themes/) or its [before/after view](https://rahuldave.com/elegant-themes/?group=comparisons). All specimens use identical content.
+A public comparison of 38 SmallDocs designs, including eight original/refined pairs, all 25 unchanged Bootswatch themes, Tufte and native Bootstrap. Start with [the live site](https://rahuldave.com/elegant-themes/) or its [before/after view](https://rahuldave.com/elegant-themes/?group=comparisons). All specimens use identical content. [Install or update a theme](https://rahuldave.com/elegant-themes/using-themes.html), including how to replace an older Atelier copy or restore it.
 
 Four linked HTML reports explain the fixed typography and visual design rubrics, show measurements, and provide original illustrated guides. The sources are [Butterick’s Practical Typography](https://practicaltypography.com/) and [Refactoring UI](https://refactoringui.com/). Scores are this review’s interpretation, not endorsements. No proprietary book PDF, extracts, or illustrations are included.
 
