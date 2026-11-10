@@ -1,6 +1,6 @@
 project:
   type: website
-  render: [index.qmd, typography.qmd, code.qmd, components.qmd]
+  render: [index.qmd, typography.qmd, code.qmd, components.qmd, foundations.qmd]
 website:
   title: The notebook
   site-url: https://rahuldave.com/elegant-themes/
@@ -14,6 +14,8 @@ website:
         text: Code
       - href: components.qmd
         text: Controls
+      - href: foundations.qmd
+        text: Foundations
   page-footer: false
 theme: bootstrap
 toc: false

@@ -13,6 +13,19 @@
     "paired": true,
     "revision": "refined",
     "comparison": "folio",
+    "foundation": "previews/folio/site_libs/themes/folio/foundations.json",
+    "nativeMode": "light",
+    "profile": {
+      "body": 20,
+      "ui": 16,
+      "metadata": 14,
+      "heading": 30,
+      "title": 36,
+      "display": 48,
+      "code": 16,
+      "label": 16
+    },
+    "guide": "theme-guide.html#folio",
     "source": "https://github.com/rahuldave/smalldocs-folio",
     "demo": "https://rahuldave.com/smalldocs-folio/",
     "install": "smalldocs add rahuldave/smalldocs-folio"
@@ -31,6 +44,19 @@
     "paired": true,
     "revision": "refined",
     "comparison": "atelier",
+    "foundation": "previews/atelier/site_libs/themes/atelier/foundations.json",
+    "nativeMode": "light",
+    "profile": {
+      "body": 18,
+      "ui": 16,
+      "metadata": 14,
+      "heading": 30,
+      "title": 36,
+      "display": 48,
+      "code": 16,
+      "label": 16
+    },
+    "guide": "theme-guide.html#atelier",
     "source": "https://github.com/rahuldave/smalldocs-atelier",
     "demo": "https://rahuldave.com/smalldocs-atelier/",
     "install": "smalldocs add rahuldave/smalldocs-atelier"
@@ -49,6 +75,19 @@
     "paired": true,
     "revision": "refined",
     "comparison": "nocturne",
+    "foundation": "previews/nocturne/site_libs/themes/nocturne/foundations.json",
+    "nativeMode": "light",
+    "profile": {
+      "body": 20,
+      "ui": 16,
+      "metadata": 14,
+      "heading": 30,
+      "title": 36,
+      "display": 48,
+      "code": 16,
+      "label": 16
+    },
+    "guide": "theme-guide.html#nocturne",
     "source": "https://github.com/rahuldave/smalldocs-nocturne",
     "demo": "https://rahuldave.com/smalldocs-nocturne/",
     "install": "smalldocs add rahuldave/smalldocs-nocturne"
@@ -65,6 +104,19 @@
       "#7a1c1c"
     ],
     "paired": true,
+    "foundation": "previews/tufte/site_libs/themes/tufte/foundations.json",
+    "nativeMode": "light",
+    "profile": {
+      "body": 20,
+      "ui": 16,
+      "metadata": 14,
+      "heading": 30,
+      "title": 36,
+      "display": 48,
+      "code": 16,
+      "label": 16
+    },
+    "guide": "theme-guide.html#tufte",
     "source": "https://github.com/rahuldave/smalldocs-tufte",
     "demo": "https://rahuldave.com/smalldocs-tufte/",
     "install": "smalldocs add rahuldave/smalldocs-tufte"
@@ -83,7 +135,8 @@
     "paired": true,
     "source": "https://github.com/twbs/bootstrap",
     "demo": "https://getbootstrap.com/docs/5.3/",
-    "install": "theme: bootstrap"
+    "install": "theme: bootstrap",
+    "guide": "theme-guide.html#bootstrap"
   },
   {
     "id": "folio-original",
@@ -99,6 +152,7 @@
     "paired": true,
     "revision": "original",
     "comparison": "folio",
+    "guide": "theme-guide.html#folio",
     "source": "https://github.com/rahuldave/smalldocs-folio/tree/before-reading-redesign-2026-10-16",
     "demo": "https://rahuldave.com/smalldocs-folio/",
     "install": "smalldocs add rahuldave/smalldocs-folio@before-reading-redesign-2026-10-16"
@@ -117,6 +171,7 @@
     "paired": true,
     "revision": "original",
     "comparison": "atelier",
+    "guide": "theme-guide.html#atelier",
     "source": "https://github.com/rahuldave/smalldocs-atelier/tree/before-reading-redesign-2026-10-16",
     "demo": "https://rahuldave.com/smalldocs-atelier/",
     "install": "smalldocs add rahuldave/smalldocs-atelier@before-reading-redesign-2026-10-16"
@@ -135,6 +190,7 @@
     "paired": true,
     "revision": "original",
     "comparison": "nocturne",
+    "guide": "theme-guide.html#nocturne",
     "source": "https://github.com/rahuldave/smalldocs-nocturne/tree/before-reading-redesign-2026-10-16",
     "demo": "https://rahuldave.com/smalldocs-nocturne/",
     "install": "smalldocs add rahuldave/smalldocs-nocturne@before-reading-redesign-2026-10-16"
@@ -143,16 +199,29 @@
     "id": "zephyr-reading",
     "name": "Zephyr Reading",
     "group": "refined",
-    "description": "A reading refinement of Zephyr: narrower prose, calmer headings, local code fonts, and a complete control palette.",
+    "description": "A paired reading adaptation of Zephyr: explicit type, spacing, semantic roles, and readable controls.",
     "type": "Inter \u00b7 IBM Plex Mono",
     "colors": [
       "#ffffff",
       "#3459e6",
       "#495057"
     ],
-    "paired": false,
+    "paired": true,
     "revision": "refined",
     "comparison": "zephyr",
+    "foundation": "previews/zephyr-reading/site_libs/themes/zephyr-reading/foundations.json",
+    "nativeMode": "light",
+    "profile": {
+      "body": 18,
+      "ui": 16,
+      "metadata": 14,
+      "heading": 30,
+      "title": 36,
+      "display": 48,
+      "code": 16,
+      "label": 16
+    },
+    "guide": "theme-guide.html#zephyr-reading",
     "source": "https://github.com/rahuldave/smalldocs-zephyr-reading",
     "demo": "https://rahuldave.com/smalldocs-zephyr-reading/",
     "install": "smalldocs add rahuldave/smalldocs-zephyr-reading"
@@ -161,16 +230,29 @@
     "id": "simplex-reading",
     "name": "Simplex Reading",
     "group": "refined",
-    "description": "A reading refinement of Simplex: narrower prose, calmer headings, local code fonts, and a complete control palette.",
+    "description": "A paired reading adaptation of Simplex: explicit type, spacing, semantic roles, and readable controls.",
     "type": "Open Sans \u00b7 IBM Plex Mono",
     "colors": [
       "#fcfcfc",
       "#b81d0e",
       "#212529"
     ],
-    "paired": false,
+    "paired": true,
     "revision": "refined",
     "comparison": "simplex",
+    "foundation": "previews/simplex-reading/site_libs/themes/simplex-reading/foundations.json",
+    "nativeMode": "light",
+    "profile": {
+      "body": 18,
+      "ui": 16,
+      "metadata": 14,
+      "heading": 30,
+      "title": 36,
+      "display": 48,
+      "code": 16,
+      "label": 16
+    },
+    "guide": "theme-guide.html#simplex-reading",
     "source": "https://github.com/rahuldave/smalldocs-simplex-reading",
     "demo": "https://rahuldave.com/smalldocs-simplex-reading/",
     "install": "smalldocs add rahuldave/smalldocs-simplex-reading"
@@ -179,16 +261,29 @@
     "id": "pulse-reading",
     "name": "Pulse Reading",
     "group": "refined",
-    "description": "A reading refinement of Pulse: narrower prose, calmer headings, local code fonts, and a complete control palette.",
+    "description": "A paired reading adaptation of Pulse: explicit type, spacing, semantic roles, and readable controls.",
     "type": "System sans \u00b7 IBM Plex Mono",
     "colors": [
       "#ffffff",
       "#593196",
       "#444444"
     ],
-    "paired": false,
+    "paired": true,
     "revision": "refined",
     "comparison": "pulse",
+    "foundation": "previews/pulse-reading/site_libs/themes/pulse-reading/foundations.json",
+    "nativeMode": "light",
+    "profile": {
+      "body": 18,
+      "ui": 16,
+      "metadata": 14,
+      "heading": 30,
+      "title": 36,
+      "display": 48,
+      "code": 16,
+      "label": 16
+    },
+    "guide": "theme-guide.html#pulse-reading",
     "source": "https://github.com/rahuldave/smalldocs-pulse-reading",
     "demo": "https://rahuldave.com/smalldocs-pulse-reading/",
     "install": "smalldocs add rahuldave/smalldocs-pulse-reading"
@@ -197,16 +292,29 @@
     "id": "litera-reading",
     "name": "Litera Reading",
     "group": "refined",
-    "description": "A reading refinement of Litera: narrower prose, calmer headings, local code fonts, and a complete control palette.",
+    "description": "A paired reading adaptation of Litera: explicit type, spacing, semantic roles, and readable controls.",
     "type": "Georgia \u00b7 IBM Plex Mono",
     "colors": [
       "#ffffff",
       "#2557a0",
       "#343a40"
     ],
-    "paired": false,
+    "paired": true,
     "revision": "refined",
     "comparison": "litera",
+    "foundation": "previews/litera-reading/site_libs/themes/litera-reading/foundations.json",
+    "nativeMode": "light",
+    "profile": {
+      "body": 20,
+      "ui": 16,
+      "metadata": 14,
+      "heading": 30,
+      "title": 36,
+      "display": 48,
+      "code": 16,
+      "label": 16
+    },
+    "guide": "theme-guide.html#litera-reading",
     "source": "https://github.com/rahuldave/smalldocs-litera-reading",
     "demo": "https://rahuldave.com/smalldocs-litera-reading/",
     "install": "smalldocs add rahuldave/smalldocs-litera-reading"
@@ -215,16 +323,29 @@
     "id": "darkly-reading",
     "name": "Darkly Reading",
     "group": "refined",
-    "description": "A reading refinement of Darkly: narrower prose, calmer headings, local code fonts, and a complete control palette.",
+    "description": "A paired reading adaptation of Darkly: explicit type, spacing, semantic roles, and readable controls.",
     "type": "Lato \u00b7 IBM Plex Mono",
     "colors": [
       "#222222",
       "#8db9e8",
       "#eeeeee"
     ],
-    "paired": false,
+    "paired": true,
     "revision": "refined",
     "comparison": "darkly",
+    "foundation": "previews/darkly-reading/site_libs/themes/darkly-reading/foundations.json",
+    "nativeMode": "dark",
+    "profile": {
+      "body": 18,
+      "ui": 16,
+      "metadata": 14,
+      "heading": 30,
+      "title": 36,
+      "display": 48,
+      "code": 16,
+      "label": 16
+    },
+    "guide": "theme-guide.html#darkly-reading",
     "source": "https://github.com/rahuldave/smalldocs-darkly-reading",
     "demo": "https://rahuldave.com/smalldocs-darkly-reading/",
     "install": "smalldocs add rahuldave/smalldocs-darkly-reading"
@@ -243,7 +364,8 @@
     "paired": false,
     "source": "https://bootswatch.com/cerulean/",
     "demo": "https://bootswatch.com/cerulean/",
-    "install": "theme: cerulean"
+    "install": "theme: cerulean",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "cosmo",
@@ -259,7 +381,8 @@
     "paired": false,
     "source": "https://bootswatch.com/cosmo/",
     "demo": "https://bootswatch.com/cosmo/",
-    "install": "theme: cosmo"
+    "install": "theme: cosmo",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "cyborg",
@@ -275,7 +398,8 @@
     "paired": false,
     "source": "https://bootswatch.com/cyborg/",
     "demo": "https://bootswatch.com/cyborg/",
-    "install": "theme: cyborg"
+    "install": "theme: cyborg",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "darkly",
@@ -292,6 +416,7 @@
     "source": "https://bootswatch.com/darkly/",
     "demo": "https://bootswatch.com/darkly/",
     "install": "theme: darkly",
+    "guide": "theme-guide.html#bootswatch",
     "comparison": "darkly",
     "revision": "original"
   },
@@ -309,7 +434,8 @@
     "paired": false,
     "source": "https://bootswatch.com/flatly/",
     "demo": "https://bootswatch.com/flatly/",
-    "install": "theme: flatly"
+    "install": "theme: flatly",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "journal",
@@ -325,7 +451,8 @@
     "paired": false,
     "source": "https://bootswatch.com/journal/",
     "demo": "https://bootswatch.com/journal/",
-    "install": "theme: journal"
+    "install": "theme: journal",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "litera",
@@ -342,6 +469,7 @@
     "source": "https://bootswatch.com/litera/",
     "demo": "https://bootswatch.com/litera/",
     "install": "theme: litera",
+    "guide": "theme-guide.html#bootswatch",
     "comparison": "litera",
     "revision": "original"
   },
@@ -359,7 +487,8 @@
     "paired": false,
     "source": "https://bootswatch.com/lumen/",
     "demo": "https://bootswatch.com/lumen/",
-    "install": "theme: lumen"
+    "install": "theme: lumen",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "lux",
@@ -375,7 +504,8 @@
     "paired": false,
     "source": "https://bootswatch.com/lux/",
     "demo": "https://bootswatch.com/lux/",
-    "install": "theme: lux"
+    "install": "theme: lux",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "materia",
@@ -391,7 +521,8 @@
     "paired": false,
     "source": "https://bootswatch.com/materia/",
     "demo": "https://bootswatch.com/materia/",
-    "install": "theme: materia"
+    "install": "theme: materia",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "minty",
@@ -407,7 +538,8 @@
     "paired": false,
     "source": "https://bootswatch.com/minty/",
     "demo": "https://bootswatch.com/minty/",
-    "install": "theme: minty"
+    "install": "theme: minty",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "morph",
@@ -423,7 +555,8 @@
     "paired": false,
     "source": "https://bootswatch.com/morph/",
     "demo": "https://bootswatch.com/morph/",
-    "install": "theme: morph"
+    "install": "theme: morph",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "pulse",
@@ -440,6 +573,7 @@
     "source": "https://bootswatch.com/pulse/",
     "demo": "https://bootswatch.com/pulse/",
     "install": "theme: pulse",
+    "guide": "theme-guide.html#bootswatch",
     "comparison": "pulse",
     "revision": "original"
   },
@@ -457,7 +591,8 @@
     "paired": false,
     "source": "https://bootswatch.com/quartz/",
     "demo": "https://bootswatch.com/quartz/",
-    "install": "theme: quartz"
+    "install": "theme: quartz",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "sandstone",
@@ -473,7 +608,8 @@
     "paired": false,
     "source": "https://bootswatch.com/sandstone/",
     "demo": "https://bootswatch.com/sandstone/",
-    "install": "theme: sandstone"
+    "install": "theme: sandstone",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "simplex",
@@ -490,6 +626,7 @@
     "source": "https://bootswatch.com/simplex/",
     "demo": "https://bootswatch.com/simplex/",
     "install": "theme: simplex",
+    "guide": "theme-guide.html#bootswatch",
     "comparison": "simplex",
     "revision": "original"
   },
@@ -507,7 +644,8 @@
     "paired": false,
     "source": "https://bootswatch.com/sketchy/",
     "demo": "https://bootswatch.com/sketchy/",
-    "install": "theme: sketchy"
+    "install": "theme: sketchy",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "slate",
@@ -523,7 +661,8 @@
     "paired": false,
     "source": "https://bootswatch.com/slate/",
     "demo": "https://bootswatch.com/slate/",
-    "install": "theme: slate"
+    "install": "theme: slate",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "solar",
@@ -539,7 +678,8 @@
     "paired": false,
     "source": "https://bootswatch.com/solar/",
     "demo": "https://bootswatch.com/solar/",
-    "install": "theme: solar"
+    "install": "theme: solar",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "spacelab",
@@ -555,7 +695,8 @@
     "paired": false,
     "source": "https://bootswatch.com/spacelab/",
     "demo": "https://bootswatch.com/spacelab/",
-    "install": "theme: spacelab"
+    "install": "theme: spacelab",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "superhero",
@@ -571,7 +712,8 @@
     "paired": false,
     "source": "https://bootswatch.com/superhero/",
     "demo": "https://bootswatch.com/superhero/",
-    "install": "theme: superhero"
+    "install": "theme: superhero",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "united",
@@ -587,7 +729,8 @@
     "paired": false,
     "source": "https://bootswatch.com/united/",
     "demo": "https://bootswatch.com/united/",
-    "install": "theme: united"
+    "install": "theme: united",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "vapor",
@@ -603,7 +746,8 @@
     "paired": false,
     "source": "https://bootswatch.com/vapor/",
     "demo": "https://bootswatch.com/vapor/",
-    "install": "theme: vapor"
+    "install": "theme: vapor",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "yeti",
@@ -619,7 +763,8 @@
     "paired": false,
     "source": "https://bootswatch.com/yeti/",
     "demo": "https://bootswatch.com/yeti/",
-    "install": "theme: yeti"
+    "install": "theme: yeti",
+    "guide": "theme-guide.html#bootswatch"
   },
   {
     "id": "zephyr",
@@ -636,6 +781,7 @@
     "source": "https://bootswatch.com/zephyr/",
     "demo": "https://bootswatch.com/zephyr/",
     "install": "theme: zephyr",
+    "guide": "theme-guide.html#bootswatch",
     "comparison": "zephyr",
     "revision": "original"
   }

@@ -1,5 +1,6 @@
 """Check the generated inventory and local HTML/CSS assets before publication."""
 import json
+import hashlib
 import re
 from html.parser import HTMLParser
 from pathlib import Path
@@ -27,6 +28,7 @@ def main():
     data = (OUTPUT / 'site_libs/gallery/themes.js').read_text()
     themes = json.loads(data.removeprefix('window.THEME_LIBRARY = ').rstrip(';\n'))
     assert len(themes) == 38
+    assert sum(2 if t['paired'] else 1 for t in themes) == 51
     assert {t['id'] for t in themes if t['group']=='custom'} == {'folio','atelier','nocturne','tufte','folio-original','atelier-original','nocturne-original'}
     assert len([t for t in themes if t['group']=='bootswatch']) == 25
     assert not any('ac215' in json.dumps(t).lower() for t in themes)
@@ -46,10 +48,33 @@ def main():
         if f.suffix in ('.html','.json','.txt'):
             assert '/Users/rahul/Attic' not in f.read_text(), f
     audit = OUTPUT / 'typography-audit'
-    for filename, count in [('measurements.json',184),('controls.json',46)]:
+    for filename, count in [('measurements.json',204),('controls.json',51),('foundations-measurements.json',36)]:
         records = json.loads((audit / filename).read_text())
         keys = [(r['id'],r['mode'],r.get('page'),r.get('viewportName')) for r in records]
         assert len(records) == count and len(keys) == len(set(keys)), filename
+    metadata = json.loads((audit / 'metadata.json').read_text())
+    for path, digest in metadata['source_hashes'].items():
+        assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == digest, path
+    for path, digest in metadata['evidence_hashes'].items():
+        assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == digest, path
+    owned = {p['name'] for p in metadata['theme_sources'] if p.get('foundations_sha256')}
+    assert len(owned) == 9
+    assert all(t['paired'] for t in themes if t['id'] in owned)
+    sources = json.loads((ROOT / 'theme-sources.json').read_text())
+    assert sources == metadata['theme_sources']
+    checks = json.loads((audit / 'foundations-checks.json').read_text())
+    assert len(checks) == 18
+    assert all(c['passes'] for r in checks for c in r['sourceChecks'])
+    assert all(not b['profileErrors'] for r in checks for b in r['browser'])
+    shots = json.loads((audit / 'current-screenshots.json').read_text())
+    assert len(shots) == 126
+    for shot in shots:
+        assert hashlib.sha256((audit / shot['file']).read_bytes()).hexdigest() == shot['sha256'], shot['file']
+    previous = {t['id']: t for t in json.loads((audit / 'previous-scores.json').read_text())}
+    for theme in json.loads((audit / 'scores.json').read_text()):
+        if theme['id'] not in owned:
+            assert theme['typography'] == previous[theme['id']]['typography']
+            assert theme['design']['total'] == previous[theme['id']]['design']['total']
     missing = []
     for file in OUTPUT.rglob('*'):
         if file.suffix not in ('.html','.css'):
@@ -69,9 +94,9 @@ def main():
                 missing.append(f'{file.relative_to(OUTPUT)}: {ref}')
     assert not missing, '\n'.join(missing)
     for theme in themes:
-        for page in ('index.html','typography.html','code.html','components.html'):
+        for page in ('index.html','typography.html','code.html','components.html','foundations.html'):
             assert (OUTPUT / 'previews' / theme['id'] / page).is_file()
-    print('Verified 38 themes, 152 specimen pages, theme handbook links and anchors, and all local HTML/CSS assets. AC215 is excluded.')
+    print('Verified 38 themes, 51 mode variants, 190 specimen pages, 126 fresh screenshots, source hashes, frozen baseline scores, and local HTML/CSS assets. AC215 is excluded.')
 
 
 if __name__ == '__main__':

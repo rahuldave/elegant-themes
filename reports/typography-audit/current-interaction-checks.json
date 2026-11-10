@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-10",
+  "method": "CUA real-browser spot checks; supplementary, not a comprehensive interaction audit",
+  "pulseDarkSecondary": {
+    "ink": "rgb(232, 237, 242)",
+    "background": "rgb(255, 255, 255)",
+    "confirmedInFullPage": true
+  },
+  "pulseFoundationsForm": {
+    "textInput": "passes",
+    "collectionSelect": "passes",
+    "checkboxToggle": "passes",
+    "disabledButton": "passes",
+    "keyboardTabToCollection": "passes"
+  },
+  "gallery": {
+    "desktopTwoColumns": true,
+    "mobileOneColumn": true,
+    "readingPairedModes": 5,
+    "globalModeSwitchChangesPreview": true,
+    "repairFlagLabelsPresent": true
+  },
+  "smalldocs": {
+    "guideSource": "e33e059ff40fd49aad28a8b7449cf77449e66898",
+    "actualMobileViewport": 390,
+    "pageWidth": 390,
+    "menuOpenAndClose": "passes",
+    "pairedModeToggle": "passes",
+    "searchNewFoundationContent": "passes"
+  }
+}

@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!link) return;
       const url = new URL(link.href, location.href);
       const page = url.pathname.split('/').pop();
-      if (url.origin === location.origin && ['index.html','typography.html','code.html','components.html'].includes(page) && !url.hash) {
+      if (url.origin === location.origin && ['index.html','typography.html','code.html','components.html','foundations.html'].includes(page) && !url.hash) {
         event.preventDefault();
         parent.postMessage({type:'specimen-page',page}, location.origin);
       }

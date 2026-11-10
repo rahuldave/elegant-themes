@@ -1,1 +1,3 @@
-css: litera-reading.css
+css:
+  light: litera-reading-light.css
+  dark: litera-reading-dark.css

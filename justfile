@@ -8,6 +8,12 @@ check:
     node --check src/gallery.js
     uv run python scripts/check.py
 
+# Recalculate from saved, font-loaded browser captures; no new capture is implied.
+review:
+    uv run python scripts/finalize_review.py
+    uv run python scripts/build.py
+    uv run python scripts/check.py
+
 serve: build
     uv run python -m http.server 8432 --directory example/_site --bind 127.0.0.1
 

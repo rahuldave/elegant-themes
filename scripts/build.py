@@ -36,7 +36,7 @@ for base, family, colors in [
  ('pulse','System sans',['#ffffff','#593196','#444444']),
  ('litera','Georgia',['#ffffff','#2557a0','#343a40']),
  ('darkly','Lato',['#222222','#8db9e8','#eeeeee'])]:
-    CUSTOM.append(dict(id=base+'-reading',name=base.title()+' Reading',group='refined',description='A reading refinement of '+base.title()+': narrower prose, calmer headings, local code fonts, and a complete control palette.',type=family+' · IBM Plex Mono',colors=colors,paired=False,revision='refined',comparison=base))
+    CUSTOM.append(dict(id=base+'-reading',name=base.title()+' Reading',group='refined',description='A paired reading adaptation of '+base.title()+': explicit type, spacing, semantic roles, and readable controls.',type=family+' · IBM Plex Mono',colors=colors,paired=True,revision='refined',comparison=base))
 
 
 DESCRIPTIONS = {
@@ -63,6 +63,12 @@ def variable(css, name):
 def themes():
     result = [dict(t) for t in CUSTOM]
     for t in result:
+        foundation = ROOT / 'vendor/themes' / t['id'] / 'foundations.json'
+        if foundation.exists():
+            f = json.loads(foundation.read_text())
+            t['foundation'] = f"previews/{t['id']}/site_libs/themes/{t['id']}/foundations.json"
+            t['nativeMode'] = f['nativeMode']
+            t['profile'] = f['typography']['profiles']['reading']
         if t["group"] in ("custom", "refined"):
             repo = t["id"].removesuffix("-original")
             t["guide"] = f"theme-guide.html#{repo}"
@@ -96,6 +102,10 @@ def main():
         for t in library:
             t['typeScore'] = scores[t['id']]['typography']
             t['designScore'] = scores[t['id']]['design']['total']
+            row = scores[t['id']]
+            t['reviewFlagged'] = bool(row.get('foundationFlags')) or any(c['failures'] for c in row['design']['contexts']) or any(
+                m['metrics']['syntaxContrast'] < 4.5 or any(m['metrics'][k][0] < 4.5 for k in ['bodyContrast', 'linkContrast', 'inlineContrast'])
+                for m in row['modes'])
     if OUTPUT.exists():
         shutil.rmtree(OUTPUT)
     OUTPUT.mkdir(parents=True)
@@ -131,6 +141,14 @@ def main():
         if site.warnings:
             raise RuntimeError(f"{name}: {site.warnings}")
         shutil.copytree(stage / "_site", OUTPUT / "previews" / name)
+        foundation = ROOT / 'vendor/themes' / name / 'foundations.json'
+        if foundation.exists():
+            shutil.copy2(foundation, OUTPUT / 'previews' / name / 'site_libs/themes' / name / 'foundations.json')
+            for notice in foundation.parent.rglob('*'):
+                if notice.is_file() and re.search(r'license|licence|ofl|copyright', notice.name, re.I):
+                    destination = OUTPUT / 'previews' / name / 'site_libs/themes' / name / notice.relative_to(foundation.parent)
+                    destination.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(notice, destination)
         print(f"Rendered {t['name']}",flush=True)
     assets = OUTPUT / "site_libs/gallery"
     assets.mkdir(parents=True)

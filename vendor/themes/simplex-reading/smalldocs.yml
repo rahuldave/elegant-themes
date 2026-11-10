@@ -1,1 +1,3 @@
-css: simplex-reading.css
+css:
+  light: simplex-reading-light.css
+  dark: simplex-reading-dark.css

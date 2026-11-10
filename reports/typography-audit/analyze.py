@@ -218,6 +218,24 @@ for name,note in REFINED_NOTES.items():
         FONT[name]=FONT.get(base,(14,'A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.'))
 FONT['litera-reading']=(14,'Georgia is a convincing text face; paragraphs and lists now share the serif voice.')
 
+# November review: the same weights, thresholds, and editorial awards. New
+# measurements change the numeric categories; notes describe the current files.
+CURRENT_NOTES = {
+ 'folio': '20px Source Serif 4 prose and sections, 16px code, and a 640px measure. Caslon is an optional display role. The 1.60 leading and 1.50 section/body ratio cost points under the fixed Butterick rubric; the warm green identity remains coherent.',
+ 'atelier': '18px DM Sans prose, 16px interface and code, 36px titles. The paired teal system remains precise. The 1.60 leading costs eight points relative to the preferred band; a 640px measure and readable mobile code remain strengths.',
+ 'nocturne': '20px Source Serif 4 with 16px interface and code; both pearl and ink/brass modes remain distinct. The deliberate 1.60 leading and 30px sections reduce the prescriptive type score without erasing its strong visual system.',
+ 'tufte': '20px ET Book, 16px system monospace code, and 1.60 leading in both modes. Italic sections preserve the literary voice and carry the unchanged rubric deduction. Marginal notes and complex Tufte layouts remain outside this shared specimen.',
+ 'zephyr-reading': '18px Inter, 16px IBM Plex Mono, paired white/blue and dark companion palettes. Ordinary and state roles are explicit. The type score falls mainly because the new 1.60 leading is outside the fixed preferred band.',
+ 'simplex-reading': '18px Open Sans and 16px code, with a deliberate dark companion to the native light/red palette. Flat surfaces and explicit state colors remain calm. The new 1.60 leading reduces the fixed typography score.',
+ 'pulse-reading': '18px system sans, 16px code, and authored purple light/dark palettes. The dark secondary button inherits a white fill under pale text (1.18:1), so repair that component before adopting the dark mode. The 1.60 leading also lowers the type score.',
+ 'litera-reading': '20px Georgia continues through prose and lists; UI and code are 16px. Both modes have clear reading roles. The supplementary nav-pill test still uses an inherited blue/white selected pair (3.71:1); fix that component if used. Leading is 1.60.',
+ 'darkly-reading': '18px Lato and 16px code, now with a designed light companion to the native dark palette. The light-mode sampled syntax minimum is 4.34:1 and needs repair. Leading is 1.60; the darker native mode has stronger sampled code contrast.',
+}
+for name, note in CURRENT_NOTES.items():
+    NOTES[name] = ('Current · repair flagged' if name in ['pulse-reading', 'litera-reading', 'darkly-reading'] else 'Current · candidate', note)
+    DESIGN_NOTES[name] = note
+FONT['folio'] = (15, 'Source Serif 4 carries prose and ordinary sections; Caslon is available as an optional display role.')
+
 def design_assess(t):
     controls=json.loads((ROOT/'controls.json').read_text())
     contexts=[]
@@ -308,6 +326,11 @@ def main():
         total=min(m['total'] for m in modes)
         item=dict(**t,typography=total,modes=modes,recommendation=NOTES[t['id']][0],note=NOTES[t['id']][1])
         item['design']=design_assess(item)
+        supplementary = ROOT / 'foundations-checks.json'
+        item['foundationFlags'] = [dict(mode=r['mode'], label=c['label'], ratio=c['ratio'])
+            for r in json.loads(supplementary.read_text()) if r['id'] == t['id']
+            for b in r['browser'] if b['viewport'] == 'desktop'
+            for c in b['renderedText'] if not c['passes']]
         out.append(item)
     out.sort(key=lambda t:(-t['typography'],t['name']))
     (ROOT/'scores.json').write_text(json.dumps(out,indent=2))

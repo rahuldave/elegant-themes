@@ -2,7 +2,8 @@
   {
     "name": "folio",
     "repository": "https://github.com/rahuldave/smalldocs-folio",
-    "commit": "3c841ad747cc859e06d2d3b1c4c1cf8537f22a6a"
+    "commit": "e33e059ff40fd49aad28a8b7449cf77449e66898",
+    "foundations_sha256": "55d01ee2b4df07fc32bb058833ff4c267b511854fa1ee338fe2f226fa784ee33"
   },
   {
     "name": "folio-original",
@@ -13,7 +14,8 @@
   {
     "name": "atelier",
     "repository": "https://github.com/rahuldave/smalldocs-atelier",
-    "commit": "b04bde0e2895a0d95c0b106fd40c51537258dd7c"
+    "commit": "b285e162eed9521114745e34ce3b3d3af5474177",
+    "foundations_sha256": "3ec385d97407a81a0c0296742f1e96a6ef4ffa58d23ca5327059389614e6a44c"
   },
   {
     "name": "atelier-original",
@@ -24,7 +26,8 @@
   {
     "name": "nocturne",
     "repository": "https://github.com/rahuldave/smalldocs-nocturne",
-    "commit": "e9def52c79cb84ec55736a97a4b8cd32cfd12f69"
+    "commit": "061dce7006116f5e86e666baa3f40b6e70029303",
+    "foundations_sha256": "02381470c683f1002f88f0ef82b07543d3b168bb8dff5f3d7e7557f39cffb5b2"
   },
   {
     "name": "nocturne-original",
@@ -35,31 +38,37 @@
   {
     "name": "tufte",
     "repository": "https://github.com/rahuldave/smalldocs-tufte",
-    "commit": "19d0e44e14585d008d99eda568dd9e6565785de3"
+    "commit": "70a75da3a3dbc5e87f404fc350723799beca38b5",
+    "foundations_sha256": "b0cb548a3a28a689450693806eec82f09632610e72828991bd1d74aee68aea85"
   },
   {
     "name": "zephyr-reading",
     "repository": "https://github.com/rahuldave/smalldocs-zephyr-reading",
-    "commit": "de0795ac7a9cbc3cc5038a0c6e518ecdc6a686ce"
+    "commit": "f809045ba0dd3420c1cfda74a9046f4d7b85b79c",
+    "foundations_sha256": "e426bbf820b70b1a36646df17c5d3e626644b2f17c93601fd68e5dd24a74ccbf"
   },
   {
     "name": "simplex-reading",
     "repository": "https://github.com/rahuldave/smalldocs-simplex-reading",
-    "commit": "cb8aaed33c6d7b3a0cee8b07cdeaf35508c92eb8"
+    "commit": "4d2b2560a51708c470c28e62a4578074651bace6",
+    "foundations_sha256": "e7b79329b789a89a06183b9de58e03ce2ce76d1fd368403f3bb777aa6206e09b"
   },
   {
     "name": "pulse-reading",
     "repository": "https://github.com/rahuldave/smalldocs-pulse-reading",
-    "commit": "a9fd4a379425679b4c9c1e0d958f73a857e1d8be"
+    "commit": "e02631d0efe6da4fb8bb36095c0c2f0b0a468146",
+    "foundations_sha256": "272ef2054d08336592d526087db1ae6be86beda2d68d27c3ad2c5e9428ec092d"
   },
   {
     "name": "litera-reading",
     "repository": "https://github.com/rahuldave/smalldocs-litera-reading",
-    "commit": "51e3540ca972138f45d29f611a38781f7df2033b"
+    "commit": "714bb3cf198ef1d4be7fe0f954061e5352d8a407",
+    "foundations_sha256": "eddd68b2ae7ebfb4b2f98be61da0f53e1cfe7bb0be8b9acb55a1d54ac139de0d"
   },
   {
     "name": "darkly-reading",
     "repository": "https://github.com/rahuldave/smalldocs-darkly-reading",
-    "commit": "f749cfc6ca537323616d6948770244c397966ace"
+    "commit": "5a3024001d402ce854b26e1e69b17dea7f1fe4d9",
+    "foundations_sha256": "b084c63f7487aeb8e93f690258cd7ab0384529ea6007a30656c4c2423124823d"
   }
 ]

@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "theme": "nocturne",
+  "nativeMode": "light",
+  "provenance": {
+    "source": "research/theme-audit/results/foundations.json",
+    "status": "approved-candidate",
+    "validation": "Opaque sRGB pairs only; browser behavior and projection require upstream QA."
+  },
+  "modes": {
+    "light": {
+      "swatches": {
+        "anchor-paper": "#f4f3f6",
+        "anchor-ink": "#292d43",
+        "anchor-muted": "#626779",
+        "anchor-panel": "#eae9ef",
+        "anchor-line": "#d0cddc",
+        "anchor-accent": "#71502f",
+        "anchor-secondary": "#624e85",
+        "anchor-code": "#eae9ef",
+        "neutral-50": "#e7e8ea",
+        "neutral-100": "#d0d1d6",
+        "neutral-200": "#a3a4af",
+        "neutral-300": "#787a89",
+        "neutral-400": "#4f5265",
+        "neutral-500": "#292d43",
+        "neutral-600": "#222536",
+        "neutral-700": "#1c1e2a",
+        "neutral-800": "#15161e",
+        "neutral-900": "#0d0d13",
+        "neutral-950": "#06070a",
+        "primary-50": "#f1ece8",
+        "primary-100": "#e3d9d2",
+        "primary-200": "#c7b5a6",
+        "primary-300": "#aa927c",
+        "primary-400": "#8e7054",
+        "primary-500": "#71502f",
+        "primary-600": "#5a4027",
+        "primary-700": "#44311f",
+        "primary-800": "#2f2317",
+        "primary-900": "#1c150e",
+        "primary-950": "#110c07",
+        "secondary-50": "#efecf2",
+        "secondary-100": "#ded9e6",
+        "secondary-200": "#bfb4cd",
+        "secondary-300": "#9f91b5",
+        "secondary-400": "#806f9d",
+        "secondary-500": "#624e85",
+        "secondary-600": "#4e3f69",
+        "secondary-700": "#3c304e",
+        "secondary-800": "#2a2235",
+        "secondary-900": "#19151e",
+        "secondary-950": "#0f0c12",
+        "candidate-ink": "#292d43",
+        "candidate-muted": "#5e6274",
+        "candidate-accent-text": "#71502f",
+        "candidate-secondary-text": "#624e85",
+        "candidate-focus": "#71502f",
+        "candidate-control-boundary": "#87858f",
+        "button-ink": "#f4f3f6",
+        "candidate-primary-hover-fill": "#684a2c",
+        "candidate-primary-hover-ink": "#f4f3f6",
+        "candidate-link-hover": "#684a2c"
+      },
+      "roles": {
+        "paper": "anchor-paper",
+        "ink": "candidate-ink",
+        "muted": "candidate-muted",
+        "panel": "anchor-panel",
+        "line": "anchor-line",
+        "accent": "anchor-accent",
+        "secondary": "anchor-secondary",
+        "code": "anchor-code",
+        "accent-text": "candidate-accent-text",
+        "secondary-text": "candidate-secondary-text",
+        "focus": "candidate-focus",
+        "control-boundary": "candidate-control-boundary",
+        "primary-fill": "anchor-accent",
+        "button-ink": "button-ink",
+        "secondary-action": "candidate-ink",
+        "primary-hover-fill": "candidate-primary-hover-fill",
+        "primary-hover-ink": "candidate-primary-hover-ink",
+        "link-hover": "candidate-link-hover",
+        "decorative-line": "anchor-line",
+        "code-ink": "candidate-ink",
+        "selected-fill": "anchor-accent",
+        "selected-ink": "button-ink",
+        "disabled-fill": "anchor-panel",
+        "disabled-ink": "candidate-muted"
+      },
+      "states": {
+        "success": {
+          "fill": "#e6f1e8",
+          "ink": "#204b32",
+          "boundary": "#73907c",
+          "provenance": "reading-source-repaired"
+        },
+        "warning": {
+          "fill": "#fbf1dc",
+          "ink": "#604414",
+          "boundary": "#a0895a",
+          "provenance": "reading-source-repaired"
+        },
+        "danger": {
+          "fill": "#f9e9e5",
+          "ink": "#803c32",
+          "boundary": "#a97e74",
+          "provenance": "reading-source-repaired"
+        },
+        "info": {
+          "fill": "#e7eff8",
+          "ink": "#245c86",
+          "boundary": "#708ca5",
+          "provenance": "new-candidate"
+        }
+      }
+    },
+    "dark": {
+      "swatches": {
+        "anchor-paper": "#1c2030",
+        "anchor-ink": "#ede8de",
+        "anchor-muted": "#b5b6c3",
+        "anchor-panel": "#242a3c",
+        "anchor-line": "#42485d",
+        "anchor-accent": "#e2bd82",
+        "anchor-secondary": "#c6b4e1",
+        "anchor-code": "#252b3e",
+        "neutral-50": "#e7e8ea",
+        "neutral-100": "#d0d1d6",
+        "neutral-200": "#a3a4af",
+        "neutral-300": "#787a89",
+        "neutral-400": "#4f5265",
+        "neutral-500": "#292d43",
+        "neutral-600": "#222536",
+        "neutral-700": "#1c1e2a",
+        "neutral-800": "#15161e",
+        "neutral-900": "#0d0d13",
+        "neutral-950": "#06070a",
+        "primary-50": "#f1ece8",
+        "primary-100": "#e3d9d2",
+        "primary-200": "#c7b5a6",
+        "primary-300": "#aa927c",
+        "primary-400": "#8e7054",
+        "primary-500": "#71502f",
+        "primary-600": "#5a4027",
+        "primary-700": "#44311f",
+        "primary-800": "#2f2317",
+        "primary-900": "#1c150e",
+        "primary-950": "#110c07",
+        "secondary-50": "#efecf2",
+        "secondary-100": "#ded9e6",
+        "secondary-200": "#bfb4cd",
+        "secondary-300": "#9f91b5",
+        "secondary-400": "#806f9d",
+        "secondary-500": "#624e85",
+        "secondary-600": "#4e3f69",
+        "secondary-700": "#3c304e",
+        "secondary-800": "#2a2235",
+        "secondary-900": "#19151e",
+        "secondary-950": "#0f0c12",
+        "candidate-ink": "#ede8de",
+        "candidate-muted": "#b5b6c3",
+        "candidate-accent-text": "#e2bd82",
+        "candidate-secondary-text": "#c6b4e1",
+        "candidate-focus": "#e2bd82",
+        "candidate-control-boundary": "#707484",
+        "button-ink": "#1c2030",
+        "candidate-primary-hover-fill": "#e5c28c",
+        "candidate-primary-hover-ink": "#1c2030",
+        "candidate-link-hover": "#e5c28c"
+      },
+      "roles": {
+        "paper": "anchor-paper",
+        "ink": "candidate-ink",
+        "muted": "candidate-muted",
+        "panel": "anchor-panel",
+        "line": "anchor-line",
+        "accent": "anchor-accent",
+        "secondary": "anchor-secondary",
+        "code": "anchor-code",
+        "accent-text": "candidate-accent-text",
+        "secondary-text": "candidate-secondary-text",
+        "focus": "candidate-focus",
+        "control-boundary": "candidate-control-boundary",
+        "primary-fill": "anchor-accent",
+        "button-ink": "button-ink",
+        "secondary-action": "candidate-ink",
+        "primary-hover-fill": "candidate-primary-hover-fill",
+        "primary-hover-ink": "candidate-primary-hover-ink",
+        "link-hover": "candidate-link-hover",
+        "decorative-line": "anchor-line",
+        "code-ink": "candidate-ink",
+        "selected-fill": "anchor-accent",
+        "selected-ink": "button-ink",
+        "disabled-fill": "anchor-panel",
+        "disabled-ink": "candidate-muted"
+      },
+      "states": {
+        "success": {
+          "fill": "#153b31",
+          "ink": "#b8e6d3",
+          "boundary": "#5e8678",
+          "provenance": "reading-source-repaired"
+        },
+        "warning": {
+          "fill": "#3d3017",
+          "ink": "#f3d798",
+          "boundary": "#aa8648",
+          "provenance": "reading-source-repaired"
+        },
+        "danger": {
+          "fill": "#3d2424",
+          "ink": "#f1beb7",
+          "boundary": "#a67570",
+          "provenance": "reading-source-repaired"
+        },
+        "info": {
+          "fill": "#1d3043",
+          "ink": "#b9d9f3",
+          "boundary": "#7399b9",
+          "provenance": "new-candidate"
+        }
+      }
+    }
+  },
+  "typography": {
+    "fonts": {
+      "body": "\"Source Serif 4\", Georgia, serif",
+      "heading": "\"Source Serif 4\", Georgia, serif",
+      "ui": "\"DM Sans\",system-ui,sans-serif",
+      "display": "\"Source Serif 4\", Georgia, serif",
+      "code": "\"IBM Plex Mono\", ui-monospace, monospace"
+    },
+    "availableWeights": {
+      "body": [
+        400,
+        600
+      ],
+      "heading": [
+        400,
+        600
+      ],
+      "ui": [
+        400,
+        500,
+        600,
+        700
+      ],
+      "display": [
+        400,
+        600
+      ],
+      "code": [
+        400,
+        500
+      ]
+    },
+    "weightAvailability": "Bundled normal-face weights from fresh upstream src/fonts.css; system/Georgia/Consolas availability is platform-dependent. Never synthesize missing faces.",
+    "scale": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      24,
+      30,
+      36,
+      48,
+      60,
+      72
+    ],
+    "lineHeights": {
+      "display": 1.1,
+      "heading": 1.2,
+      "presentation": 1.35,
+      "ui": 1.5,
+      "code": 1.5,
+      "reading": 1.6
+    },
+    "profiles": {
+      "reading": {
+        "body": 20,
+        "ui": 16,
+        "metadata": 14,
+        "heading": 30,
+        "title": 36,
+        "display": 48,
+        "code": 16,
+        "label": 16
+      },
+      "presentation": {
+        "body": 30,
+        "ui": 24,
+        "metadata": 24,
+        "heading": 36,
+        "title": 48,
+        "code": 30,
+        "label": 24
+      }
+    }
+  },
+  "spacing": {
+    "scale": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48,
+      64,
+      96,
+      128
+    ],
+    "profiles": {
+      "reading": {
+        "outer": 24,
+        "narrowOuter": 16,
+        "paragraph": 16,
+        "group": 48,
+        "withinGroup": 16,
+        "columns": 32,
+        "panel": 24
+      },
+      "presentation": {
+        "outer": 64,
+        "paragraph": 24,
+        "group": 48,
+        "withinGroup": 16,
+        "columns": 48,
+        "panel": 32
+      }
+    }
+  },
+  "shape": {
+    "radius": 4,
+    "restingShadow": "none",
+    "grouping": "space-first"
+  },
+  "semantics": {
+    "selected": "Paired primary fill/ink plus aria-selected/current and non-color cue.",
+    "disabled": "Opaque panel/muted ink plus native disabled or aria-disabled behavior; do not fade via opacity.",
+    "error": "states.danger plus words, icon and programmatic association; brand is not validation.",
+    "decorativeLine": "Decoration only; control-boundary is meaningful boundary.",
+    "info": "New candidate state.",
+    "fontUnits": "Pixel reference at 16px root; emit reading rem and honor zoom.",
+    "primaryHover": "Primary hue family blend with separately tested ink."
+  }
+}

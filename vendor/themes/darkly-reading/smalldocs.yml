@@ -1,1 +1,3 @@
-css: darkly-reading.css
+css:
+  light: darkly-reading-light.css
+  dark: darkly-reading-dark.css

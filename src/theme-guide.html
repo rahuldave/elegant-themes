@@ -30,15 +30,20 @@
       <p><strong>Title labels are optional.</strong> Current Folio, Atelier, and Nocturne styles leave the title text to your page. The recipes below restore the small labels from the earlier designs.</p>
       <p>The fixed <code>v0.2.0</code> release and the preserved original snapshots still include those labels. To get the cleanup, install the current default branch with the commands below. Add <code>--force</code> when replacing an installed copy.</p>
     </div>
-    <p>The assessments record the reading refinement before this label cleanup. Their measurements, scores, and original snapshots remain available as review evidence.</p>
+    <p>The assessments were rerun on 10 November 2026 using the nine verified foundation revisions. The unchanged October reports and measurements are in the <a href="history/2026-10-16/">review archive</a>. The same two rubrics are retained.</p>
     <nav class="contents" aria-label="Themes and configuration">
       <a href="#folio">Folio</a><a href="#atelier">Atelier</a><a href="#nocturne">Nocturne</a>
       <a href="#zephyr-reading">Zephyr Reading</a><a href="#simplex-reading">Simplex Reading</a>
       <a href="#pulse-reading">Pulse Reading</a><a href="#litera-reading">Litera Reading</a><a href="#darkly-reading">Darkly Reading</a>
       <a href="#tufte">Tufte</a><a href="#bootstrap">Bootstrap</a><a href="#bootswatch">Stock Bootswatch</a>
-      <a href="#custom-css">Your own stylesheet</a><a href="#pairing">Pair light and dark themes</a>
+      <a href="#foundations">Foundations and density</a><a href="#custom-css">Your own stylesheet</a><a href="#pairing">Pair light and dark themes</a>
     </nav>
 
+<section id="foundations"><h2>Use the foundation contract</h2><p>The authoritative file is <code>src/foundations.json</code> in each theme source. An identical <code>foundations.json</code> ships in its installed extension. It defines named swatches, semantic color roles, paired modes, available font weights, typography profiles, spacing, and shape. Edit the source and rebuild when developing a theme; do not edit generated CSS or compatibility aliases by hand.</p><p>The reference root is 16px. Sizes emit rem units and follow browser text preferences. Reading titles are 36px, sections 30px, and the optional display role is 48px. Code and controls use their own roles. The presentation profile is a separate downstream contract; it does not scale the document navigation.</p><div class="table-wrap"><table><caption>Audited reading sizes: prose / interface / metadata / code</caption><thead><tr><th>Theme</th><th>Reference sizes</th><th>Exact source revision</th></tr></thead><tbody><tr><th>folio</th><td>20 / 16 / 14 / 16px</td><td><a href="https://github.com/rahuldave/smalldocs-folio/commit/e33e059ff40fd49aad28a8b7449cf77449e66898"><code>e33e059ff40f</code></a></td></tr><tr><th>atelier</th><td>18 / 16 / 14 / 16px</td><td><a href="https://github.com/rahuldave/smalldocs-atelier/commit/b285e162eed9521114745e34ce3b3d3af5474177"><code>b285e162eed9</code></a></td></tr><tr><th>nocturne</th><td>20 / 16 / 14 / 16px</td><td><a href="https://github.com/rahuldave/smalldocs-nocturne/commit/061dce7006116f5e86e666baa3f40b6e70029303"><code>061dce700611</code></a></td></tr><tr><th>tufte</th><td>20 / 16 / 14 / 16px</td><td><a href="https://github.com/rahuldave/smalldocs-tufte/commit/70a75da3a3dbc5e87f404fc350723799beca38b5"><code>70a75da3a3db</code></a></td></tr><tr><th>zephyr-reading</th><td>18 / 16 / 14 / 16px</td><td><a href="https://github.com/rahuldave/smalldocs-zephyr-reading/commit/f809045ba0dd3420c1cfda74a9046f4d7b85b79c"><code>f809045ba0dd</code></a></td></tr><tr><th>simplex-reading</th><td>18 / 16 / 14 / 16px</td><td><a href="https://github.com/rahuldave/smalldocs-simplex-reading/commit/4d2b2560a51708c470c28e62a4578074651bace6"><code>4d2b2560a517</code></a></td></tr><tr><th>pulse-reading</th><td>18 / 16 / 14 / 16px</td><td><a href="https://github.com/rahuldave/smalldocs-pulse-reading/commit/e02631d0efe6da4fb8bb36095c0c2f0b0a468146"><code>e02631d0efe6</code></a></td></tr><tr><th>litera-reading</th><td>20 / 16 / 14 / 16px</td><td><a href="https://github.com/rahuldave/smalldocs-litera-reading/commit/714bb3cf198ef1d4be7fe0f954061e5352d8a407"><code>714bb3cf198e</code></a></td></tr><tr><th>darkly-reading</th><td>18 / 16 / 14 / 16px</td><td><a href="https://github.com/rahuldave/smalldocs-darkly-reading/commit/5a3024001d402ce854b26e1e69b17dea7f1fe4d9"><code>5a3024001d40</code></a></td></tr></tbody></table></div><h3>Reading density is a local choice</h3><p>The current 1.60 prose leading is more open than Butterick's 1.20–1.45 preferred range. The fixed scorecard records that deduction. If your document reads better with tighter prose, put this optional override in your own stylesheet and inspect both modes:</p><pre><code>html:root, html.quarto-dark:root {
+  --f-line-reading: 1.45;  /* Folio, Atelier, Nocturne */
+  --r-line-reading: 1.45;  /* Reading themes */
+  --tf-line-reading: 1.45; /* Tufte */
+}</code></pre><p>This changes reading leading, not code or control sizes. It is a site-specific variation from the audited defaults; rerun your review after applying it.</p><h3>Check the rendered component</h3><p>The palette contracts reserve 5:1 for ordinary text, 4.5:1 for action ink, and 3:1 for meaningful boundaries. They do not override every possible Bootstrap selector. The fresh review flags Pulse Reading's dark secondary action, Litera Reading's selected navigation pill, and a Darkly Reading light syntax color. <a href="visual-design-report.html#foundations">Read the exact findings before adopting those components.</a> Use state words and icons, native disabled behavior, <code>aria-current</code> or <code>aria-selected</code>, and associated error text as appropriate. Color alone does not supply those semantics.</p><h3>Quarto formats</h3><p>Install with <code>quarto add rahuldave/smalldocs-NAME</code> and choose <code>format: NAME-html</code>, replacing NAME with the theme ID. Reading overlays compile with Quarto's native Bootswatch base and separate font resources. They do not inject the complete SmallDocs Bootstrap bundle into Quarto. Source repositories include fresh consumer fixtures and build instructions.</p></section>
     <section id="custom-css" aria-labelledby="custom-css-title">
       <h2 id="custom-css-title">Your own stylesheet</h2>
       <p>Keep custom rules in a file named <code>styles.css</code> in your site folder. SmallDocs loads that file after the theme. Theme updates can then replace <code>_extensions/</code> without replacing your rules.</p>
@@ -62,11 +67,11 @@ smalldocs:
 
     <section id="folio" aria-labelledby="folio-title">
       <h2 id="folio-title">Folio</h2>
-      <p>Cream paper and forest green in light mode; deep green and warm pale text in dark mode. Libre Caslon Display sets the headings, Source Serif 4 sets the prose, and DM Sans sets navigation. Code uses IBM Plex Mono.</p>
+      <p>Cream paper and forest green in light mode; deep green and warm pale text in dark mode. Source Serif 4 sets prose and ordinary headings. Libre Caslon Display is an optional 48px display role; DM Sans sets navigation. Code uses IBM Plex Mono.</p>
       <p class="theme-meta">Configuration: <code>folio</code>. Light and dark modes. SmallDocs and Quarto. Fonts are bundled locally.</p>
       <pre><code>smalldocs add rahuldave/smalldocs-folio</code></pre>
       <pre><code>theme: folio</code></pre>
-      <p>The reading refinement uses a 640px prose column and 1.45 line spacing. Folio keeps a fine rule beneath the title block.</p>
+      <p>The reading refinement uses a 640px prose column and 1.60 line spacing, with 16px code. Folio keeps a fine rule beneath the title block.</p>
       <nav aria-label="Folio links"><a href="previews/folio/index.html">Preview</a><a href="https://rahuldave.com/smalldocs-folio/">Example site</a><a href="https://github.com/rahuldave/smalldocs-folio">Source and builds</a></nav>
       <details><summary>Restore the optional “Field notes” label</summary>
         <p>Add this rule to <code>styles.css</code> after <a href="#custom-css">connecting your stylesheet</a>. It uses Folio’s secondary color in each mode.</p>
@@ -87,7 +92,7 @@ smalldocs:
       <p class="theme-meta">Configuration: <code>atelier</code>. Light and dark modes. SmallDocs and Quarto. Fonts are bundled locally.</p>
       <pre><code>smalldocs add rahuldave/smalldocs-atelier</code></pre>
       <pre><code>theme: atelier</code></pre>
-      <p>The reading refinement uses a 640px prose column and 1.45 line spacing. A fine vertical rule marks the reading column on larger screens. Code blocks have a teal edge.</p>
+      <p>The reading refinement uses a 640px prose column and 1.60 line spacing, with 16px code. A fine vertical rule marks the reading column on larger screens. Code blocks have a teal edge.</p>
       <nav aria-label="Atelier links"><a href="previews/atelier/index.html">Preview</a><a href="https://rahuldave.com/smalldocs-atelier/">Example site</a><a href="https://github.com/rahuldave/smalldocs-atelier">Source and builds</a></nav>
       <details><summary>Restore the optional “Studio notes” label</summary>
         <p>Add this rule to <code>styles.css</code> after <a href="#custom-css">connecting your stylesheet</a>. It uses Atelier’s accent color in each mode.</p>
@@ -108,7 +113,7 @@ smalldocs:
       <p class="theme-meta">Configuration: <code>nocturne</code>. Light and dark modes. SmallDocs and Quarto. Fonts are bundled locally.</p>
       <pre><code>smalldocs add rahuldave/smalldocs-nocturne</code></pre>
       <pre><code>theme: nocturne</code></pre>
-      <p>The reading refinement uses a 640px prose column and 1.45 line spacing. The short accent rule below the title remains part of the design.</p>
+      <p>The reading refinement uses a 640px prose column and 1.60 line spacing, with 16px code. The short accent rule below the title remains part of the design.</p>
       <nav aria-label="Nocturne links"><a href="previews/nocturne/index.html">Preview</a><a href="https://rahuldave.com/smalldocs-nocturne/">Example site</a><a href="https://github.com/rahuldave/smalldocs-nocturne">Source and builds</a></nav>
       <details><summary>Restore the optional notebook label</summary>
         <p>Add this rule to <code>styles.css</code> after <a href="#custom-css">connecting your stylesheet</a>. The volume number is text you choose; the theme does not count pages.</p>
@@ -125,17 +130,17 @@ smalldocs:
 
     <section id="reading-themes" aria-labelledby="reading-title">
       <h2 id="reading-title">The Reading themes</h2>
-      <p>Each Reading extension keeps one native Bootswatch palette. The shared refinement gives prose a 640px column, 1.45 line spacing, smaller headings, and bundled IBM Plex Mono for code. The control colors follow the theme palette.</p>
-      <p>Install an extension with its repository name, then set the shorter name in <code>theme:</code>. These extensions support SmallDocs. Folio, Atelier, Nocturne, and Tufte also include Quarto formats.</p>
+      <p>Each Reading extension now includes an explicit light and dark pair. The native palette keeps its Bootswatch anchors; the companion is our authored adaptation. Prose has a 640px measure and 1.60 leading. Code uses local IBM Plex Mono at 16px. State colors have their own roles; a brand accent is not automatically an error color.</p>
+      <p>Install an extension with its repository name, then set the shorter name in <code>theme:</code>. All nine owned themes support SmallDocs and Quarto. Their manifests define reading and presentation profiles. The document styles use the reading profile.</p>
       <div class="table-wrap"><table>
         <caption>Separate extensions; the bundled Bootswatch themes stay unchanged.</caption>
         <thead><tr><th scope="col">Theme</th><th scope="col">Palette and prose font</th><th scope="col">Links</th></tr></thead>
         <tbody>
-          <tr id="zephyr-reading"><th scope="row">Zephyr Reading<br><code>zephyr-reading</code></th><td>Light; Inter. White surfaces, blue accents, and soft shadows.</td><td><a href="previews/zephyr-reading/index.html">Preview</a> / <a href="https://github.com/rahuldave/smalldocs-zephyr-reading">Source</a></td></tr>
-          <tr id="simplex-reading"><th scope="row">Simplex Reading<br><code>simplex-reading</code></th><td>Light; Open Sans. Near-white paper and restrained red accents.</td><td><a href="previews/simplex-reading/index.html">Preview</a> / <a href="https://github.com/rahuldave/smalldocs-simplex-reading">Source</a></td></tr>
-          <tr id="pulse-reading"><th scope="row">Pulse Reading<br><code>pulse-reading</code></th><td>Light; system sans. White paper and purple accents.</td><td><a href="previews/pulse-reading/index.html">Preview</a> / <a href="https://github.com/rahuldave/smalldocs-pulse-reading">Source</a></td></tr>
-          <tr id="litera-reading"><th scope="row">Litera Reading<br><code>litera-reading</code></th><td>Light; Georgia. Paragraphs and lists share the serif type, with blue accents.</td><td><a href="previews/litera-reading/index.html">Preview</a> / <a href="https://github.com/rahuldave/smalldocs-litera-reading">Source</a></td></tr>
-          <tr id="darkly-reading"><th scope="row">Darkly Reading<br><code>darkly-reading</code></th><td>Dark; Lato. Charcoal surfaces and pale blue links.</td><td><a href="previews/darkly-reading/index.html">Preview</a> / <a href="https://github.com/rahuldave/smalldocs-darkly-reading">Source</a></td></tr>
+          <tr id="zephyr-reading"><th scope="row">Zephyr Reading<br><code>zephyr-reading</code></th><td>Light + dark; 18px Inter. White surfaces, blue accents, and soft shadows.</td><td><a href="previews/zephyr-reading/index.html">Preview</a> / <a href="https://github.com/rahuldave/smalldocs-zephyr-reading">Source</a></td></tr>
+          <tr id="simplex-reading"><th scope="row">Simplex Reading<br><code>simplex-reading</code></th><td>Light + dark; 18px Open Sans. Near-white paper and restrained red accents.</td><td><a href="previews/simplex-reading/index.html">Preview</a> / <a href="https://github.com/rahuldave/smalldocs-simplex-reading">Source</a></td></tr>
+          <tr id="pulse-reading"><th scope="row">Pulse Reading<br><code>pulse-reading</code></th><td>Light + dark; 18px system sans. White paper and purple accents.</td><td><a href="previews/pulse-reading/index.html">Preview</a> / <a href="https://github.com/rahuldave/smalldocs-pulse-reading">Source</a></td></tr>
+          <tr id="litera-reading"><th scope="row">Litera Reading<br><code>litera-reading</code></th><td>Light + dark; 20px Georgia. Paragraphs and lists share the serif type, with blue accents.</td><td><a href="previews/litera-reading/index.html">Preview</a> / <a href="https://github.com/rahuldave/smalldocs-litera-reading">Source</a></td></tr>
+          <tr id="darkly-reading"><th scope="row">Darkly Reading<br><code>darkly-reading</code></th><td>Dark + light; 18px Lato. Charcoal surfaces and pale blue links.</td><td><a href="previews/darkly-reading/index.html">Preview</a> / <a href="https://github.com/rahuldave/smalldocs-darkly-reading">Source</a></td></tr>
         </tbody>
       </table></div>
       <p>For example, install Litera Reading:</p>
@@ -146,8 +151,8 @@ smalldocs:
 
     <section id="pairing" aria-labelledby="pairing-title">
       <h2 id="pairing-title">Pair light and dark themes</h2>
-      <p>Folio, Atelier, Nocturne, and Tufte include both modes under one configuration name. SmallDocs shows a mode toggle on a site with a navbar or sidebar.</p>
-      <p>For a Reading pair, install a light extension and Darkly Reading:</p>
+      <p>All nine owned themes include both modes under one configuration name. SmallDocs shows a mode toggle on a site with a navbar or sidebar.</p>
+      <p>For Litera Reading alone, use <code>theme: litera-reading</code> to get its complete pair. You can still choose different families for each mode. For example, install Litera Reading and Darkly Reading:</p>
       <pre><code>smalldocs add rahuldave/smalldocs-litera-reading
 smalldocs add rahuldave/smalldocs-darkly-reading</code></pre>
       <pre><code>theme:
