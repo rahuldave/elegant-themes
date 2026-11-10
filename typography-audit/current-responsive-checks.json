@@ -1,0 +1,65 @@
+[
+  {
+    "heading": "How well do the themes read?",
+    "pageWidth": 390,
+    "url": "/typography-report.html",
+    "width": 390,
+    "comparisonRows": 10
+  },
+  {
+    "heading": "Which themes form a convincing design?",
+    "pageWidth": 390,
+    "url": "/visual-design-report.html",
+    "width": 390
+  },
+  {
+    "heading": "A practical guide to reading typography",
+    "pageWidth": 390,
+    "url": "/typography-guide.html",
+    "width": 390
+  },
+  {
+    "heading": "A practical guide to visual structure",
+    "pageWidth": 390,
+    "url": "/ui-design-guide.html",
+    "width": 390
+  },
+  {
+    "heading": "Theme handbook",
+    "pageWidth": 390,
+    "url": "/theme-guide.html",
+    "width": 390
+  },
+  {
+    "heading": "Use the current themes.",
+    "pageWidth": 390,
+    "url": "/using-themes.html",
+    "width": 390
+  },
+  {
+    "columns": "718px",
+    "pageWidth": 768,
+    "url": "/",
+    "width": 768
+  },
+  {
+    "pageWidth": 768,
+    "url": "/typography-report.html",
+    "width": 768
+  },
+  {
+    "pageWidth": 768,
+    "url": "/visual-design-report.html",
+    "width": 768
+  },
+  {
+    "pageWidth": 768,
+    "url": "/theme-guide.html",
+    "width": 768
+  },
+  {
+    "pageWidth": 768,
+    "url": "/using-themes.html",
+    "width": 768
+  }
+]

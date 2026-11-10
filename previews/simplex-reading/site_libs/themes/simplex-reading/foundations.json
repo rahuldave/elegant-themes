@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "theme": "simplex-reading",
+  "nativeMode": "light",
+  "provenance": {
+    "source": "research/theme-audit/results/foundations.json",
+    "status": "approved-candidate",
+    "validation": "Opaque sRGB pairs only; browser behavior and projection require upstream QA."
+  },
+  "modes": {
+    "light": {
+      "swatches": {
+        "anchor-paper": "#fcfcfc",
+        "anchor-ink": "#212529",
+        "anchor-muted": "#5f625d",
+        "anchor-panel": "#f4f3f0",
+        "anchor-line": "#c8c8c2",
+        "anchor-accent": "#b81d0e",
+        "anchor-secondary": "#b81d0e",
+        "anchor-code": "#f4f3f0",
+        "neutral-50": "#e6e6e7",
+        "neutral-100": "#cdced0",
+        "neutral-200": "#9ea0a2",
+        "neutral-300": "#717477",
+        "neutral-400": "#474b4e",
+        "neutral-500": "#212529",
+        "neutral-600": "#1c1f22",
+        "neutral-700": "#17191b",
+        "neutral-800": "#111315",
+        "neutral-900": "#090b0c",
+        "neutral-950": "#050506",
+        "primary-50": "#fdeae5",
+        "primary-100": "#fad4cb",
+        "primary-200": "#f0aa99",
+        "primary-300": "#e18069",
+        "primary-400": "#cf553c",
+        "primary-500": "#b81d0e",
+        "primary-600": "#911e0f",
+        "primary-700": "#6d1b0e",
+        "primary-800": "#4a170b",
+        "primary-900": "#291106",
+        "primary-950": "#1b0903",
+        "candidate-ink": "#212529",
+        "candidate-muted": "#5f625d",
+        "candidate-accent-text": "#b81d0e",
+        "candidate-secondary-text": "#5f625d",
+        "candidate-focus": "#b81d0e",
+        "candidate-control-boundary": "#8d8d89",
+        "button-ink": "#ffffff",
+        "candidate-primary-hover-fill": "#a81e0e",
+        "candidate-primary-hover-ink": "#ffffff",
+        "candidate-link-hover": "#a81e0e"
+      },
+      "roles": {
+        "paper": "anchor-paper",
+        "ink": "candidate-ink",
+        "muted": "candidate-muted",
+        "panel": "anchor-panel",
+        "line": "anchor-line",
+        "accent": "anchor-accent",
+        "secondary": "anchor-secondary",
+        "code": "anchor-code",
+        "accent-text": "candidate-accent-text",
+        "secondary-text": "candidate-secondary-text",
+        "focus": "candidate-focus",
+        "control-boundary": "candidate-control-boundary",
+        "primary-fill": "anchor-accent",
+        "button-ink": "button-ink",
+        "secondary-action": "candidate-ink",
+        "primary-hover-fill": "candidate-primary-hover-fill",
+        "primary-hover-ink": "candidate-primary-hover-ink",
+        "link-hover": "candidate-link-hover",
+        "decorative-line": "anchor-line",
+        "code-ink": "candidate-ink",
+        "selected-fill": "anchor-accent",
+        "selected-ink": "button-ink",
+        "disabled-fill": "anchor-panel",
+        "disabled-ink": "candidate-muted"
+      },
+      "states": {
+        "success": {
+          "fill": "#e6f1e8",
+          "ink": "#204b32",
+          "boundary": "#73907c",
+          "provenance": "reading-source-repaired"
+        },
+        "warning": {
+          "fill": "#fbf1dc",
+          "ink": "#604414",
+          "boundary": "#a0895a",
+          "provenance": "reading-source-repaired"
+        },
+        "danger": {
+          "fill": "#f9e9e5",
+          "ink": "#803c32",
+          "boundary": "#a97e74",
+          "provenance": "reading-source-repaired"
+        },
+        "info": {
+          "fill": "#e7eff8",
+          "ink": "#245c86",
+          "boundary": "#708ca5",
+          "provenance": "new-candidate"
+        }
+      }
+    },
+    "dark": {
+      "swatches": {
+        "anchor-paper": "#231b20",
+        "anchor-ink": "#e8edf2",
+        "anchor-muted": "#c1c3c8",
+        "anchor-panel": "#2f282d",
+        "anchor-line": "#565257",
+        "anchor-accent": "#d16c62",
+        "anchor-secondary": "#d16c62",
+        "anchor-code": "#2f282d",
+        "neutral-50": "#e6e6e7",
+        "neutral-100": "#cdced0",
+        "neutral-200": "#9ea0a2",
+        "neutral-300": "#717477",
+        "neutral-400": "#474b4e",
+        "neutral-500": "#212529",
+        "neutral-600": "#1c1f22",
+        "neutral-700": "#17191b",
+        "neutral-800": "#111315",
+        "neutral-900": "#090b0c",
+        "neutral-950": "#050506",
+        "primary-50": "#fdeae5",
+        "primary-100": "#fad4cb",
+        "primary-200": "#f0aa99",
+        "primary-300": "#e18069",
+        "primary-400": "#cf553c",
+        "primary-500": "#b81d0e",
+        "primary-600": "#911e0f",
+        "primary-700": "#6d1b0e",
+        "primary-800": "#4a170b",
+        "primary-900": "#291106",
+        "primary-950": "#1b0903",
+        "candidate-ink": "#e8edf2",
+        "candidate-muted": "#c1c3c8",
+        "candidate-accent-text": "#da8075",
+        "candidate-secondary-text": "#c1c3c8",
+        "candidate-focus": "#d16c62",
+        "candidate-control-boundary": "#757276",
+        "button-ink": "#231b20",
+        "candidate-primary-hover-fill": "#d6786e",
+        "candidate-primary-hover-ink": "#231b20",
+        "candidate-link-hover": "#de8a7f"
+      },
+      "roles": {
+        "paper": "anchor-paper",
+        "ink": "candidate-ink",
+        "muted": "candidate-muted",
+        "panel": "anchor-panel",
+        "line": "anchor-line",
+        "accent": "anchor-accent",
+        "secondary": "anchor-secondary",
+        "code": "anchor-code",
+        "accent-text": "candidate-accent-text",
+        "secondary-text": "candidate-secondary-text",
+        "focus": "candidate-focus",
+        "control-boundary": "candidate-control-boundary",
+        "primary-fill": "anchor-accent",
+        "button-ink": "button-ink",
+        "secondary-action": "candidate-ink",
+        "primary-hover-fill": "candidate-primary-hover-fill",
+        "primary-hover-ink": "candidate-primary-hover-ink",
+        "link-hover": "candidate-link-hover",
+        "decorative-line": "anchor-line",
+        "code-ink": "candidate-ink",
+        "selected-fill": "anchor-accent",
+        "selected-ink": "button-ink",
+        "disabled-fill": "anchor-panel",
+        "disabled-ink": "candidate-muted"
+      },
+      "states": {
+        "success": {
+          "fill": "#153b31",
+          "ink": "#b8e6d3",
+          "boundary": "#5e8678",
+          "provenance": "reading-source-repaired"
+        },
+        "warning": {
+          "fill": "#3d3017",
+          "ink": "#f3d798",
+          "boundary": "#aa8648",
+          "provenance": "reading-source-repaired"
+        },
+        "danger": {
+          "fill": "#3d2424",
+          "ink": "#f1beb7",
+          "boundary": "#a67570",
+          "provenance": "reading-source-repaired"
+        },
+        "info": {
+          "fill": "#1d3043",
+          "ink": "#b9d9f3",
+          "boundary": "#7399b9",
+          "provenance": "new-candidate"
+        }
+      }
+    }
+  },
+  "typography": {
+    "fonts": {
+      "body": "\"Open Sans\", system-ui, sans-serif",
+      "heading": "\"Open Sans\", system-ui, sans-serif",
+      "ui": "\"Open Sans\", system-ui, sans-serif",
+      "display": "\"Open Sans\", system-ui, sans-serif",
+      "code": "\"IBM Plex Mono\", ui-monospace, monospace"
+    },
+    "availableWeights": {
+      "body": [
+        400,
+        600,
+        700
+      ],
+      "heading": [
+        400,
+        600,
+        700
+      ],
+      "ui": [
+        400,
+        600,
+        700
+      ],
+      "display": [
+        400,
+        600,
+        700
+      ],
+      "code": [
+        400,
+        500
+      ]
+    },
+    "weightAvailability": "Bundled normal-face weights from fresh upstream src/fonts.css; system/Georgia/Consolas availability is platform-dependent. Never synthesize missing faces.",
+    "scale": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      24,
+      30,
+      36,
+      48,
+      60,
+      72
+    ],
+    "lineHeights": {
+      "display": 1.1,
+      "heading": 1.2,
+      "presentation": 1.35,
+      "ui": 1.5,
+      "code": 1.5,
+      "reading": 1.6
+    },
+    "profiles": {
+      "reading": {
+        "body": 18,
+        "ui": 16,
+        "metadata": 14,
+        "heading": 30,
+        "title": 36,
+        "display": 48,
+        "code": 16,
+        "label": 16
+      },
+      "presentation": {
+        "body": 30,
+        "ui": 24,
+        "metadata": 24,
+        "heading": 36,
+        "title": 48,
+        "code": 30,
+        "label": 24
+      }
+    }
+  },
+  "spacing": {
+    "scale": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48,
+      64,
+      96,
+      128
+    ],
+    "profiles": {
+      "reading": {
+        "outer": 24,
+        "narrowOuter": 16,
+        "paragraph": 16,
+        "group": 48,
+        "withinGroup": 16,
+        "columns": 32,
+        "panel": 24
+      },
+      "presentation": {
+        "outer": 64,
+        "paragraph": 24,
+        "group": 48,
+        "withinGroup": 16,
+        "columns": 48,
+        "panel": 32
+      }
+    }
+  },
+  "shape": {
+    "radius": 2,
+    "restingShadow": "none",
+    "grouping": "space-first"
+  },
+  "semantics": {
+    "selected": "Paired primary fill/ink plus aria-selected/current and non-color cue.",
+    "disabled": "Opaque panel/muted ink plus native disabled or aria-disabled behavior; do not fade via opacity.",
+    "error": "states.danger plus words, icon and programmatic association; brand is not validation.",
+    "decorativeLine": "Decoration only; control-boundary is meaningful boundary.",
+    "info": "New candidate state.",
+    "fontUnits": "Pixel reference at 16px root; emit reading rem and honor zoom.",
+    "primaryHover": "Primary hue family blend with separately tested ink."
+  }
+}

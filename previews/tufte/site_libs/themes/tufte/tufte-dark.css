@@ -21,208 +21,272 @@
 @font-face { font-family: "et-book"; src: url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"); font-weight: normal; font-style: italic; font-display: swap; }
 @font-face { font-family: "et-book"; src: url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"); font-weight: bold; font-style: normal; font-display: swap; }
 @font-face { font-family: "et-book-roman-old-style"; src: url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"); font-weight: normal; font-style: normal; font-display: swap; }
-
-/* ---------------------------------------------------------------- Tufte: the dark colours, as Tufte CSS's dark mode */
-
 :root, [data-bs-theme=light], [data-bs-theme=dark] {
   color-scheme: dark;
-  --bs-body-bg: #151515; --bs-body-bg-rgb: 21, 21, 21;
-  --bs-body-color: #ddd; --bs-body-color-rgb: 221, 221, 221;
-  --bs-emphasis-color: #fff; --bs-emphasis-color-rgb: 255, 255, 255;
-  --bs-heading-color: #ddd;
-  --bs-secondary-color: rgba(221, 221, 221, .62); --bs-secondary-color-rgb: 221, 221, 221;
-  --bs-tertiary-color: rgba(221, 221, 221, .45);
-  --bs-secondary-bg: #262624; --bs-secondary-bg-rgb: 38, 38, 36;
-  --bs-tertiary-bg: #1d1d1c; --bs-tertiary-bg-rgb: 29, 29, 28;
-  --bs-border-color: #3a3a37; --bs-border-color-translucent: rgba(221, 221, 221, .15);
-  --bs-link-color: #ddd; --bs-link-color-rgb: 221, 221, 221;
-  --bs-link-hover-color: #e8b4a0; --bs-link-hover-color-rgb: 232, 180, 160;
-  --bs-code-color: #ddd;
-  --bs-primary: #ddd; --bs-primary-rgb: 221, 221, 221;
-  --bs-highlight-bg: #4a4024; --bs-highlight-color: #eee;
-  --bs-primary-bg-subtle: #262624; --bs-primary-border-subtle: #3a3a37; --bs-primary-text-emphasis: #ddd;
-  --bs-focus-ring-color: rgba(221, 221, 221, .2);
-  --bs-form-control-bg: #1d1d1c;
-  --tufte-note: #8fb0d0; --tufte-tip: #93c093; --tufte-warning: #d8b65a; --tufte-important: #e08a8a; --tufte-caution: #d99a6c;
+  --tf-paper: #151515;
+  --tf-ink: #dddddd;
+  --tf-panel: #1d1d1c;
+  --tf-line: #3a3a37;
+  --tf-muted: #919191;
+  --tf-accent: #dddddd;
+  --tf-secondary: #7b838a;
+  --tf-code: #1d1d1c;
+  --tf-accent-text: #dddddd;
+  --tf-secondary-text: #919191;
+  --tf-focus: #dddddd;
+  --tf-control-boundary: #686865;
+  --tf-primary-fill: #dddddd;
+  --tf-button-ink: #151515;
+  --tf-secondary-action: #dddddd;
+  --tf-optional-highlight-fill: #233b4b;
+  --tf-optional-highlight-ink: #dddddd;
+  --tf-primary-hover-fill: #e0e0e0;
+  --tf-primary-hover-ink: #151515;
+  --tf-link-hover: #e0e0e0;
+  --tf-decorative-line: #3a3a37;
+  --tf-code-ink: #dddddd;
+  --tf-selected-fill: #dddddd;
+  --tf-selected-ink: #151515;
+  --tf-disabled-fill: #1d1d1c;
+  --tf-disabled-ink: #919191;
+  --bs-body-bg: #151515;
+  --bs-body-bg-rgb: 21, 21, 21;
+  --bs-body-color: #dddddd;
+  --bs-body-color-rgb: 221, 221, 221;
+  --bs-heading-color: #dddddd;
+  --bs-emphasis-color: #dddddd;
+  --bs-emphasis-color-rgb: 221, 221, 221;
+  --bs-secondary-color: #919191;
+  --bs-secondary-color-rgb: 145, 145, 145;
+  --bs-tertiary-color: #919191;
+  --bs-secondary-bg: #1d1d1c;
+  --bs-secondary-bg-rgb: 29, 29, 28;
+  --bs-tertiary-bg: #1d1d1c;
+  --bs-tertiary-bg-rgb: 29, 29, 28;
+  --bs-border-color: #686865;
+  --bs-border-color-translucent: #686865;
+  --bs-link-color: #dddddd;
+  --bs-link-color-rgb: 221, 221, 221;
+  --bs-link-hover-color: #e0e0e0;
+  --bs-link-hover-color-rgb: 224, 224, 224;
+  --bs-code-color: #dddddd;
+  --bs-primary: #dddddd;
+  --bs-primary-rgb: 221, 221, 221;
+  --bs-highlight-bg: #233b4b;
+  --bs-highlight-color: #dddddd;
+  --bs-primary-bg-subtle: #dddddd;
+  --bs-primary-text-emphasis: #151515;
+  --bs-primary-border-subtle: #686865;
+  --bs-focus-ring-color: #dddddd;
+  --tf-success-fill: #153b31;
+  --tf-success-ink: #b8e6d3;
+  --tf-success-boundary: #5e8678;
+  --tf-warning-fill: #3d3017;
+  --tf-warning-ink: #f3d798;
+  --tf-warning-boundary: #aa8648;
+  --tf-danger-fill: #3d2424;
+  --tf-danger-ink: #f1beb7;
+  --tf-danger-boundary: #a67570;
+  --tf-info-fill: #1d3043;
+  --tf-info-ink: #b9d9f3;
+  --tf-info-boundary: #7399b9;
+  --tf-check-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22m3%208%203%203%207-7%22%20fill%3D%22none%22%20stroke%3D%22%23151515%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E");
+  --tf-radio-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%228%22%20r%3D%224%22%20fill%3D%22%23151515%22%2F%3E%3C%2Fsvg%3E");
+  --sd-inline-code: #dddddd;
+  --sd-code-bg: #1d1d1c;
 }
-
-/* ---------------------------------------------------------------- Tufte: type, measure and rules, the same in both modes */
-/* smalldocs.css loads after this file, so a rule that must win over one of its rules starts with `html`. */
-
+:root {
+  --tf-size-body: 1.25rem;
+  --tf-size-ui: 1rem;
+  --tf-size-metadata: 0.875rem;
+  --tf-size-heading: 1.875rem;
+  --tf-size-title: 2.25rem;
+  --tf-size-display: 3rem;
+  --tf-size-code: 1rem;
+  --tf-size-label: 1rem;
+  --tf-type-12: 0.75rem;
+  --tf-type-14: 0.875rem;
+  --tf-type-16: 1rem;
+  --tf-type-18: 1.125rem;
+  --tf-type-20: 1.25rem;
+  --tf-type-24: 1.5rem;
+  --tf-type-30: 1.875rem;
+  --tf-type-36: 2.25rem;
+  --tf-type-48: 3rem;
+  --tf-type-60: 3.75rem;
+  --tf-type-72: 4.5rem;
+  --tf-space-0: 0rem;
+  --tf-space-4: 0.25rem;
+  --tf-space-8: 0.5rem;
+  --tf-space-12: 0.75rem;
+  --tf-space-16: 1rem;
+  --tf-space-24: 1.5rem;
+  --tf-space-32: 2rem;
+  --tf-space-48: 3rem;
+  --tf-space-64: 4rem;
+  --tf-space-96: 6rem;
+  --tf-space-128: 8rem;
+  --tf-gap-outer: 1.5rem;
+  --tf-gap-narrowOuter: 1rem;
+  --tf-gap-paragraph: 1rem;
+  --tf-gap-group: 3rem;
+  --tf-gap-withinGroup: 1rem;
+  --tf-gap-columns: 2rem;
+  --tf-gap-panel: 0rem;
+  --tf-line-display: 1.1;
+  --tf-line-heading: 1.2;
+  --tf-line-presentation: 1.35;
+  --tf-line-ui: 1.5;
+  --tf-line-code: 1.5;
+  --tf-line-reading: 1.6;
+  --tf-font-body: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  --tf-font-heading: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  --tf-font-ui: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  --tf-font-display: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  --tf-font-code: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+/* Shared reading rules. Color and scale values come only from foundations.json. */
 :root, [data-bs-theme] {
-  --bs-body-font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  --bs-font-sans-serif: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  --bs-font-monospace: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  --bs-body-font-size: 1.4rem;
-  --bs-body-line-height: 1.45;
-  --bs-border-radius: 0; --bs-border-radius-sm: 0; --bs-border-radius-lg: 0;
-  --bs-link-decoration: underline;
+  --bs-body-font-family: var(--tf-font-body);
+  --bs-font-sans-serif: var(--tf-font-ui);
+  --bs-font-monospace: var(--tf-font-code);
+  --bs-body-font-size: var(--tf-size-body);
+  --bs-body-line-height: var(--tf-line-reading);
+  --bs-border-radius: 0;
+  --bs-border-radius-sm: 0;
+  --bs-border-radius-lg: 0;
 }
 html:root {
-  --sd-body-width: 720px;
+  font-size: 100%;
+  --sd-root-font-size: 100%;
+  --sd-body-width: 640px;
   --sd-sidebar-width: 230px;
   --sd-margin-width: 220px;
-  --sd-gap: 3rem;
-  --sd-inline-code: var(--bs-body-color);
-  --sd-code-bg: rgba(var(--bs-emphasis-color-rgb), .035);
+  --sd-gap: var(--tf-gap-group);
 }
-html.quarto-dark:root { --sd-inline-code: var(--bs-body-color); --sd-code-bg: rgba(255, 255, 255, .05); }
-/* the size of 1rem, as in Tufte CSS. smalldocs sets 17px; html:root wins over it, and --sd-root-font-size is how a newer smalldocs reads it */
-html:root { font-size: 15px; --sd-root-font-size: 15px; }
-body { -webkit-font-smoothing: antialiased; font-variant-ligatures: common-ligatures; }
-html body.listing #quarto-content { --sd-body-width: 900px; }
-html body.docked #quarto-content { --sd-body-width: 760px; --sd-sidebar-width: 230px; }
-
-/* Links: the text's own colour, underlined with a thin rule, as in Tufte CSS */
-a { text-decoration-thickness: 1px; text-underline-offset: .14em; text-decoration-color: rgba(var(--bs-body-color-rgb), .55); }
-a:hover { text-decoration-color: currentColor; }
-.navbar a, .sidebar-navigation a, #TOC a, .breadcrumb a, .page-navigation a, .footer a, .search-result, .quarto-post a, .quarto-grid-link, .listing-category { text-decoration: none; }
-
-/* Headings: normal weight, h2 and h3 in italic */
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-weight: 400; line-height: 1.1; }
-h2, h3, .h2, .h3 { font-style: italic; }
-html main.content h1, html main.content h2, html main.content h3, html main.content h4, html main.content h5, html main.content h6 { font-weight: 400; }
-html .quarto-title h1.title { font-size: 3.2rem; font-weight: 400; line-height: 1.05; margin-bottom: .75rem; }
-html .quarto-title .subtitle { font-style: italic; font-size: 1.8rem; line-height: 1.2; margin-top: .5rem; }
-html main.content h1:not(.title) { font-size: 2.6rem; margin-top: 3rem; }
-html main.content h2 { font-size: 2.2rem; font-style: italic; border-bottom: 0; padding-bottom: 0; margin-top: 2.6rem; margin-bottom: 1.2rem; }
-html main.content h3 { font-size: 1.7rem; font-style: italic; margin-top: 2rem; margin-bottom: 1rem; }
-html main.content h4 { font-size: 1.4rem; font-style: italic; margin-top: 1.6rem; margin-bottom: .8rem; }
-html main.content h5, html main.content h6 { font-size: 1.4rem; font-variant: small-caps; letter-spacing: .03em; }
-html .header-section-number { font-style: normal; }
-.quarto-title-meta-heading { letter-spacing: .06em; }
-
-/* The text */
-p, ul, ol, dl { line-height: 1.45; }
-main.content p, main.content li { hyphens: auto; -webkit-hyphens: auto; }
-html code, html a { hyphens: manual; -webkit-hyphens: manual; }
-main.content > p:first-of-type, .quarto-title-block + p { margin-top: 0; }
-html dt { font-weight: 400; font-style: italic; }
-b, strong { font-weight: bold; }
-hr { opacity: 1; border-top: 1px solid var(--bs-border-color); width: 55%; }
-html main.content blockquote { border-left: 0; padding: 0 0 0 2rem; font-style: normal; color: var(--bs-body-color); }
-html main.content blockquote footer { text-align: right; font-size: 1.1rem; }
-html .footnotes { font-size: 1.1rem; }
-.numeral { font-family: et-book-roman-old-style; }
-::selection { background: rgba(var(--bs-body-color-rgb), .15); }
-mark, .mark { padding: 0 .1em; }
-
-/* Figures and tables */
-html .quarto-figure figcaption, figcaption { font-size: 1.1rem; font-style: italic; color: var(--bs-secondary-color); line-height: 1.4; }
-html main.content table { font-size: 1.15rem; }
-.table { --bs-table-bg: transparent; --bs-table-color: var(--bs-body-color); --bs-table-striped-bg: rgba(var(--bs-body-color-rgb), .03); --bs-table-hover-bg: rgba(var(--bs-body-color-rgb), .05); --bs-table-border-color: var(--bs-border-color); font-variant-numeric: tabular-nums; }
-/* Booktabs: a heavy rule above and below, a light one under the header, none between rows */
-table.table { border-top: 2px solid var(--bs-body-color); border-bottom: 2px solid var(--bs-body-color); }
-table.table > :not(caption) > * > * { border-bottom-width: 0; padding: .35rem .75rem; }
-table.table > thead > tr > * { border-bottom: 1px solid var(--bs-body-color); font-weight: 400; font-style: italic; }
-caption { font-style: italic; font-size: 1.1rem; color: var(--bs-secondary-color); }
-
-/* Code: Consolas, no box, a little smaller than the text */
-code, kbd, pre, samp { font-family: var(--bs-font-monospace); }
-html code { font-size: .8em; }
-html pre { font-size: 1rem; line-height: 1.45; }
-html :not(pre) > code { background: none; padding: 0; }
-html pre, html div.sourceCode { border-radius: 0; }
-html div.sourceCode { background: var(--sd-code-bg); border-left: 1px solid var(--bs-border-color); }
-html pre code { font-size: inherit; }
-html .code-with-filename-file { border-radius: 0; }
-html .code-with-filename-file pre { font-size: .9rem; font-style: italic; }
-
-/* Callouts: a thin rule in a muted colour, a title in italic, no tinted box */
-html .callout { border: 0; border-left: 2px solid var(--sd-callout); border-radius: 0; margin: 1.8rem 0; padding-left: .25rem; }
-html .callout-note { --sd-callout: var(--tufte-note); }
-html .callout-tip { --sd-callout: var(--tufte-tip); }
-html .callout-warning { --sd-callout: var(--tufte-warning); }
-html .callout-important { --sd-callout: var(--tufte-important); }
-html .callout-caution { --sd-callout: var(--tufte-caution); }
-html .callout-header { background: none; font-weight: 400; font-style: italic; font-size: 1.3rem; padding: 0 .9rem; }
-html .callout-body { padding: .2rem .9rem; font-size: 1.25rem; }
-html .callout:not(.callout-titled) .callout-body { padding-top: .2rem; }
-html .callout-body > :first-child { margin-top: 0; }
-
-/* Tabsets */
-.nav-tabs { --bs-nav-tabs-border-radius: 0; --bs-nav-tabs-link-active-bg: var(--bs-body-bg); }
-.nav-tabs .nav-link { font-style: italic; font-size: 1.15rem; color: var(--bs-secondary-color); }
-.nav-tabs .nav-link.active { color: var(--bs-body-color); }
-html .panel-tabset .tab-content { border-radius: 0; }
-
-/* The navbar: the same paper as the page, a hairline below, the title in italic */
-html .sd-navbar-default { background: var(--bs-body-bg); border-bottom: 1px solid var(--bs-border-color); --bs-navbar-color: var(--bs-secondary-color); --bs-navbar-active-color: var(--bs-body-color); --bs-navbar-hover-color: var(--bs-body-color); }
-html #quarto-header .navbar { padding-top: .6rem; padding-bottom: .6rem; }
-html .navbar-title { font-weight: 400; font-style: italic; font-size: 1.7rem; }
-.navbar { font-size: 1.2rem; }
-.navbar .nav-link.active { font-style: italic; }
-.navbar-toggler { border: 0; }
-.form-control, .form-select { font-size: 1.05rem; border-radius: 0; background-color: var(--bs-body-bg); }
-.form-control:focus, .form-select:focus { border-color: var(--bs-body-color); box-shadow: none; }
-.dropdown-menu { --bs-dropdown-font-size: 1.1rem; --bs-dropdown-bg: var(--bs-body-bg); --bs-dropdown-link-active-bg: var(--bs-secondary-bg); --bs-dropdown-link-active-color: var(--bs-body-color); border-radius: 0; }
-html .search-result-title { font-weight: 400; font-style: italic; font-size: 1.15rem; }
-html .search-result-section, html .search-result-text { font-size: 1rem; }
-
-/* The sidebar and the table of contents: small, quiet, the current page in italic */
-html .sidebar-navigation { font-size: 1.15rem; }
-html .sidebar-title { font-style: italic; font-size: 1.6rem; }
-html .sidebar-link { opacity: .75; }
-html .sidebar-link.active { color: var(--bs-body-color); opacity: 1; font-style: italic; }
-html .sidebar-item-section > .sidebar-item-container .sidebar-link { opacity: 1; font-variant: small-caps; letter-spacing: .04em; }
-html body.docked .sidebar-navigation { background: var(--bs-body-bg); }
-html .margin-sidebar { font-size: 1.1rem; }
-html #TOC #toc-title { font-size: 1.15rem; font-style: italic; }
-html #TOC .nav-link { border-left: 0; padding-left: 0; }
-html #TOC .nav-link.active { color: var(--bs-body-color); font-style: italic; }
-html .toc-action { font-size: 1rem; }
-html .breadcrumb { font-size: 1.05rem; font-style: italic; }
-
-/* Side notes and margin notes, as Tufte's: smalldocs puts them in the margin; here they get the type of a small text */
-html main.content .column-margin, html main.content .margin-aside, html main.content div.aside {
-  font-size: 1.1rem; line-height: 1.35; color: var(--bs-body-color);
-}
-html main.content .margin-caption { font-size: 1.1rem; line-height: 1.35; font-style: italic; color: var(--bs-secondary-color); }
-html main.content .column-container sup, html main.content .footnote-ref sup { font-size: .7em; line-height: 0; }
+body { font-size: var(--tf-size-body); line-height: var(--tf-line-reading); font-synthesis: none; -webkit-font-smoothing: antialiased; }
+html body.docked #quarto-content, html body.listing #quarto-content { --sd-body-width: 640px; }
+html main.content { color: var(--tf-ink); }
+html main.content p, html main.content li { line-height: var(--tf-line-reading); }
+html main.content p { margin-top: 0; margin-bottom: var(--tf-gap-paragraph); }
+a { color: var(--tf-accent-text); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .14em; }
+a:hover { color: var(--tf-link-hover); text-decoration-thickness: 2px; }
+html :is(.navbar, .sidebar-navigation, #TOC, .breadcrumb, .page-navigation, .footer) a { text-decoration: none; }
+html :is(h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6) { color: var(--tf-ink); font-weight: 400; line-height: var(--tf-line-heading); }
+html main.content h1:not(.title), html main.content h2 { font-size: var(--tf-size-heading); margin: var(--tf-space-48) 0 var(--tf-space-16); border: 0; padding: 0; }
+html main.content h3 { font-size: var(--tf-type-24); margin: var(--tf-space-32) 0 var(--tf-space-12); }
+html main.content :is(h2,h3,h4) { font-style: italic; }
+html .quarto-title h1.title { font-size: var(--tf-size-title); font-weight: 400; margin-bottom: var(--tf-space-16); }
+html .editorial-title, html .display-title { font-size: var(--tf-size-display); }
+html .quarto-title .subtitle { font-size: var(--tf-type-24); font-style: italic; line-height: var(--tf-line-heading); }
+html :is(.quarto-title-meta,.quarto-post .metadata,.quarto-post .listing-subtitle,.footer,.nav-footer,figcaption,caption,.margin-caption) { font-size: var(--tf-size-metadata); color: var(--tf-muted); line-height: var(--tf-line-ui); }
+html :is(.navbar,.sidebar-navigation,.margin-sidebar,#TOC,.breadcrumb,.page-navigation,.nav-page,.form-control,.form-select,.form-label,.btn,.dropdown-menu,.nav-tabs) { font-size: var(--tf-size-ui); line-height: var(--tf-line-ui); }
+html :is(.navbar-title,.sidebar-title) { font-size: var(--tf-type-24); font-weight: 400; font-style: italic; }
+html :is(.sidebar-link,#TOC .nav-link) { opacity: 1; color: var(--tf-muted); }
+html :is(.sidebar-link.active,#TOC .nav-link.active) { color: var(--tf-ink); font-style: italic; text-decoration: underline; }
+html .sd-navbar-default, html body.docked .sidebar-navigation { background: var(--tf-paper); color: var(--tf-ink); }
+html .sd-navbar-default { border-bottom: 1px solid var(--tf-decorative-line); }
+html main.content :is(.column-margin,.margin-aside,div.aside) { font-size: var(--tf-size-ui); line-height: var(--tf-line-ui); color: var(--tf-ink); }
+html main.content .margin-caption { color: var(--tf-muted); }
+html main.content .column-margin .figure-img { margin-bottom: var(--tf-space-8); }
 html main.content .footnote-ref { color: inherit; text-decoration: none; }
-html main.content .column-margin .figure-img { margin-bottom: .4rem; }
-
-/* Listings and cards */
-html .quarto-post .listing-title { font-style: italic; font-size: 1.7rem; }
-html .quarto-post .metadata, html .quarto-post .listing-subtitle { font-size: 1.1rem; }
-html .quarto-category, html .listing-category { text-transform: none; font-style: italic; font-size: 1rem; border: 0; padding: 0 .3rem 0 0; }
-.card { --bs-card-bg: var(--bs-body-bg); --bs-card-border-radius: 0; --bs-card-inner-border-radius: 0; }
-html .quarto-grid-item .card-title { font-style: italic; font-size: 1.4rem; font-variant: normal; letter-spacing: 0; }
-html .quarto-grid-item .listing-description, html .quarto-grid-item .card-subtitle { font-size: 1.1rem; }
-html .quarto-post .listing-description { font-size: 1.25rem; }
-html .quarto-post .thumbnail-image { border-radius: 0; }
-html .listing-actions-group { flex-wrap: wrap; }
-html .quarto-listing-category-title { font-weight: 400; font-style: italic; font-size: 1.15rem; }
-html .quarto-grid-item:hover { box-shadow: none; border-color: var(--bs-body-color); }
-
-/* Page navigation and footer */
-html .pagination-link { font-weight: 400; font-style: italic; }
-html .footer { font-size: 1.05rem; }
-.btn { border-radius: 0; }
-.btn-primary { --bs-btn-bg: var(--bs-body-color); --bs-btn-border-color: var(--bs-body-color); --bs-btn-color: var(--bs-body-bg); --bs-btn-hover-bg: var(--bs-emphasis-color); --bs-btn-hover-border-color: var(--bs-emphasis-color); --bs-btn-hover-color: var(--bs-body-bg); --bs-btn-active-bg: var(--bs-emphasis-color); --bs-btn-active-border-color: var(--bs-emphasis-color); --bs-btn-active-color: var(--bs-body-bg); --bs-btn-disabled-bg: var(--bs-body-color); --bs-btn-disabled-border-color: var(--bs-body-color); --bs-btn-disabled-color: var(--bs-body-bg); }
-
-/* Bootstrap's components, on any page: ink in place of Bootstrap's blue */
-.btn-outline-primary { --bs-btn-color: var(--bs-body-color); --bs-btn-border-color: var(--bs-body-color); --bs-btn-hover-color: var(--bs-body-bg); --bs-btn-hover-bg: var(--bs-body-color); --bs-btn-hover-border-color: var(--bs-body-color); --bs-btn-active-color: var(--bs-body-bg); --bs-btn-active-bg: var(--bs-body-color); --bs-btn-active-border-color: var(--bs-body-color); --bs-btn-disabled-color: var(--bs-body-color); --bs-btn-disabled-border-color: var(--bs-body-color); }
-.btn-link { --bs-btn-color: var(--bs-link-color); --bs-btn-hover-color: var(--bs-link-hover-color); }
-.text-bg-primary { color: var(--bs-body-bg) !important; }
-.list-group { --bs-list-group-bg: transparent; --bs-list-group-active-bg: var(--bs-body-color); --bs-list-group-active-border-color: var(--bs-body-color); --bs-list-group-active-color: var(--bs-body-bg); }
-.pagination { --bs-pagination-bg: transparent; --bs-pagination-color: var(--bs-body-color); --bs-pagination-hover-color: var(--bs-body-color); --bs-pagination-focus-color: var(--bs-body-color); --bs-pagination-focus-box-shadow: none; --bs-pagination-active-bg: var(--bs-body-color); --bs-pagination-active-border-color: var(--bs-body-color); --bs-pagination-active-color: var(--bs-body-bg); --bs-pagination-border-radius: 0; }
-.progress, .progress-stacked { --bs-progress-bar-bg: var(--bs-body-color); --bs-progress-bar-color: var(--bs-body-bg); --bs-progress-bg: var(--bs-secondary-bg); --bs-progress-border-radius: 0; }
-.nav-pills { --bs-nav-pills-link-active-bg: var(--bs-body-color); --bs-nav-pills-link-active-color: var(--bs-body-bg); --bs-nav-pills-border-radius: 0; }
-.form-check-input:checked, .form-check-input[type=checkbox]:indeterminate { background-color: #5a5a55; border-color: #5a5a55; }
-.form-check-input:focus, .form-range:focus::-webkit-slider-thumb { box-shadow: 0 0 0 .2rem var(--bs-focus-ring-color); border-color: var(--bs-body-color); }
-.form-range::-webkit-slider-thumb { background-color: var(--bs-body-color); }
-.form-range::-moz-range-thumb { background-color: var(--bs-body-color); }
-.accordion { --bs-accordion-btn-focus-box-shadow: 0 0 0 .2rem var(--bs-focus-ring-color); --bs-accordion-active-color: var(--bs-body-color); }
-.badge { --bs-badge-font-weight: 400; }
-
-@media (max-width: 991.98px) {
-  html .quarto-title h1.title { font-size: 2.4rem; }
-  html main.content h2 { font-size: 1.9rem; }
-  html main.content h3 { font-size: 1.5rem; }
-  html .navbar-title { font-size: 1.4rem; }
+html .footnotes { font-size: var(--tf-size-ui); }
+html main.content blockquote { border: 0; padding: 0 0 0 var(--tf-space-32); color: var(--tf-ink); }
+hr { opacity: 1; border-color: var(--tf-decorative-line); }
+html :is(.card,.quarto-grid-item,.quarto-grid-item:hover,.card-body,.card-header,.card-footer) {
+  --bs-card-bg: transparent; --bs-card-border-width: 0; --bs-card-spacer-x: 0; --bs-card-spacer-y: 0;
+  background: transparent; border: 0; border-radius: 0; box-shadow: none; padding: 0;
 }
-@media (max-width: 575.98px) {
-  :root, [data-bs-theme] { --bs-body-font-size: 1.3rem; }
-  html .quarto-title h1.title { font-size: 2.1rem; }
+html .card + .card { margin-top: var(--tf-gap-group); }
+html .quarto-post .listing-title { font-size: var(--tf-type-24); font-style: italic; }
+html .table { --bs-table-bg: transparent; --bs-table-color: var(--tf-ink); --bs-table-border-color: var(--tf-decorative-line); font-size: var(--tf-size-ui); font-variant-numeric: tabular-nums; border-top: 2px solid var(--tf-ink); border-bottom: 2px solid var(--tf-ink); }
+html table.table > :not(caption) > * > * { border-bottom-width: 0; padding: var(--tf-space-8) var(--tf-space-12); }
+html table.table > thead > tr > * { border-bottom: 1px solid var(--tf-ink); font-weight: 400; font-style: italic; }
+html :is(code,kbd,pre,samp) { font-family: var(--tf-font-code); color: var(--tf-code-ink); }
+html :not(pre) > code { font-size: var(--tf-size-code); background: var(--tf-code); padding: 0; }
+html pre { font-size: var(--tf-size-code); line-height: var(--tf-line-code); }
+html :is(pre,div.sourceCode,.code-with-filename-file) { border-radius: 0; }
+html div.sourceCode { background: var(--tf-code); border-left: 1px solid var(--tf-control-boundary); }
+html pre code { font-size: inherit; }
+html .callout { border: 0; border-left: 2px solid var(--tf-state-ink); border-radius: 0; background: transparent; margin: var(--tf-space-32) 0; padding: 0 0 0 var(--tf-space-16); }
+html .callout-note { --tf-state-ink: var(--tf-info-ink); }
+html .callout-tip { --tf-state-ink: var(--tf-success-ink); }
+html .callout-warning { --tf-state-ink: var(--tf-warning-ink); }
+html :is(.callout-important,.callout-caution) { --tf-state-ink: var(--tf-danger-ink); }
+html :is(.callout-header,.callout.callout > div.callout-header) { background: transparent; color: var(--tf-ink); font-size: var(--tf-size-body); font-weight: 400; font-style: italic; opacity: 1; padding: 0; }
+html :is(.callout-body,.callout.callout .callout-body) { font-size: var(--tf-size-body); padding: 0; }
+html :is(mark,.mark,.optional-highlight) { background: var(--tf-optional-highlight-fill); color: var(--tf-optional-highlight-ink); }
+::selection { background: var(--tf-selected-fill); color: var(--tf-selected-ink); }
+html .btn-primary { --bs-btn-bg: var(--tf-primary-fill); --bs-btn-color: var(--tf-button-ink); --bs-btn-border-color: var(--tf-primary-fill); --bs-btn-hover-bg: var(--tf-primary-hover-fill); --bs-btn-hover-color: var(--tf-primary-hover-ink); --bs-btn-hover-border-color: var(--tf-primary-hover-fill); --bs-btn-active-bg: var(--tf-selected-fill); --bs-btn-active-color: var(--tf-selected-ink); }
+html :is(.btn-secondary,.btn-outline-primary) { --bs-btn-bg: transparent; --bs-btn-color: var(--tf-secondary-action); --bs-btn-border-color: var(--tf-control-boundary); --bs-btn-hover-bg: var(--tf-panel); --bs-btn-hover-color: var(--tf-secondary-action); --bs-btn-hover-border-color: var(--tf-control-boundary); }
+html :is(.btn:disabled,.btn.disabled,[aria-disabled=true],.form-control:disabled,.form-select:disabled) { color: var(--tf-disabled-ink); background: var(--tf-disabled-fill); border-color: var(--tf-control-boundary); opacity: 1; }
+html :is(.form-control,.form-select,.form-check-input) { color: var(--tf-ink); background-color: var(--tf-paper); border: 1px solid var(--tf-control-boundary); border-radius: 0; }
+html .form-check-input:checked { background-color: var(--tf-selected-fill); border-color: var(--tf-control-boundary); background-image: var(--tf-check-image); }
+html .form-check-input[type=radio] { border-radius: 50%; }
+html .form-check-input[type=radio]:checked { background-image: var(--tf-radio-image); }
+html .form-control::placeholder { color: var(--tf-muted); opacity: 1; }
+html :is(a,button,input,select,textarea,[tabindex]):focus-visible { outline: 2px solid var(--tf-focus); outline-offset: 4px; box-shadow: none; }
+html :is(.form-control,.form-select):focus { border-color: var(--tf-control-boundary); box-shadow: none; }
+html :is([aria-selected=true],[aria-current=page].selected,.nav-pills .nav-link.active) { background: var(--tf-selected-fill); color: var(--tf-selected-ink); text-decoration: underline; }
+html [aria-invalid=true] { border: 2px solid var(--tf-danger-ink); }
+html .invalid-feedback { display: block; color: var(--tf-danger-ink); font-size: var(--tf-size-ui); }
+html .alert { border: 1px solid var(--tf-state-boundary); background: var(--tf-state-fill); color: var(--tf-state-ink); border-radius: 0; }
+html .alert-success { --tf-state-fill: var(--tf-success-fill); --tf-state-ink: var(--tf-success-ink); --tf-state-boundary: var(--tf-success-boundary); }
+html .alert-warning { --tf-state-fill: var(--tf-warning-fill); --tf-state-ink: var(--tf-warning-ink); --tf-state-boundary: var(--tf-warning-boundary); }
+html .alert-danger { --tf-state-fill: var(--tf-danger-fill); --tf-state-ink: var(--tf-danger-ink); --tf-state-boundary: var(--tf-danger-boundary); }
+html .alert-info { --tf-state-fill: var(--tf-info-fill); --tf-state-ink: var(--tf-info-ink); --tf-state-boundary: var(--tf-info-boundary); }
+@media (max-width: 767.98px) {
+  html:root { --sd-gap: var(--tf-space-16); }
+  html main.content :is(.column-margin,.margin-aside,div.aside) { float: none; width: auto; max-width: 100%; margin: var(--tf-space-16) 0; }
+  html .margin-caption { float: none; width: auto; }
 }
+
+/* Local navbar variables must override Bootstrap's component defaults in dark mode. */
+html .navbar { --bs-navbar-color: var(--tf-ink); --bs-navbar-hover-color: var(--tf-link-hover); --bs-navbar-active-color: var(--tf-ink); --bs-navbar-brand-color: var(--tf-ink); --bs-navbar-brand-hover-color: var(--tf-link-hover); }
+html .navbar :is(.navbar-brand,.navbar-title,.nav-link) { color: var(--tf-ink); }
+html input:disabled { opacity: 1; }
+/* UI insets deliberately use the same finite spacing vocabulary as prose. */
+html :is(.btn,.form-control,.form-select) { padding: var(--tf-space-8) var(--tf-space-16); }
+html .form-select { padding-right: var(--tf-space-48); }
+html .form-label { margin-bottom: var(--tf-space-8); }
+html .navbar, html #quarto-header .navbar { padding: var(--tf-space-8) var(--tf-space-16); }
+html .navbar .navbar-brand { padding: 0; margin-right: var(--tf-space-16); }
+html .navbar .nav-link { padding: var(--tf-space-8) var(--tf-space-16); }
+html .navbar-toggler { padding: var(--tf-space-8) var(--tf-space-12); }
+html #TOC .nav-link { padding: var(--tf-space-4) var(--tf-space-8); }
+html .sidebar-item-container { padding-block: var(--tf-space-4); }
+
+/* Semantic actions use the approved state pairs, never Bootstrap's stock fills. */
+html :is(.btn-success,.btn-outline-success) { --tf-action-fill: var(--tf-success-fill); --tf-action-ink: var(--tf-success-ink); --tf-action-boundary: var(--tf-control-boundary); }
+html :is(.btn-warning,.btn-outline-warning) { --tf-action-fill: var(--tf-warning-fill); --tf-action-ink: var(--tf-warning-ink); --tf-action-boundary: var(--tf-control-boundary); }
+html :is(.btn-danger,.btn-outline-danger) { --tf-action-fill: var(--tf-danger-fill); --tf-action-ink: var(--tf-danger-ink); --tf-action-boundary: var(--tf-control-boundary); }
+html :is(.btn-info,.btn-outline-info) { --tf-action-fill: var(--tf-info-fill); --tf-action-ink: var(--tf-info-ink); --tf-action-boundary: var(--tf-control-boundary); }
+html :is(.btn-success,.btn-warning,.btn-danger,.btn-info,.btn-outline-success,.btn-outline-warning,.btn-outline-danger,.btn-outline-info) {
+  --bs-btn-color: var(--tf-action-ink); --bs-btn-bg: var(--tf-action-fill); --bs-btn-border-color: var(--tf-action-boundary);
+  --bs-btn-hover-color: var(--tf-action-fill); --bs-btn-hover-bg: var(--tf-action-ink); --bs-btn-hover-border-color: var(--tf-control-boundary);
+  --bs-btn-active-color: var(--tf-action-fill); --bs-btn-active-bg: var(--tf-action-ink); --bs-btn-active-border-color: var(--tf-control-boundary);
+  --bs-btn-disabled-color: var(--tf-disabled-ink); --bs-btn-disabled-bg: var(--tf-disabled-fill); --bs-btn-disabled-border-color: var(--tf-control-boundary); --bs-btn-disabled-opacity: 1;
+}
+html :is(.btn-outline-success,.btn-outline-warning,.btn-outline-danger,.btn-outline-info) { --bs-btn-bg: transparent; }
+html .btn-outline-secondary {
+  --bs-btn-color: var(--tf-secondary-action); --bs-btn-bg: transparent; --bs-btn-border-color: var(--tf-control-boundary);
+  --bs-btn-hover-color: var(--tf-secondary-action); --bs-btn-hover-bg: var(--tf-panel); --bs-btn-hover-border-color: var(--tf-control-boundary);
+  --bs-btn-active-color: var(--tf-secondary-action); --bs-btn-active-bg: var(--tf-panel); --bs-btn-active-border-color: var(--tf-control-boundary);
+  --bs-btn-disabled-color: var(--tf-disabled-ink); --bs-btn-disabled-bg: var(--tf-disabled-fill); --bs-btn-disabled-border-color: var(--tf-control-boundary); --bs-btn-disabled-opacity: 1;
+}
+/* Renderer code selectors must not reinterpret the reference ladder or add boxes. */
+html body #quarto-content main.content div.sourceCode { padding: var(--tf-gap-panel); }
+html body #quarto-content main.content pre,
+html body #quarto-content main.content pre code,
+html body #quarto-content main.content pre code span {
+  font-family: var(--tf-font-code);
+  font-size: var(--tf-size-code);
+  line-height: var(--tf-line-code);
+}
+html body #quarto-content main.content pre,
+html body #quarto-content main.content pre code {
+  color: var(--tf-code-ink);
+  padding: 0;
+}
+/* Line wrappers inherit plain ink; nested syntax classes keep their own hues. */
+html body #quarto-content main.content pre code > span[id] { color: var(--tf-code-ink); }

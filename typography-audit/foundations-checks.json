@@ -1,0 +1,8036 @@
+[
+  {
+    "id": "folio",
+    "mode": "light",
+    "commit": "e33e059ff40fd49aad28a8b7449cf77449e66898",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 11.504,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 10.438,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 10.43,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 5.538,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 5.025,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 5.022,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 8.487,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 7.701,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 7.695,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 5.806,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 5.268,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 5.264,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 11.504,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 10.438,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 10.43,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 8.487,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 9.224,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 8.487,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 8.487,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 7.701,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 7.695,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.31,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.003,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.001,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.568,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.014,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 8.018,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.009,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 6.825,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.007,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 6.135,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 3.025,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 11.504,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 5.538,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 8.487,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 10.438,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 8.487,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.025,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 4.501,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "DM Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 11.504,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 5.538,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 8.487,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 10.438,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 8.487,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.025,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 4.501,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "DM Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "folio",
+    "mode": "dark",
+    "commit": "e33e059ff40fd49aad28a8b7449cf77449e66898",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 13.034,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 11.22,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 11.672,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 8.079,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 6.955,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 7.235,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 9.99,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 8.6,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 8.947,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 7.983,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 6.872,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 7.149,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 13.034,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 11.22,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 11.672,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 9.99,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 10.358,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 9.99,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 9.99,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 8.6,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 8.947,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.496,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.01,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.131,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.989,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.03,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 9.173,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.803,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 8.663,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.658,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 9.178,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 4.49,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 13.034,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 8.079,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 9.99,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 11.22,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 9.99,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 6.955,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 4.501,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "DM Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 13.034,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 8.079,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 9.99,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 11.22,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 9.99,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 6.955,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 4.501,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "DM Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "atelier",
+    "mode": "light",
+    "commit": "b285e162eed9521114745e34ce3b3d3af5474177",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 11.052,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 10.142,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 10.052,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 5.548,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 5.091,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 5.046,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 6.124,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 5.62,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 5.57,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 6.023,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 5.527,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 5.478,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 11.052,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 10.142,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 10.052,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 6.124,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 6.93,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 6.124,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 6.124,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 5.62,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 5.57,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.302,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.03,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.003,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.568,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.014,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 8.018,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.009,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 6.825,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.007,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 6.135,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 3.025,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 11.052,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 5.548,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 6.124,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 10.142,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 6.124,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.091,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 4.501,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "DM Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 11.052,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 5.548,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 6.124,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 10.142,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 6.124,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.091,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 4.501,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "DM Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "atelier",
+    "mode": "dark",
+    "commit": "b285e162eed9521114745e34ce3b3d3af5474177",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 13.384,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 11.586,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 11.586,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 7.708,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 6.672,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 6.672,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 8.989,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 7.781,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 7.781,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 8.661,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 7.497,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 7.497,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 13.384,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 11.586,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 11.586,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 8.989,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 9.46,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 8.989,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 8.989,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 7.781,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 7.781,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.47,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.004,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.004,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.989,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.03,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 9.173,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.803,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 8.663,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.658,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 9.178,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 4.49,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 13.384,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 7.708,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 11.586,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 6.672,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 4.501,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "DM Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 13.384,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 7.708,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 11.586,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 6.672,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 4.501,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "DM Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nocturne",
+    "mode": "light",
+    "commit": "061dce7006116f5e86e666baa3f40b6e70029303",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 12.251,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 11.221,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 11.221,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 5.467,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 5.007,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 5.007,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 6.572,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 6.02,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 6.02,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 6.445,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 5.903,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 5.903,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 12.251,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 11.221,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 11.221,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 6.572,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 7.294,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 6.572,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 6.572,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 6.02,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 6.02,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.286,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.01,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.01,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.568,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.014,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 8.018,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.009,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 6.825,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.007,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 6.135,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 3.025,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 12.251,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 5.467,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 6.572,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 11.221,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 6.572,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.007,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 4.501,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "DM Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 12.251,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 5.467,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 6.572,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 11.221,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 6.572,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.007,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 4.501,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "DM Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nocturne",
+    "mode": "dark",
+    "commit": "061dce7006116f5e86e666baa3f40b6e70029303",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 13.243,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 11.688,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 11.513,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 8.042,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 7.098,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 6.992,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 9.113,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 8.043,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 7.923,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 8.483,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 7.487,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 7.375,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 13.243,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 11.688,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 11.513,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 9.113,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 9.569,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 9.113,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 9.113,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 8.043,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 7.923,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.481,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.072,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.026,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.989,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.03,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 9.173,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.803,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 8.663,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.658,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 9.178,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 4.49,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 13.243,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 8.042,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 9.113,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 11.688,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 9.113,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 7.098,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 4.501,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "DM Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 13.243,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 8.042,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 9.113,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 11.688,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 9.113,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 7.098,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 4.501,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "DM Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "DM Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tufte",
+    "mode": "light",
+    "commit": "70a75da3a3dbc5e87f404fc350723799beca38b5",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 18.803,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 17.672,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 17.672,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 5.397,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 5.073,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 5.073,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 18.803,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 17.672,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 17.672,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 5.397,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 5.073,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 5.073,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 18.803,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 17.672,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 17.672,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 18.803,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 18.948,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 18.803,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 18.803,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 17.672,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 17.672,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.196,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.004,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.004,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.568,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.014,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 8.018,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.009,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 6.825,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.007,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 6.135,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 3.025,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 18.803,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 5.397,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 18.803,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 18.803,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 18.803,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.073,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.011,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 18.803,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "et-book",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "et-book",
+            "weight": "normal",
+            "style": "italic"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 18.803,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 5.397,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 18.803,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 18.803,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 18.803,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.073,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.011,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 18.803,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "et-book",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "et-book",
+            "weight": "normal",
+            "style": "italic"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tufte",
+    "mode": "dark",
+    "commit": "70a75da3a3dbc5e87f404fc350723799beca38b5",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 13.445,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 12.421,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 12.421,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 5.794,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 5.353,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 5.353,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 13.445,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 12.421,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 12.421,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 5.794,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 5.353,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 5.353,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 13.445,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 12.421,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 12.421,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 13.445,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 13.833,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 13.445,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 13.445,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 12.421,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 12.421,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.267,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.018,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.018,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.989,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.03,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 9.173,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.803,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 8.663,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.658,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 9.178,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 4.49,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 13.445,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 5.794,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 13.445,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 13.445,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 13.445,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.353,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 11.121,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 13.445,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "et-book",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "et-book",
+            "weight": "normal",
+            "style": "italic"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 13.445,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 5.794,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 13.445,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 13.445,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 13.445,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.353,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 11.121,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 13.445,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "et-book",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "et-book",
+            "weight": "normal",
+            "style": "italic"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zephyr-reading",
+    "mode": "light",
+    "commit": "f809045ba0dd3420c1cfda74a9046f4d7b85b79c",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 8.176,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 7.562,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 7.562,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 6.006,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 5.554,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 5.554,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 5.649,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 5.224,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 5.224,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 6.006,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 5.554,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 5.554,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 8.176,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 7.562,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 7.562,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 5.649,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 6.425,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 5.649,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 5.649,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 5.224,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 5.224,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.246,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.002,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.002,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.568,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.014,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 8.018,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.009,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 6.825,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.007,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 6.135,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 3.025,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 8.176,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 6.006,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 5.649,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 7.562,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 5.649,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.554,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 5.649,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 8.176,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 6.006,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 5.649,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 7.562,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 5.649,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.554,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 5.649,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zephyr-reading",
+    "mode": "dark",
+    "commit": "f809045ba0dd3420c1cfda74a9046f4d7b85b79c",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 13.803,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 11.846,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 11.846,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 9.258,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 7.946,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 7.946,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 5.849,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 5.02,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 5.02,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 9.258,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 7.946,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 7.946,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 13.803,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 11.846,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 11.846,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 4.631,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 5.197,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 4.631,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 4.631,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 3.974,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 3.974,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.513,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.015,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.015,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.989,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.03,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 9.173,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.803,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 8.663,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.658,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 9.178,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 4.49,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 13.803,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 9.258,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 4.631,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 11.846,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 5.849,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 7.946,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 5.649,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 13.803,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 9.258,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 4.631,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 11.846,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 5.849,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 7.946,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 5.649,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "simplex-reading",
+    "mode": "light",
+    "commit": "4d2b2560a51708c470c28e62a4578074651bace6",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 15.036,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 13.902,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 13.902,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 6.035,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 5.58,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 5.58,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 6.356,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 5.877,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 5.877,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 6.035,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 5.58,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 5.58,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 15.036,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 13.902,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 13.902,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 6.521,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 7.35,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 6.521,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 6.356,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 5.877,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 5.877,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.247,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.002,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.002,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.568,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.014,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 8.018,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.009,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 6.825,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.007,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 6.135,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 3.025,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 15.036,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 6.035,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 6.521,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 13.902,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 6.356,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.58,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 5.003,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Open Sans",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 15.036,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 6.035,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 6.521,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 13.902,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 6.356,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.58,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 5.003,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Open Sans",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "simplex-reading",
+    "mode": "dark",
+    "commit": "4d2b2560a51708c470c28e62a4578074651bace6",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 14.272,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 12.191,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 12.191,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 9.533,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 8.143,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 8.143,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 5.865,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 5.01,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 5.01,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 9.533,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 8.143,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 8.143,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 14.272,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 12.191,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 12.191,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 4.829,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 5.421,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 4.829,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 4.829,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 4.125,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 4.125,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.542,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.026,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.026,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.989,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.03,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 9.173,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.803,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 8.663,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.658,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 9.178,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 4.49,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 14.272,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 9.533,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 4.829,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 12.191,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 5.865,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 8.143,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 5.003,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Open Sans",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 14.272,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 9.533,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 4.829,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 12.191,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 5.865,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 8.143,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 5.003,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Open Sans",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Open Sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pulse-reading",
+    "mode": "light",
+    "commit": "e02631d0efe6da4fb8bb36095c0c2f0b0a468146",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 9.74,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 8.686,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 8.686,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 6.705,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 5.98,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 5.98,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 9.113,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 8.126,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 8.126,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 6.705,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 5.98,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 5.98,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 9.74,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 8.686,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 8.686,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 9.113,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 9.949,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 9.113,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 9.113,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 8.126,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 8.126,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.367,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.002,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.002,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.568,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.014,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 8.018,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.009,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 6.825,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.007,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 6.135,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 3.025,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 9.74,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 6.705,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 9.113,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 9.74,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 9.113,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.98,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 9.113,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 9.74,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 6.705,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 9.113,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 9.74,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 9.113,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.98,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 9.113,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pulse-reading",
+    "mode": "dark",
+    "commit": "e02631d0efe6da4fb8bb36095c0c2f0b0a468146",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 14.18,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 12.222,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 12.222,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 9.445,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 8.141,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 8.141,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 5.842,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 5.035,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 5.035,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 9.445,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 8.141,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 8.141,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 14.18,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 12.222,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 12.222,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 4.528,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 5.107,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 4.528,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 4.528,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 3.903,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 3.903,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.489,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.008,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.008,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.989,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.03,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 9.173,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.803,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 8.663,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.658,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 9.178,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 4.49,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 14.18,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 9.445,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 4.528,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 1.178,
+            "minimum": 4.5,
+            "passes": false
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 5.842,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 8.141,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 9.113,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 14.18,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 9.445,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 4.528,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 1.178,
+            "minimum": 4.5,
+            "passes": false
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 5.842,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 8.141,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 9.113,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "litera-reading",
+    "mode": "light",
+    "commit": "714bb3cf198ef1d4be7fe0f954061e5352d8a407",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 11.505,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 10.547,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 10.547,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 6.245,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 5.725,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 5.725,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 7.12,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 6.527,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 6.527,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 6.245,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 5.725,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 5.725,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 11.505,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 10.547,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 10.547,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 7.12,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 7.951,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 7.12,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 7.12,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 6.527,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 6.527,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.284,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.01,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.01,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.568,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.014,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 8.018,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.009,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 6.825,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.007,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 6.135,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 3.025,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 11.505,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 6.245,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 7.12,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 10.547,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 7.12,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.725,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 3.712,
+            "minimum": 4.5,
+            "passes": false
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 11.505,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 6.245,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 7.12,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 10.547,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 7.12,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 5.725,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 3.712,
+            "minimum": 4.5,
+            "passes": false
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "litera-reading",
+    "mode": "dark",
+    "commit": "714bb3cf198ef1d4be7fe0f954061e5352d8a407",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 13.934,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 11.945,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 11.945,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 9.331,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 7.999,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 7.999,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 5.873,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 5.035,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 5.035,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 9.331,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 7.999,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 7.999,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 13.934,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 11.945,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 11.945,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 4.588,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 5.167,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 4.588,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 4.588,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 3.933,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 3.933,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.52,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.018,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.018,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.989,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.03,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 9.173,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.803,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 8.663,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.658,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 9.178,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 4.49,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 13.934,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 9.331,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 4.588,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 11.945,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 5.873,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 7.999,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 3.712,
+            "minimum": 4.5,
+            "passes": false
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 13.934,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 9.331,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 4.588,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 11.945,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 5.873,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 7.999,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 3.712,
+            "minimum": 4.5,
+            "passes": false
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "light",
+    "commit": "5a3024001d402ce854b26e1e69b17dea7f1fe4d9",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 14.626,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 13.034,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 13.034,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 7.806,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 6.956,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 6.956,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 5.612,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 5.001,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 5.001,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 6.792,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 6.053,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 6.053,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 14.626,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 13.034,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 13.034,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 5.075,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 5.8,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 5.075,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 5.075,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 4.522,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 4.522,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.373,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.006,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.006,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.568,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.014,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 8.018,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.009,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 6.825,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.007,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 6.135,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 3.025,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 14.626,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 7.806,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 5.075,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 13.034,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 5.612,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 6.956,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 7.164,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Lato",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Lato",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Lato",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 14.626,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 7.806,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 5.075,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 13.034,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 5.612,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 6.956,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 7.164,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.568,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 8.018,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 6.825,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 6.135,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Lato",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Lato",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Lato",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "dark",
+    "commit": "5a3024001d402ce854b26e1e69b17dea7f1fe4d9",
+    "sourceChecks": [
+      {
+        "label": "ink on paper",
+        "ratio": 13.713,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on panel",
+        "ratio": 11.478,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "ink on code",
+        "ratio": 11.478,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on paper",
+        "ratio": 9.032,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on panel",
+        "ratio": 7.56,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "muted on code",
+        "ratio": 7.56,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on paper",
+        "ratio": 7.756,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on panel",
+        "ratio": 6.492,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "accent-text on code",
+        "ratio": 6.492,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on paper",
+        "ratio": 5.977,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on panel",
+        "ratio": 5.003,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "secondary-text on code",
+        "ratio": 5.003,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on paper",
+        "ratio": 13.713,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on panel",
+        "ratio": 11.478,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "code-ink on code",
+        "ratio": 11.478,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "button-ink on primary-fill",
+        "ratio": 7.164,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "primary-hover-ink on primary-hover-fill",
+        "ratio": 5.937,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "selected-ink on selected-fill",
+        "ratio": 7.164,
+        "minimum": 4.5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against paper",
+        "ratio": 7.756,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against panel",
+        "ratio": 6.492,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "focus against code",
+        "ratio": 6.492,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against paper",
+        "ratio": 3.584,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against panel",
+        "ratio": 3.0,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "control-boundary against code",
+        "ratio": 3.0,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success text on fill",
+        "ratio": 8.989,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "success boundary on fill",
+        "ratio": 3.03,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning text on fill",
+        "ratio": 9.173,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "warning boundary on fill",
+        "ratio": 3.803,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger text on fill",
+        "ratio": 8.663,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "danger boundary on fill",
+        "ratio": 3.658,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info text on fill",
+        "ratio": 9.178,
+        "minimum": 5,
+        "passes": true,
+        "kind": "source-pair"
+      },
+      {
+        "label": "info boundary on fill",
+        "ratio": 4.49,
+        "minimum": 3,
+        "passes": true,
+        "kind": "source-pair"
+      }
+    ],
+    "browser": [
+      {
+        "viewport": "desktop",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 13.713,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 9.032,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 7.164,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 11.478,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 7.756,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 7.56,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 7.164,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Lato",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Lato",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Lato",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      },
+      {
+        "viewport": "mobile",
+        "profileErrors": [],
+        "renderedText": [
+          {
+            "label": "foundation-prose",
+            "ratio": 13.713,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-metadata",
+            "ratio": 9.032,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-primary",
+            "ratio": 7.164,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-secondary",
+            "ratio": 11.478,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-outline",
+            "ratio": 7.756,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-disabled",
+            "ratio": 7.56,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-error",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "foundation-selected",
+            "ratio": 7.164,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "success action",
+            "ratio": 8.989,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "warning action",
+            "ratio": 9.173,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "danger action",
+            "ratio": 8.663,
+            "minimum": 4.5,
+            "passes": true
+          },
+          {
+            "label": "info action",
+            "ratio": 9.178,
+            "minimum": 4.5,
+            "passes": true
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Lato",
+            "weight": "400",
+            "style": "italic"
+          },
+          {
+            "family": "Lato",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Lato",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "bootstrap-icons",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ]
+      }
+    ]
+  }
+]
