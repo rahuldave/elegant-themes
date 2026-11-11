@@ -227,12 +227,12 @@ CURRENT_NOTES = {
  'tufte': '20px ET Book, 16px system monospace code, and 1.60 leading in both modes. Italic sections preserve the literary voice and carry the unchanged rubric deduction. Marginal notes and complex Tufte layouts remain outside this shared specimen.',
  'zephyr-reading': '18px Inter, 16px IBM Plex Mono, paired white/blue and dark companion palettes. Ordinary and state roles are explicit. The type score falls mainly because the new 1.60 leading is outside the fixed preferred band.',
  'simplex-reading': '18px Open Sans and 16px code, with a deliberate dark companion to the native light/red palette. Flat surfaces and explicit state colors remain calm. The new 1.60 leading reduces the fixed typography score.',
- 'pulse-reading': '18px system sans, 16px code, and authored purple light/dark palettes. The dark secondary button inherits a white fill under pale text (1.18:1), so repair that component before adopting the dark mode. The 1.60 leading also lowers the type score.',
- 'litera-reading': '20px Georgia continues through prose and lists; UI and code are 16px. Both modes have clear reading roles. The supplementary nav-pill test still uses an inherited blue/white selected pair (3.71:1); fix that component if used. Leading is 1.60.',
- 'darkly-reading': '18px Lato and 16px code, now with a designed light companion to the native dark palette. The light-mode sampled syntax minimum is 4.34:1 and needs repair. Leading is 1.60; the darker native mode has stronger sampled code contrast.',
+ 'pulse-reading': '18px system sans, 16px code, and authored purple light/dark palettes. The repaired secondary action uses the intended neutral panel and ink. The 1.60 leading is unchanged and still lowers the fixed type score.',
+ 'litera-reading': '20px Georgia continues through prose and lists; UI and code are 16px. Both modes have clear reading roles. Selected navigation now uses the tested foundation fill/ink in both modes. Leading remains 1.60.',
+ 'darkly-reading': '18px Lato and 16px code, now with a designed light companion to the native dark palette. Light syntax families now use repaired named roles, checked on the code surface. Leading remains 1.60; both modes retain distinct syntax families.',
 }
 for name, note in CURRENT_NOTES.items():
-    NOTES[name] = ('Current · repair flagged' if name in ['pulse-reading', 'litera-reading', 'darkly-reading'] else 'Current · candidate', note)
+    NOTES[name] = ('Current · candidate', note)
     DESIGN_NOTES[name] = note
 FONT['folio'] = (15, 'Source Serif 4 carries prose and ordinary sections; Caslon is available as an optional display role.')
 

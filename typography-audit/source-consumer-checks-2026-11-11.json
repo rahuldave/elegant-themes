@@ -1,0 +1,1417 @@
+[
+  {
+    "theme": "darkly-reading",
+    "capturedAt": "2026-11-11T14:06:31.000Z",
+    "method": "Real IAB browser; independently installed SmallDocs and Quarto consumers; both authored modes; computed sRGB colors. Supplemental CSS cascade tests cover forced hover/focus/active and disabled variants.",
+    "rows": [
+      {
+        "theme": "darkly",
+        "consumer": "smalldocs",
+        "mode": "light",
+        "body": {
+          "fontSize": "18px",
+          "lineHeight": "28.8px"
+        },
+        "controls": [
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(234, 236, 239)",
+            "class": "btn btn-secondary",
+            "color": "rgb(33, 37, 41)",
+            "contrast": 13.033789562954906,
+            "disabled": false,
+            "id": "secondary"
+          }
+        ],
+        "minSyntax": 5.018653553529635,
+        "tokens": [
+          {
+            "class": "im",
+            "color": "rgb(0, 107, 143)",
+            "contrast": 5.069864266197468,
+            "text": "from"
+          },
+          {
+            "class": "at",
+            "color": "rgb(92, 106, 30)",
+            "contrast": 5.018653553529635,
+            "text": "@dataclass"
+          },
+          {
+            "class": "kw",
+            "color": "rgb(181, 27, 22)",
+            "contrast": 5.663083858171132,
+            "text": "class"
+          },
+          {
+            "class": "bu",
+            "color": "rgb(33, 37, 41)",
+            "contrast": 13.033789562954906,
+            "text": "int"
+          },
+          {
+            "class": "op",
+            "color": "rgb(0, 107, 143)",
+            "contrast": 5.069864266197468,
+            "text": "="
+          },
+          {
+            "class": "dv",
+            "color": "rgb(173, 0, 0)",
+            "contrast": 6.389643741700922,
+            "text": "3"
+          },
+          {
+            "class": "co",
+            "color": "rgb(94, 94, 94)",
+            "contrast": 5.4785398282704225,
+            "text": "# Syntax families remain "
+          },
+          {
+            "class": "st",
+            "color": "rgb(29, 110, 70)",
+            "contrast": 5.263358960741683,
+            "text": "\""
+          },
+          {
+            "class": "al",
+            "color": "rgb(0, 59, 79)",
+            "contrast": 10.206029636081496,
+            "text": "al"
+          },
+          {
+            "class": "an",
+            "color": "rgb(0, 59, 79)",
+            "contrast": 10.206029636081496,
+            "text": "an"
+          },
+          {
+            "class": "bn",
+            "color": "rgb(173, 0, 0)",
+            "contrast": 6.389643741700922,
+            "text": "bn"
+          },
+          {
+            "class": "bu",
+            "color": "rgb(0, 59, 79)",
+            "contrast": 10.206029636081496,
+            "text": "bu"
+          },
+          {
+            "class": "cf",
+            "color": "rgb(181, 27, 22)",
+            "contrast": 5.663083858171132,
+            "text": "cf"
+          },
+          {
+            "class": "ch",
+            "color": "rgb(29, 110, 70)",
+            "contrast": 5.263358960741683,
+            "text": "ch"
+          },
+          {
+            "class": "cn",
+            "color": "rgb(181, 27, 22)",
+            "contrast": 5.663083858171132,
+            "text": "cn"
+          },
+          {
+            "class": "cv",
+            "color": "rgb(0, 59, 79)",
+            "contrast": 10.206029636081496,
+            "text": "cv"
+          },
+          {
+            "class": "do",
+            "color": "rgb(94, 94, 94)",
+            "contrast": 5.4785398282704225,
+            "text": "do"
+          },
+          {
+            "class": "dt",
+            "color": "rgb(173, 0, 0)",
+            "contrast": 6.389643741700922,
+            "text": "dt"
+          },
+          {
+            "class": "er",
+            "color": "rgb(173, 0, 0)",
+            "contrast": 6.389643741700922,
+            "text": "er"
+          },
+          {
+            "class": "ex",
+            "color": "rgb(0, 59, 79)",
+            "contrast": 10.206029636081496,
+            "text": "ex"
+          },
+          {
+            "class": "fl",
+            "color": "rgb(150, 81, 0)",
+            "contrast": 5.107714312009435,
+            "text": "fl"
+          },
+          {
+            "class": "fu",
+            "color": "rgb(71, 88, 171)",
+            "contrast": 5.456277153210544,
+            "text": "fu"
+          },
+          {
+            "class": "in",
+            "color": "rgb(0, 59, 79)",
+            "contrast": 10.206029636081496,
+            "text": "in"
+          },
+          {
+            "class": "ot",
+            "color": "rgb(181, 27, 22)",
+            "contrast": 5.663083858171132,
+            "text": "ot"
+          },
+          {
+            "class": "pp",
+            "color": "rgb(173, 0, 0)",
+            "contrast": 6.389643741700922,
+            "text": "pp"
+          },
+          {
+            "class": "sc",
+            "color": "rgb(0, 107, 143)",
+            "contrast": 5.069864266197468,
+            "text": "sc"
+          },
+          {
+            "class": "ss",
+            "color": "rgb(29, 110, 70)",
+            "contrast": 5.263358960741683,
+            "text": "ss"
+          },
+          {
+            "class": "va",
+            "color": "rgb(150, 81, 0)",
+            "contrast": 5.107714312009435,
+            "text": "va"
+          },
+          {
+            "class": "vs",
+            "color": "rgb(29, 110, 70)",
+            "contrast": 5.263358960741683,
+            "text": "vs"
+          },
+          {
+            "class": "wa",
+            "color": "rgb(0, 59, 79)",
+            "contrast": 10.206029636081496,
+            "text": "wa"
+          }
+        ]
+      },
+      {
+        "theme": "darkly",
+        "consumer": "smalldocs",
+        "mode": "dark",
+        "body": {
+          "fontSize": "18px",
+          "lineHeight": "28.8px"
+        },
+        "controls": [
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(43, 48, 53)",
+            "class": "btn btn-secondary",
+            "color": "rgb(238, 238, 238)",
+            "contrast": 11.478068325996794,
+            "disabled": false,
+            "id": "secondary"
+          }
+        ],
+        "minSyntax": 4.847477111141815,
+        "tokens": [
+          {
+            "class": "im",
+            "color": "rgb(249, 117, 131)",
+            "contrast": 5.009933657749309,
+            "text": "from"
+          },
+          {
+            "class": "at",
+            "color": "rgb(121, 184, 255)",
+            "contrast": 6.4133028597933475,
+            "text": "@dataclass"
+          },
+          {
+            "class": "kw",
+            "color": "rgb(249, 117, 131)",
+            "contrast": 5.009933657749309,
+            "text": "class"
+          },
+          {
+            "class": "bu",
+            "color": "rgb(238, 238, 238)",
+            "contrast": 11.478068325996794,
+            "text": "int"
+          },
+          {
+            "class": "op",
+            "color": "rgb(225, 228, 232)",
+            "contrast": 10.440758417975964,
+            "text": "="
+          },
+          {
+            "class": "dv",
+            "color": "rgb(121, 184, 255)",
+            "contrast": 6.4133028597933475,
+            "text": "3"
+          },
+          {
+            "class": "co",
+            "color": "rgb(149, 157, 165)",
+            "contrast": 4.847477111141815,
+            "text": "# Syntax families remain "
+          },
+          {
+            "class": "st",
+            "color": "rgb(158, 203, 255)",
+            "contrast": 7.888981708545517,
+            "text": "\""
+          },
+          {
+            "class": "al",
+            "color": "rgb(225, 228, 232)",
+            "contrast": 10.440758417975964,
+            "text": "al"
+          },
+          {
+            "class": "an",
+            "color": "rgb(225, 228, 232)",
+            "contrast": 10.440758417975964,
+            "text": "an"
+          },
+          {
+            "class": "bn",
+            "color": "rgb(121, 184, 255)",
+            "contrast": 6.4133028597933475,
+            "text": "bn"
+          },
+          {
+            "class": "bu",
+            "color": "rgb(225, 228, 232)",
+            "contrast": 10.440758417975964,
+            "text": "bu"
+          },
+          {
+            "class": "cf",
+            "color": "rgb(249, 117, 131)",
+            "contrast": 5.009933657749309,
+            "text": "cf"
+          },
+          {
+            "class": "ch",
+            "color": "rgb(158, 203, 255)",
+            "contrast": 7.888981708545517,
+            "text": "ch"
+          },
+          {
+            "class": "cn",
+            "color": "rgb(249, 117, 131)",
+            "contrast": 5.009933657749309,
+            "text": "cn"
+          },
+          {
+            "class": "cv",
+            "color": "rgb(225, 228, 232)",
+            "contrast": 10.440758417975964,
+            "text": "cv"
+          },
+          {
+            "class": "do",
+            "color": "rgb(149, 157, 165)",
+            "contrast": 4.847477111141815,
+            "text": "do"
+          },
+          {
+            "class": "dt",
+            "color": "rgb(121, 184, 255)",
+            "contrast": 6.4133028597933475,
+            "text": "dt"
+          },
+          {
+            "class": "er",
+            "color": "rgb(121, 184, 255)",
+            "contrast": 6.4133028597933475,
+            "text": "er"
+          },
+          {
+            "class": "ex",
+            "color": "rgb(225, 228, 232)",
+            "contrast": 10.440758417975964,
+            "text": "ex"
+          },
+          {
+            "class": "fl",
+            "color": "rgb(255, 171, 112)",
+            "contrast": 7.172985305674108,
+            "text": "fl"
+          },
+          {
+            "class": "fu",
+            "color": "rgb(179, 146, 240)",
+            "contrast": 5.254936608762606,
+            "text": "fu"
+          },
+          {
+            "class": "in",
+            "color": "rgb(225, 228, 232)",
+            "contrast": 10.440758417975964,
+            "text": "in"
+          },
+          {
+            "class": "ot",
+            "color": "rgb(249, 117, 131)",
+            "contrast": 5.009933657749309,
+            "text": "ot"
+          },
+          {
+            "class": "pp",
+            "color": "rgb(121, 184, 255)",
+            "contrast": 6.4133028597933475,
+            "text": "pp"
+          },
+          {
+            "class": "sc",
+            "color": "rgb(225, 228, 232)",
+            "contrast": 10.440758417975964,
+            "text": "sc"
+          },
+          {
+            "class": "ss",
+            "color": "rgb(158, 203, 255)",
+            "contrast": 7.888981708545517,
+            "text": "ss"
+          },
+          {
+            "class": "va",
+            "color": "rgb(255, 171, 112)",
+            "contrast": 7.172985305674108,
+            "text": "va"
+          },
+          {
+            "class": "vs",
+            "color": "rgb(158, 203, 255)",
+            "contrast": 7.888981708545517,
+            "text": "vs"
+          },
+          {
+            "class": "wa",
+            "color": "rgb(225, 228, 232)",
+            "contrast": 10.440758417975964,
+            "text": "wa"
+          }
+        ]
+      },
+      {
+        "theme": "darkly",
+        "consumer": "quarto",
+        "mode": "light",
+        "body": {
+          "fontSize": "18px",
+          "lineHeight": "28.8px"
+        },
+        "controls": [
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(234, 236, 239)",
+            "class": "btn btn-secondary",
+            "color": "rgb(33, 37, 41)",
+            "contrast": 13.033789562954906,
+            "disabled": false,
+            "id": "secondary"
+          }
+        ],
+        "minSyntax": 4.638387482009704,
+        "tokens": [
+          {
+            "class": "im",
+            "color": "rgb(0, 107, 143)",
+            "contrast": 5.069864266197468,
+            "text": "from"
+          },
+          {
+            "class": "at",
+            "color": "rgb(92, 106, 30)",
+            "contrast": 5.018653553529635,
+            "text": "@dataclass"
+          },
+          {
+            "class": "kw",
+            "color": "rgb(181, 27, 22)",
+            "contrast": 5.663083858171132,
+            "text": "class"
+          },
+          {
+            "class": "bu",
+            "color": "rgb(84, 84, 84)",
+            "contrast": 6.398251084991024,
+            "text": "int"
+          },
+          {
+            "class": "op",
+            "color": "rgb(0, 107, 143)",
+            "contrast": 5.069864266197468,
+            "text": "="
+          },
+          {
+            "class": "dv",
+            "color": "rgb(121, 40, 161)",
+            "contrast": 6.7434688270193845,
+            "text": "3"
+          },
+          {
+            "class": "co",
+            "color": "rgb(105, 105, 105)",
+            "contrast": 4.638387482009704,
+            "text": "# Syntax families remain "
+          },
+          {
+            "class": "st",
+            "color": "rgb(29, 110, 70)",
+            "contrast": 5.263358960741683,
+            "text": "\"readable code\""
+          },
+          {
+            "class": "al",
+            "color": "rgb(121, 40, 161)",
+            "contrast": 6.7434688270193845,
+            "text": "al"
+          },
+          {
+            "class": "an",
+            "color": "rgb(105, 105, 105)",
+            "contrast": 4.638387482009704,
+            "text": "an"
+          },
+          {
+            "class": "bn",
+            "color": "rgb(121, 40, 161)",
+            "contrast": 6.7434688270193845,
+            "text": "bn"
+          },
+          {
+            "class": "cf",
+            "color": "rgb(181, 27, 22)",
+            "contrast": 5.663083858171132,
+            "text": "cf"
+          },
+          {
+            "class": "ch",
+            "color": "rgb(29, 110, 70)",
+            "contrast": 5.263358960741683,
+            "text": "ch"
+          },
+          {
+            "class": "cn",
+            "color": "rgb(181, 27, 22)",
+            "contrast": 5.663083858171132,
+            "text": "cn"
+          },
+          {
+            "class": "cv",
+            "color": "rgb(105, 105, 105)",
+            "contrast": 4.638387482009704,
+            "text": "cv"
+          },
+          {
+            "class": "do",
+            "color": "rgb(105, 105, 105)",
+            "contrast": 4.638387482009704,
+            "text": "do"
+          },
+          {
+            "class": "dt",
+            "color": "rgb(121, 40, 161)",
+            "contrast": 6.7434688270193845,
+            "text": "dt"
+          },
+          {
+            "class": "er",
+            "color": "rgb(121, 40, 161)",
+            "contrast": 6.7434688270193845,
+            "text": "er"
+          },
+          {
+            "class": "ex",
+            "color": "rgb(84, 84, 84)",
+            "contrast": 6.398251084991024,
+            "text": "ex"
+          },
+          {
+            "class": "fl",
+            "color": "rgb(150, 81, 0)",
+            "contrast": 5.107714312009435,
+            "text": "fl"
+          },
+          {
+            "class": "fu",
+            "color": "rgb(6, 40, 126)",
+            "contrast": 11.003233244115878,
+            "text": "fu"
+          },
+          {
+            "class": "in",
+            "color": "rgb(105, 105, 105)",
+            "contrast": 4.638387482009704,
+            "text": "in"
+          },
+          {
+            "class": "ot",
+            "color": "rgb(181, 27, 22)",
+            "contrast": 5.663083858171132,
+            "text": "ot"
+          },
+          {
+            "class": "pp",
+            "color": "rgb(121, 40, 161)",
+            "contrast": 6.7434688270193845,
+            "text": "pp"
+          },
+          {
+            "class": "sc",
+            "color": "rgb(0, 107, 143)",
+            "contrast": 5.069864266197468,
+            "text": "sc"
+          },
+          {
+            "class": "ss",
+            "color": "rgb(29, 110, 70)",
+            "contrast": 5.263358960741683,
+            "text": "ss"
+          },
+          {
+            "class": "va",
+            "color": "rgb(150, 81, 0)",
+            "contrast": 5.107714312009435,
+            "text": "va"
+          },
+          {
+            "class": "vs",
+            "color": "rgb(29, 110, 70)",
+            "contrast": 5.263358960741683,
+            "text": "vs"
+          },
+          {
+            "class": "wa",
+            "color": "rgb(105, 105, 105)",
+            "contrast": 4.638387482009704,
+            "text": "wa"
+          }
+        ]
+      },
+      {
+        "theme": "darkly",
+        "consumer": "quarto",
+        "mode": "dark",
+        "body": {
+          "fontSize": "18px",
+          "lineHeight": "28.8px"
+        },
+        "controls": [
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(43, 48, 53)",
+            "class": "btn btn-secondary",
+            "color": "rgb(238, 238, 238)",
+            "contrast": 11.478068325996794,
+            "disabled": false,
+            "id": "secondary"
+          }
+        ],
+        "minSyntax": 5.009933657749309,
+        "tokens": [
+          {
+            "class": "im",
+            "color": "rgb(249, 117, 131)",
+            "contrast": 5.009933657749309,
+            "text": "from"
+          },
+          {
+            "class": "at",
+            "color": "rgb(121, 184, 255)",
+            "contrast": 6.4133028597933475,
+            "text": "@dataclass"
+          },
+          {
+            "class": "kw",
+            "color": "rgb(249, 117, 131)",
+            "contrast": 5.009933657749309,
+            "text": "class"
+          },
+          {
+            "class": "bu",
+            "color": "rgb(245, 171, 53)",
+            "contrast": 6.822890802198487,
+            "text": "int"
+          },
+          {
+            "class": "op",
+            "color": "rgb(225, 228, 232)",
+            "contrast": 10.440758417975964,
+            "text": "="
+          },
+          {
+            "class": "dv",
+            "color": "rgb(220, 198, 224)",
+            "contrast": 8.368991664281447,
+            "text": "3"
+          },
+          {
+            "class": "co",
+            "color": "rgb(212, 208, 171)",
+            "contrast": 8.503868849816579,
+            "text": "# Syntax families remain "
+          },
+          {
+            "class": "st",
+            "color": "rgb(158, 203, 255)",
+            "contrast": 7.888981708545517,
+            "text": "\"readable code\""
+          },
+          {
+            "class": "al",
+            "color": "rgb(220, 198, 224)",
+            "contrast": 8.368991664281447,
+            "text": "al"
+          },
+          {
+            "class": "an",
+            "color": "rgb(212, 208, 171)",
+            "contrast": 8.503868849816579,
+            "text": "an"
+          },
+          {
+            "class": "bn",
+            "color": "rgb(220, 198, 224)",
+            "contrast": 8.368991664281447,
+            "text": "bn"
+          },
+          {
+            "class": "cf",
+            "color": "rgb(249, 117, 131)",
+            "contrast": 5.009933657749309,
+            "text": "cf"
+          },
+          {
+            "class": "ch",
+            "color": "rgb(158, 203, 255)",
+            "contrast": 7.888981708545517,
+            "text": "ch"
+          },
+          {
+            "class": "cn",
+            "color": "rgb(249, 117, 131)",
+            "contrast": 5.009933657749309,
+            "text": "cn"
+          },
+          {
+            "class": "cv",
+            "color": "rgb(212, 208, 171)",
+            "contrast": 8.503868849816579,
+            "text": "cv"
+          },
+          {
+            "class": "do",
+            "color": "rgb(212, 208, 171)",
+            "contrast": 8.503868849816579,
+            "text": "do"
+          },
+          {
+            "class": "dt",
+            "color": "rgb(220, 198, 224)",
+            "contrast": 8.368991664281447,
+            "text": "dt"
+          },
+          {
+            "class": "er",
+            "color": "rgb(220, 198, 224)",
+            "contrast": 8.368991664281447,
+            "text": "er"
+          },
+          {
+            "class": "ex",
+            "color": "rgb(255, 215, 0)",
+            "contrast": 9.494644026379971,
+            "text": "ex"
+          },
+          {
+            "class": "fl",
+            "color": "rgb(255, 171, 112)",
+            "contrast": 7.172985305674108,
+            "text": "fl"
+          },
+          {
+            "class": "fu",
+            "color": "rgb(255, 215, 0)",
+            "contrast": 9.494644026379971,
+            "text": "fu"
+          },
+          {
+            "class": "in",
+            "color": "rgb(212, 208, 171)",
+            "contrast": 8.503868849816579,
+            "text": "in"
+          },
+          {
+            "class": "ot",
+            "color": "rgb(249, 117, 131)",
+            "contrast": 5.009933657749309,
+            "text": "ot"
+          },
+          {
+            "class": "pp",
+            "color": "rgb(220, 198, 224)",
+            "contrast": 8.368991664281447,
+            "text": "pp"
+          },
+          {
+            "class": "sc",
+            "color": "rgb(225, 228, 232)",
+            "contrast": 10.440758417975964,
+            "text": "sc"
+          },
+          {
+            "class": "ss",
+            "color": "rgb(158, 203, 255)",
+            "contrast": 7.888981708545517,
+            "text": "ss"
+          },
+          {
+            "class": "va",
+            "color": "rgb(255, 171, 112)",
+            "contrast": 7.172985305674108,
+            "text": "va"
+          },
+          {
+            "class": "vs",
+            "color": "rgb(158, 203, 255)",
+            "contrast": 7.888981708545517,
+            "text": "vs"
+          },
+          {
+            "class": "wa",
+            "color": "rgb(212, 208, 171)",
+            "contrast": 8.503868849816579,
+            "text": "wa"
+          }
+        ]
+      }
+    ],
+    "interactions": []
+  },
+  {
+    "theme": "litera-reading",
+    "capturedAt": "2026-11-11T14:06:30.999Z",
+    "method": "Real IAB browser; independently installed SmallDocs and Quarto consumers; both authored modes; computed sRGB colors. Supplemental CSS cascade tests cover forced hover/focus/active and disabled variants.",
+    "rows": [
+      {
+        "body": {
+          "fontSize": "20px",
+          "lineHeight": "32px"
+        },
+        "codeBackground": "rgb(244, 245, 247)",
+        "controls": [
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(244, 245, 247)",
+            "class": "btn btn-secondary",
+            "color": "rgb(52, 58, 64)",
+            "contrast": 10.546757278473384,
+            "disabled": false,
+            "id": "secondary"
+          },
+          {
+            "ariaCurrent": "page",
+            "ariaSelected": null,
+            "background": "rgb(37, 87, 160)",
+            "class": "nav-link active",
+            "color": "rgb(255, 255, 255)",
+            "contrast": 7.11972044317352,
+            "disabled": false,
+            "id": "selected-page"
+          },
+          {
+            "ariaCurrent": null,
+            "ariaSelected": "true",
+            "background": "rgb(37, 87, 160)",
+            "class": "nav-link",
+            "color": "rgb(255, 255, 255)",
+            "contrast": 7.11972044317352,
+            "disabled": false,
+            "id": "selected-tab"
+          }
+        ],
+        "mode": "light",
+        "tokens": [
+          {
+            "class": "im",
+            "color": "rgb(0, 118, 158)",
+            "contrast": 4.712411684665161,
+            "text": "from"
+          },
+          {
+            "class": "op",
+            "color": "rgb(94, 94, 94)",
+            "contrast": 5.94404183442712,
+            "text": "="
+          },
+          {
+            "class": "dv",
+            "color": "rgb(173, 0, 0)",
+            "contrast": 6.932560663658826,
+            "text": "1"
+          },
+          {
+            "class": "bu",
+            "color": "rgb(52, 58, 64)",
+            "contrast": 10.546757278473384,
+            "text": "print"
+          }
+        ],
+        "url": "http://127.0.0.1:8450/smalldocs-litera-reading/.build/qa/smalldocs/index.html",
+        "theme": "litera",
+        "consumer": "smalldocs"
+      },
+      {
+        "body": {
+          "fontSize": "20px",
+          "lineHeight": "32px"
+        },
+        "codeBackground": "rgb(36, 44, 56)",
+        "controls": [
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(36, 44, 56)",
+            "class": "btn btn-secondary",
+            "color": "rgb(232, 237, 242)",
+            "contrast": 11.945257217430758,
+            "disabled": false,
+            "id": "secondary"
+          },
+          {
+            "ariaCurrent": "page",
+            "ariaSelected": null,
+            "background": "rgb(102, 137, 188)",
+            "class": "nav-link active",
+            "color": "rgb(23, 32, 44)",
+            "contrast": 4.587587660898555,
+            "disabled": false,
+            "id": "selected-page"
+          },
+          {
+            "ariaCurrent": null,
+            "ariaSelected": "true",
+            "background": "rgb(102, 137, 188)",
+            "class": "nav-link",
+            "color": "rgb(23, 32, 44)",
+            "contrast": 4.587587660898555,
+            "disabled": false,
+            "id": "selected-tab"
+          }
+        ],
+        "mode": "dark",
+        "tokens": [
+          {
+            "class": "im",
+            "color": "rgb(249, 117, 131)",
+            "contrast": 5.293653599513226,
+            "text": "from"
+          },
+          {
+            "class": "op",
+            "color": "rgb(225, 228, 232)",
+            "contrast": 11.032033986213737,
+            "text": "="
+          },
+          {
+            "class": "dv",
+            "color": "rgb(121, 184, 255)",
+            "contrast": 6.776497671980215,
+            "text": "1"
+          },
+          {
+            "class": "bu",
+            "color": "rgb(232, 237, 242)",
+            "contrast": 11.945257217430758,
+            "text": "print"
+          }
+        ],
+        "url": "http://127.0.0.1:8450/smalldocs-litera-reading/.build/qa/smalldocs/index.html",
+        "theme": "litera",
+        "consumer": "smalldocs"
+      },
+      {
+        "body": {
+          "fontSize": "20px",
+          "lineHeight": "32px"
+        },
+        "codeBackground": "rgb(36, 44, 56)",
+        "controls": [
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(36, 44, 56)",
+            "class": "btn btn-secondary",
+            "color": "rgb(232, 237, 242)",
+            "contrast": 11.945257217430758,
+            "disabled": false,
+            "id": "secondary"
+          },
+          {
+            "ariaCurrent": "page",
+            "ariaSelected": null,
+            "background": "rgb(102, 137, 188)",
+            "class": "nav-link active",
+            "color": "rgb(23, 32, 44)",
+            "contrast": 4.587587660898555,
+            "disabled": false,
+            "id": "selected-page"
+          },
+          {
+            "ariaCurrent": null,
+            "ariaSelected": "true",
+            "background": "rgb(102, 137, 188)",
+            "class": "nav-link",
+            "color": "rgb(23, 32, 44)",
+            "contrast": 4.587587660898555,
+            "disabled": false,
+            "id": "selected-tab"
+          }
+        ],
+        "mode": "dark",
+        "tokens": [
+          {
+            "class": "im",
+            "color": "rgb(248, 248, 242)",
+            "contrast": 13.200569283898655,
+            "text": "from"
+          },
+          {
+            "class": "op",
+            "color": "rgb(0, 224, 224)",
+            "contrast": 8.535714724266297,
+            "text": "="
+          },
+          {
+            "class": "dv",
+            "color": "rgb(220, 198, 224)",
+            "contrast": 8.842940021649385,
+            "text": "1"
+          },
+          {
+            "class": "bu",
+            "color": "rgb(245, 171, 53)",
+            "contrast": 7.209281184447773,
+            "text": "print"
+          }
+        ],
+        "url": "http://127.0.0.1:8450/smalldocs-litera-reading/.build/qa/quarto/index.html",
+        "theme": "litera",
+        "consumer": "quarto"
+      },
+      {
+        "body": {
+          "fontSize": "20px",
+          "lineHeight": "32px"
+        },
+        "codeBackground": "rgb(244, 245, 247)",
+        "controls": [
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(244, 245, 247)",
+            "class": "btn btn-secondary",
+            "color": "rgb(52, 58, 64)",
+            "contrast": 10.546757278473384,
+            "disabled": false,
+            "id": "secondary"
+          },
+          {
+            "ariaCurrent": "page",
+            "ariaSelected": null,
+            "background": "rgb(37, 87, 160)",
+            "class": "nav-link active",
+            "color": "rgb(255, 255, 255)",
+            "contrast": 7.11972044317352,
+            "disabled": false,
+            "id": "selected-page"
+          },
+          {
+            "ariaCurrent": null,
+            "ariaSelected": "true",
+            "background": "rgb(37, 87, 160)",
+            "class": "nav-link",
+            "color": "rgb(255, 255, 255)",
+            "contrast": 7.11972044317352,
+            "disabled": false,
+            "id": "selected-tab"
+          }
+        ],
+        "mode": "light",
+        "tokens": [
+          {
+            "class": "im",
+            "color": "rgb(84, 84, 84)",
+            "contrast": 6.941899357946606,
+            "text": "from"
+          },
+          {
+            "class": "op",
+            "color": "rgb(0, 118, 158)",
+            "contrast": 4.712411684665161,
+            "text": "="
+          },
+          {
+            "class": "dv",
+            "color": "rgb(121, 40, 161)",
+            "contrast": 7.316449651441663,
+            "text": "1"
+          },
+          {
+            "class": "bu",
+            "color": "rgb(84, 84, 84)",
+            "contrast": 6.941899357946606,
+            "text": "print"
+          }
+        ],
+        "url": "http://127.0.0.1:8450/smalldocs-litera-reading/.build/qa/quarto/index.html",
+        "theme": "litera",
+        "consumer": "quarto"
+      }
+    ],
+    "interactions": []
+  },
+  {
+    "theme": "pulse-reading",
+    "capturedAt": "2026-11-11T14:06:30.987Z",
+    "method": "Real IAB browser; independently installed SmallDocs and Quarto consumers; both authored modes; computed sRGB colors. Supplemental CSS cascade tests cover forced hover/focus/active and disabled variants.",
+    "rows": [
+      {
+        "body": {
+          "fontSize": "18px",
+          "lineHeight": "28.8px"
+        },
+        "codeBackground": "rgb(39, 41, 55)",
+        "controls": [
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(39, 41, 55)",
+            "class": "btn btn-secondary",
+            "color": "rgb(232, 237, 242)",
+            "contrast": 12.221913235500717,
+            "disabled": false,
+            "id": "secondary"
+          },
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(147, 121, 187)",
+            "class": "btn btn-secondary active",
+            "color": "rgb(27, 29, 43)",
+            "contrast": 4.528304644294229,
+            "disabled": false,
+            "id": "secondary-active"
+          },
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(39, 41, 55)",
+            "class": "btn btn-secondary",
+            "color": "rgb(191, 195, 202)",
+            "contrast": 8.140746962450622,
+            "disabled": true,
+            "id": "secondary-disabled"
+          }
+        ],
+        "mode": "dark",
+        "tokens": [
+          {
+            "class": "im",
+            "color": "rgb(249, 117, 131)",
+            "contrast": 5.416256327878587,
+            "text": "from"
+          },
+          {
+            "class": "op",
+            "color": "rgb(225, 228, 232)",
+            "contrast": 11.287539459079126,
+            "text": "="
+          },
+          {
+            "class": "dv",
+            "color": "rgb(121, 184, 255)",
+            "contrast": 6.933443548344828,
+            "text": "1"
+          },
+          {
+            "class": "bu",
+            "color": "rgb(232, 237, 242)",
+            "contrast": 12.221913235500717,
+            "text": "print"
+          }
+        ],
+        "url": "http://127.0.0.1:8450/smalldocs-pulse-reading/.build/qa/smalldocs/index.html",
+        "theme": "pulse",
+        "consumer": "smalldocs"
+      },
+      {
+        "body": {
+          "fontSize": "18px",
+          "lineHeight": "28.8px"
+        },
+        "codeBackground": "rgb(245, 240, 250)",
+        "controls": [
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(245, 240, 250)",
+            "class": "btn btn-secondary",
+            "color": "rgb(68, 68, 68)",
+            "contrast": 8.685534777490691,
+            "disabled": false,
+            "id": "secondary"
+          },
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(89, 49, 150)",
+            "class": "btn btn-secondary active",
+            "color": "rgb(255, 255, 255)",
+            "contrast": 9.112620903604434,
+            "disabled": false,
+            "id": "secondary-active"
+          },
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(245, 240, 250)",
+            "class": "btn btn-secondary",
+            "color": "rgb(98, 88, 108)",
+            "contrast": 5.97968040824092,
+            "disabled": true,
+            "id": "secondary-disabled"
+          }
+        ],
+        "mode": "light",
+        "tokens": [
+          {
+            "class": "im",
+            "color": "rgb(0, 118, 158)",
+            "contrast": 4.584212489930444,
+            "text": "from"
+          },
+          {
+            "class": "op",
+            "color": "rgb(94, 94, 94)",
+            "contrast": 5.7823366550764375,
+            "text": "="
+          },
+          {
+            "class": "dv",
+            "color": "rgb(173, 0, 0)",
+            "contrast": 6.743963241786125,
+            "text": "1"
+          },
+          {
+            "class": "bu",
+            "color": "rgb(68, 68, 68)",
+            "contrast": 8.685534777490691,
+            "text": "print"
+          }
+        ],
+        "url": "http://127.0.0.1:8450/smalldocs-pulse-reading/.build/qa/smalldocs/index.html",
+        "theme": "pulse",
+        "consumer": "smalldocs"
+      },
+      {
+        "body": {
+          "fontSize": "18px",
+          "lineHeight": "28.8px"
+        },
+        "codeBackground": "rgb(245, 240, 250)",
+        "controls": [
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(245, 240, 250)",
+            "class": "btn btn-secondary",
+            "color": "rgb(68, 68, 68)",
+            "contrast": 8.685534777490691,
+            "disabled": false,
+            "id": "secondary"
+          },
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(89, 49, 150)",
+            "class": "btn btn-secondary active",
+            "color": "rgb(255, 255, 255)",
+            "contrast": 9.112620903604434,
+            "disabled": false,
+            "id": "secondary-active"
+          },
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(245, 240, 250)",
+            "class": "btn btn-secondary",
+            "color": "rgb(98, 88, 108)",
+            "contrast": 5.97968040824092,
+            "disabled": true,
+            "id": "secondary-disabled"
+          }
+        ],
+        "mode": "light",
+        "tokens": [
+          {
+            "class": "im",
+            "color": "rgb(84, 84, 84)",
+            "contrast": 6.753047880790182,
+            "text": "from"
+          },
+          {
+            "class": "op",
+            "color": "rgb(0, 118, 158)",
+            "contrast": 4.584212489930444,
+            "text": "="
+          },
+          {
+            "class": "dv",
+            "color": "rgb(121, 40, 161)",
+            "contrast": 7.117408689743815,
+            "text": "1"
+          },
+          {
+            "class": "bu",
+            "color": "rgb(84, 84, 84)",
+            "contrast": 6.753047880790182,
+            "text": "print"
+          }
+        ],
+        "url": "http://127.0.0.1:8450/smalldocs-pulse-reading/.build/qa/quarto/index.html",
+        "theme": "pulse",
+        "consumer": "quarto"
+      },
+      {
+        "body": {
+          "fontSize": "18px",
+          "lineHeight": "28.8px"
+        },
+        "codeBackground": "rgb(39, 41, 55)",
+        "controls": [
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(39, 41, 55)",
+            "class": "btn btn-secondary",
+            "color": "rgb(232, 237, 242)",
+            "contrast": 12.221913235500717,
+            "disabled": false,
+            "id": "secondary"
+          },
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(147, 121, 187)",
+            "class": "btn btn-secondary active",
+            "color": "rgb(27, 29, 43)",
+            "contrast": 4.528304644294229,
+            "disabled": false,
+            "id": "secondary-active"
+          },
+          {
+            "ariaCurrent": null,
+            "ariaSelected": null,
+            "background": "rgb(39, 41, 55)",
+            "class": "btn btn-secondary",
+            "color": "rgb(191, 195, 202)",
+            "contrast": 8.140746962450622,
+            "disabled": true,
+            "id": "secondary-disabled"
+          }
+        ],
+        "mode": "dark",
+        "tokens": [
+          {
+            "class": "im",
+            "color": "rgb(248, 248, 242)",
+            "contrast": 13.50629873516664,
+            "text": "from"
+          },
+          {
+            "class": "op",
+            "color": "rgb(0, 224, 224)",
+            "contrast": 8.733404636171313,
+            "text": "="
+          },
+          {
+            "class": "dv",
+            "color": "rgb(220, 198, 224)",
+            "contrast": 9.047745370742335,
+            "text": "1"
+          },
+          {
+            "class": "bu",
+            "color": "rgb(245, 171, 53)",
+            "contrast": 7.3762504668442705,
+            "text": "print"
+          }
+        ],
+        "url": "http://127.0.0.1:8450/smalldocs-pulse-reading/.build/qa/quarto/index.html",
+        "theme": "pulse",
+        "consumer": "quarto"
+      }
+    ],
+    "interactions": [
+      {
+        "consumer": "smalldocs",
+        "hover": {
+          "background": "rgb(39, 41, 55)",
+          "color": "rgb(232, 237, 242)",
+          "hover": true
+        },
+        "focus": {
+          "background": "rgb(39, 41, 55)",
+          "color": "rgb(232, 237, 242)",
+          "focused": "secondary",
+          "outline": "rgb(147, 121, 187) solid 2px",
+          "outlineOffset": "4px",
+          "visible": true
+        },
+        "disabledEnabled": false
+      },
+      {
+        "consumer": "quarto",
+        "hover": {
+          "background": "rgb(39, 41, 55)",
+          "color": "rgb(232, 237, 242)",
+          "hover": true
+        },
+        "focus": {
+          "background": "rgb(39, 41, 55)",
+          "color": "rgb(232, 237, 242)",
+          "focused": "secondary",
+          "outline": "rgb(147, 121, 187) solid 2px",
+          "outlineOffset": "4px",
+          "visible": true
+        },
+        "disabledEnabled": false
+      }
+    ]
+  }
+]

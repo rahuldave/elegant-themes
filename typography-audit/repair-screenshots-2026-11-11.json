@@ -1,0 +1,380 @@
+[
+  {
+    "id": "pulse-reading",
+    "mode": "dark",
+    "page": "typography",
+    "viewportName": "desktop",
+    "file": "assets/pulse-reading-dark-desktop-typography.jpg",
+    "capturedAt": "2026-11-11T14:12:26.277Z",
+    "sha256": "851243ad00b4eb02fc3bc542b4ca517619253552f34f7cc0ac9fd5ee802bd2a2"
+  },
+  {
+    "id": "pulse-reading",
+    "mode": "dark",
+    "page": "typography",
+    "viewportName": "mobile",
+    "file": "assets/pulse-reading-dark-mobile-typography.jpg",
+    "capturedAt": "2026-11-11T14:12:26.406Z",
+    "sha256": "13b0891ab9cb3cef0c0e4a6ae7cc24f5e0935caf046ef595170663c4a4736de1"
+  },
+  {
+    "id": "pulse-reading",
+    "mode": "dark",
+    "page": "code",
+    "viewportName": "desktop",
+    "file": "assets/pulse-reading-dark-desktop-code.jpg",
+    "capturedAt": "2026-11-11T14:12:26.620Z",
+    "sha256": "751dc667569854f67e1fcc82e2ade9fdf6490dec4fab8e082745a7fb63f4f6e0"
+  },
+  {
+    "id": "pulse-reading",
+    "mode": "dark",
+    "page": "code",
+    "viewportName": "mobile",
+    "file": "assets/pulse-reading-dark-mobile-code.jpg",
+    "capturedAt": "2026-11-11T14:12:26.672Z",
+    "sha256": "5dc871751da1920fbe8360f3f034f09b707cd0a9030a6bdc4c1c328773760b0c"
+  },
+  {
+    "id": "pulse-reading",
+    "mode": "dark",
+    "page": "components",
+    "viewportName": "desktop",
+    "file": "assets/pulse-reading-dark-desktop-components.jpg",
+    "capturedAt": "2026-11-11T14:12:26.823Z",
+    "sha256": "2e0eea72f5e1e4c0df7b7d551f1187ea441f6fb34e61f1037b81a91a303ec3e5"
+  },
+  {
+    "id": "pulse-reading",
+    "mode": "dark",
+    "page": "foundations",
+    "viewportName": "desktop",
+    "file": "assets/pulse-reading-dark-desktop-foundations.jpg",
+    "capturedAt": "2026-11-11T14:12:26.910Z",
+    "sha256": "1c992c9dc06fcb294da60c62b771563ba9837bf1c1ada035a661dda68772a08c"
+  },
+  {
+    "id": "pulse-reading",
+    "mode": "dark",
+    "page": "foundations",
+    "viewportName": "mobile",
+    "file": "assets/pulse-reading-dark-mobile-foundations.jpg",
+    "capturedAt": "2026-11-11T14:12:26.988Z",
+    "sha256": "2a46afaf4522483926e6e4b87b23f3e4943886fed13af1a741d48b613ff2cc7f"
+  },
+  {
+    "id": "pulse-reading",
+    "mode": "light",
+    "page": "typography",
+    "viewportName": "desktop",
+    "file": "assets/pulse-reading-light-desktop-typography.jpg",
+    "capturedAt": "2026-11-11T14:12:49.506Z",
+    "sha256": "ec2b7b0206e4296c1b43b419e38b0a8d0e48c21f2e867a89c3d9666d4f042086"
+  },
+  {
+    "id": "pulse-reading",
+    "mode": "light",
+    "page": "typography",
+    "viewportName": "mobile",
+    "file": "assets/pulse-reading-light-mobile-typography.jpg",
+    "capturedAt": "2026-11-11T14:12:49.609Z",
+    "sha256": "61b6dff9d67e7f420090da89d46cf30fc515330edc2119f7ec8899deebe3960a"
+  },
+  {
+    "id": "pulse-reading",
+    "mode": "light",
+    "page": "code",
+    "viewportName": "desktop",
+    "file": "assets/pulse-reading-light-desktop-code.jpg",
+    "capturedAt": "2026-11-11T14:12:49.699Z",
+    "sha256": "b19b04e8a055da30b8de0b70a0fe1c6d443da73dba7b7a827f620cf17bc246db"
+  },
+  {
+    "id": "pulse-reading",
+    "mode": "light",
+    "page": "code",
+    "viewportName": "mobile",
+    "file": "assets/pulse-reading-light-mobile-code.jpg",
+    "capturedAt": "2026-11-11T14:12:49.806Z",
+    "sha256": "163afff343c0228ef337f4c4b6ae3bcbbeb111ba804f1fa6bc34898f9f5114d3"
+  },
+  {
+    "id": "pulse-reading",
+    "mode": "light",
+    "page": "components",
+    "viewportName": "desktop",
+    "file": "assets/pulse-reading-light-desktop-components.jpg",
+    "capturedAt": "2026-11-11T14:12:50.003Z",
+    "sha256": "02eeb431dfeffd3731db5538e59801437620321268212e8b4c7267915e9019b9"
+  },
+  {
+    "id": "pulse-reading",
+    "mode": "light",
+    "page": "foundations",
+    "viewportName": "desktop",
+    "file": "assets/pulse-reading-light-desktop-foundations.jpg",
+    "capturedAt": "2026-11-11T14:12:50.112Z",
+    "sha256": "00e01ed2b91f826a59b96ec3a8243db47e61a3453f7e22f9ea8c74f84b6f5396"
+  },
+  {
+    "id": "pulse-reading",
+    "mode": "light",
+    "page": "foundations",
+    "viewportName": "mobile",
+    "file": "assets/pulse-reading-light-mobile-foundations.jpg",
+    "capturedAt": "2026-11-11T14:12:50.215Z",
+    "sha256": "c7d6c540834e761bf339d300c28c878e2aac09620d5989919379d5f8fd220f5b"
+  },
+  {
+    "id": "litera-reading",
+    "mode": "light",
+    "page": "typography",
+    "viewportName": "desktop",
+    "file": "assets/litera-reading-light-desktop-typography.jpg",
+    "capturedAt": "2026-11-11T14:12:53.557Z",
+    "sha256": "df673e7b8ca5359be77bcc39011e4e0e16fdecd298743af26cb4ee07399d96ba"
+  },
+  {
+    "id": "litera-reading",
+    "mode": "light",
+    "page": "typography",
+    "viewportName": "mobile",
+    "file": "assets/litera-reading-light-mobile-typography.jpg",
+    "capturedAt": "2026-11-11T14:12:53.654Z",
+    "sha256": "90872f4c48032efa0eb0abc9e1574b960a1e5ecf56d04d1e01c286a42ff65d4c"
+  },
+  {
+    "id": "litera-reading",
+    "mode": "light",
+    "page": "code",
+    "viewportName": "desktop",
+    "file": "assets/litera-reading-light-desktop-code.jpg",
+    "capturedAt": "2026-11-11T14:12:53.756Z",
+    "sha256": "f8b9a4dc142b4c36994b6e3ad289047894e756d74683c159a1750c67a8911860"
+  },
+  {
+    "id": "litera-reading",
+    "mode": "light",
+    "page": "code",
+    "viewportName": "mobile",
+    "file": "assets/litera-reading-light-mobile-code.jpg",
+    "capturedAt": "2026-11-11T14:12:53.856Z",
+    "sha256": "3c0820ee6c7717b04773a654d73c336dd27d2496d1ea0bcb34c8c23ca4f13609"
+  },
+  {
+    "id": "litera-reading",
+    "mode": "light",
+    "page": "components",
+    "viewportName": "desktop",
+    "file": "assets/litera-reading-light-desktop-components.jpg",
+    "capturedAt": "2026-11-11T14:12:53.957Z",
+    "sha256": "968e5fd237ce9da7407f3c8691c23f0c5f2d5968e99abef1cefff4786b334287"
+  },
+  {
+    "id": "litera-reading",
+    "mode": "light",
+    "page": "foundations",
+    "viewportName": "desktop",
+    "file": "assets/litera-reading-light-desktop-foundations.jpg",
+    "capturedAt": "2026-11-11T14:12:54.066Z",
+    "sha256": "97942903b07a9985520df44cadd180a10f2719e1652ab993ea02d5fa6261f139"
+  },
+  {
+    "id": "litera-reading",
+    "mode": "light",
+    "page": "foundations",
+    "viewportName": "mobile",
+    "file": "assets/litera-reading-light-mobile-foundations.jpg",
+    "capturedAt": "2026-11-11T14:12:54.168Z",
+    "sha256": "b22286f7198083bf243c0e29fb1617f09c36a5bb7e06a22b03fbe4f1e3a848b3"
+  },
+  {
+    "id": "litera-reading",
+    "mode": "dark",
+    "page": "typography",
+    "viewportName": "desktop",
+    "file": "assets/litera-reading-dark-desktop-typography.jpg",
+    "capturedAt": "2026-11-11T14:12:57.522Z",
+    "sha256": "73ada828ed6a2b0c98932a5bcc71824869d0a070905d46fd7609b64afa6d9941"
+  },
+  {
+    "id": "litera-reading",
+    "mode": "dark",
+    "page": "typography",
+    "viewportName": "mobile",
+    "file": "assets/litera-reading-dark-mobile-typography.jpg",
+    "capturedAt": "2026-11-11T14:12:57.623Z",
+    "sha256": "f624ed7bdbad874ceaa4e1382e21c8b664508771174079b98668b112b035b39d"
+  },
+  {
+    "id": "litera-reading",
+    "mode": "dark",
+    "page": "code",
+    "viewportName": "desktop",
+    "file": "assets/litera-reading-dark-desktop-code.jpg",
+    "capturedAt": "2026-11-11T14:12:57.719Z",
+    "sha256": "8025563b648b1e89504324a0ddfb8dcf03b906db5a4dc1c2d43bfa12a3208865"
+  },
+  {
+    "id": "litera-reading",
+    "mode": "dark",
+    "page": "code",
+    "viewportName": "mobile",
+    "file": "assets/litera-reading-dark-mobile-code.jpg",
+    "capturedAt": "2026-11-11T14:12:57.807Z",
+    "sha256": "d0207ae750f0e451b005766c51968b0d191914b0d2a4f9e3706ce5fd4b58e3fb"
+  },
+  {
+    "id": "litera-reading",
+    "mode": "dark",
+    "page": "components",
+    "viewportName": "desktop",
+    "file": "assets/litera-reading-dark-desktop-components.jpg",
+    "capturedAt": "2026-11-11T14:12:57.924Z",
+    "sha256": "2820a81f922b34851bf9b5fc968f6bb0ed16a866f4202def7f84c68ed94fa6e4"
+  },
+  {
+    "id": "litera-reading",
+    "mode": "dark",
+    "page": "foundations",
+    "viewportName": "desktop",
+    "file": "assets/litera-reading-dark-desktop-foundations.jpg",
+    "capturedAt": "2026-11-11T14:12:58.027Z",
+    "sha256": "e4df184810285d320103452eb4b8c2cb0aa63ac0ce27f3a6b3ef6aa2a1973792"
+  },
+  {
+    "id": "litera-reading",
+    "mode": "dark",
+    "page": "foundations",
+    "viewportName": "mobile",
+    "file": "assets/litera-reading-dark-mobile-foundations.jpg",
+    "capturedAt": "2026-11-11T14:12:58.128Z",
+    "sha256": "5e2124df7a35ec6dfe3c8bdf46ef34c6c25847b0c19329fea0f5c2a3f63c2237"
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "light",
+    "page": "typography",
+    "viewportName": "desktop",
+    "file": "assets/darkly-reading-light-desktop-typography.jpg",
+    "capturedAt": "2026-11-11T14:13:01.468Z",
+    "sha256": "3f07c87000f5b489f1bead1f20232990a28a0608dd42fcc0823ab0ec6fbb5d69"
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "light",
+    "page": "typography",
+    "viewportName": "mobile",
+    "file": "assets/darkly-reading-light-mobile-typography.jpg",
+    "capturedAt": "2026-11-11T14:13:01.566Z",
+    "sha256": "c2b50507fa0058b554e61cad4e6fb3ff0c0b2da81e72083aa99b31dfe58f2d2f"
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "light",
+    "page": "code",
+    "viewportName": "desktop",
+    "file": "assets/darkly-reading-light-desktop-code.jpg",
+    "capturedAt": "2026-11-11T14:13:01.670Z",
+    "sha256": "3156f8b7f231fd8af0f81033f2c90ec3cdcb387b8a8de89a99abbe2e2ab6680b"
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "light",
+    "page": "code",
+    "viewportName": "mobile",
+    "file": "assets/darkly-reading-light-mobile-code.jpg",
+    "capturedAt": "2026-11-11T14:13:01.767Z",
+    "sha256": "6a109a0e85284f1921e0f5beb4f071848d0ee1f9b4f4c75aa6ad339f680628fe"
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "light",
+    "page": "components",
+    "viewportName": "desktop",
+    "file": "assets/darkly-reading-light-desktop-components.jpg",
+    "capturedAt": "2026-11-11T14:13:01.867Z",
+    "sha256": "ff135494c8294147aff21fce6a6eaf7d44a6e8d18d61ba54313c75f278ca13cb"
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "light",
+    "page": "foundations",
+    "viewportName": "desktop",
+    "file": "assets/darkly-reading-light-desktop-foundations.jpg",
+    "capturedAt": "2026-11-11T14:13:01.970Z",
+    "sha256": "30d4c8ce00cd56b932ca28dca7ebb6a19269745ee4bdfc0315c846e508600e1b"
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "light",
+    "page": "foundations",
+    "viewportName": "mobile",
+    "file": "assets/darkly-reading-light-mobile-foundations.jpg",
+    "capturedAt": "2026-11-11T14:13:02.070Z",
+    "sha256": "0761e53d192edbd1d0219d95ad3e816e02b412313adf24553ed9438525d8360f"
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "dark",
+    "page": "typography",
+    "viewportName": "desktop",
+    "file": "assets/darkly-reading-dark-desktop-typography.jpg",
+    "capturedAt": "2026-11-11T14:13:05.368Z",
+    "sha256": "ef1547dbd3995bbeb7f4d31cb4697b4ccee8b4b753af3af3a606479a5b2a33e3"
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "dark",
+    "page": "typography",
+    "viewportName": "mobile",
+    "file": "assets/darkly-reading-dark-mobile-typography.jpg",
+    "capturedAt": "2026-11-11T14:13:05.449Z",
+    "sha256": "39226207c9e59c8860ea9d7530c002f4140670f608cb72ae802719e2a4c4d084"
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "dark",
+    "page": "code",
+    "viewportName": "desktop",
+    "file": "assets/darkly-reading-dark-desktop-code.jpg",
+    "capturedAt": "2026-11-11T14:13:05.561Z",
+    "sha256": "5a4a3ccc823f51dea6749dd65d8f946c86e725211563cd12d7032118a1a9f273"
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "dark",
+    "page": "code",
+    "viewportName": "mobile",
+    "file": "assets/darkly-reading-dark-mobile-code.jpg",
+    "capturedAt": "2026-11-11T14:13:05.764Z",
+    "sha256": "c49ff074eb687e715cc5870b3201f1801311711666f7ba338035457f029031bf"
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "dark",
+    "page": "components",
+    "viewportName": "desktop",
+    "file": "assets/darkly-reading-dark-desktop-components.jpg",
+    "capturedAt": "2026-11-11T14:13:05.835Z",
+    "sha256": "cef1e48cfa7f110d02e2c3e307bda2eea08777bb436654d5780784c4cfc72124"
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "dark",
+    "page": "foundations",
+    "viewportName": "desktop",
+    "file": "assets/darkly-reading-dark-desktop-foundations.jpg",
+    "capturedAt": "2026-11-11T14:13:05.967Z",
+    "sha256": "b4015c0a94c00ae35a66393697dd0be9946f11ce115aa57308e86c8e76718d66"
+  },
+  {
+    "id": "darkly-reading",
+    "mode": "dark",
+    "page": "foundations",
+    "viewportName": "mobile",
+    "file": "assets/darkly-reading-dark-mobile-foundations.jpg",
+    "capturedAt": "2026-11-11T14:13:06.068Z",
+    "sha256": "75effce2c69c08c0ee7d8b77f085f0234cae1d1e512e0a1db49c9ad0afb4d3e4"
+  }
+]

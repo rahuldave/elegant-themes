@@ -1,31 +1,31 @@
 {
-  "date": "2026-11-10",
-  "method": "CUA real-browser spot checks; supplementary, not a comprehensive interaction audit",
-  "pulseDarkSecondary": {
-    "ink": "rgb(232, 237, 242)",
-    "background": "rgb(255, 255, 255)",
-    "confirmedInFullPage": true
+  "date": "2026-11-11",
+  "method": "Source-consumer real-browser checks plus focused gallery recapture; not a comprehensive accessibility audit.",
+  "sourceConsumerEvidence": "source-consumer-checks-2026-11-11.json",
+  "patchRelease": "v0.2.1",
+  "proseLeading": 1.6,
+  "pulseSecondary": {
+    "normalLight": 8.686,
+    "normalDark": 12.222,
+    "hoverKeyboardFocusDisabled": "passes; source consumer browser evidence"
   },
-  "pulseFoundationsForm": {
-    "textInput": "passes",
-    "collectionSelect": "passes",
-    "checkboxToggle": "passes",
-    "disabledButton": "passes",
-    "keyboardTabToCollection": "passes"
+  "literaSelectedNavigation": {
+    "light": 7.12,
+    "dark": 4.588,
+    "currentAndSelectedAttributes": "preserved"
   },
-  "gallery": {
-    "desktopTwoColumns": true,
-    "mobileOneColumn": true,
-    "readingPairedModes": 5,
-    "globalModeSwitchChangesPreview": true,
-    "repairFlagLabelsPresent": true
+  "darklyPalette": {
+    "repairedFamiliesMinimumLight": 5.019,
+    "repairedFamiliesMinimumDark": 5.01,
+    "all29ClassesSmallDocsMinimum": {
+      "light": 5.019,
+      "dark": 4.847
+    },
+    "all29ClassesQuartoMinimum": {
+      "light": 4.638,
+      "dark": 5.01
+    },
+    "threshold": 4.5
   },
-  "smalldocs": {
-    "guideSource": "e33e059ff40fd49aad28a8b7449cf77449e66898",
-    "actualMobileViewport": 390,
-    "pageWidth": 390,
-    "menuOpenAndClose": "passes",
-    "pairedModeToggle": "passes",
-    "searchNewFoundationContent": "passes"
-  }
+  "limits": "Gallery fresh recapture covers the three changed themes. Other six owned themes retain their November10 interaction/capture evidence; current source-repository state checks are supplementary."
 }
