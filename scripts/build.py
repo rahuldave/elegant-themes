@@ -15,11 +15,11 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "example/_site"
 
 CUSTOM = [
-    {"id":"folio", "name":"Folio", "group":"custom", "description":"Cream paper, forest green, and Caslon. Inspired by CRBooks.", "type":"Caslon · Source Serif 4 · IBM Plex Mono", "colors":["#f8f4eb","#254f38","#9d442b"], "paired":True},
-    {"id":"atelier", "name":"Atelier", "group":"custom", "description":"A precise studio: chalk white, deep teal, and modern sans-serif type.", "type":"DM Sans · IBM Plex Mono", "colors":["#fbfcfa","#176a70","#253e42"], "paired":True},
-    {"id":"nocturne", "name":"Nocturne", "group":"custom", "description":"Pearl paper by day; midnight ink and warm brass after hours.", "type":"Source Serif 4 · DM Sans · IBM Plex Mono", "colors":["#1c2030","#e2bd82","#ede8de"], "paired":True},
-    {"id":"tufte", "name":"Tufte", "group":"custom", "description":"The original point of departure: ET Book, cream paper, and italic headings.", "type":"ET Book · Consolas / Menlo", "colors":["#fffff8","#111111","#7a1c1c"], "paired":True},
-    {"id":"bootstrap", "name":"Bootstrap", "group":"bootstrap", "description":"The unadorned baseline, in native light and dark modes.", "type":"System sans · System monospace", "colors":["#ffffff","#0d6efd","#212529"], "paired":True},
+    {"id":"folio", "name":"Folio", "group":"custom", "description":"Folio uses cream paper, forest green, and Caslon headings. The Close Reading book catalog (CRBooks) inspired the design.", "type":"Caslon · Source Serif 4 · IBM Plex Mono", "colors":["#f8f4eb","#254f38","#9d442b"], "paired":True},
+    {"id":"atelier", "name":"Atelier", "group":"custom", "description":"Atelier uses chalk white and deep teal, with modern sans-serif type.", "type":"DM Sans · IBM Plex Mono", "colors":["#fbfcfa","#176a70","#253e42"], "paired":True},
+    {"id":"nocturne", "name":"Nocturne", "group":"custom", "description":"Light mode uses pearl paper. Dark mode uses midnight ink and warm brass.", "type":"Source Serif 4 · DM Sans · IBM Plex Mono", "colors":["#1c2030","#e2bd82","#ede8de"], "paired":True},
+    {"id":"tufte", "name":"Tufte", "group":"custom", "description":"Tufte uses ET Book, cream paper, and italic headings. It was the starting point for this collection.", "type":"ET Book · Consolas / Menlo", "colors":["#fffff8","#111111","#7a1c1c"], "paired":True},
+    {"id":"bootstrap", "name":"Bootstrap", "group":"bootstrap", "description":"Bootstrap provides the baseline component styles. The gallery includes light and dark previews.", "type":"System sans · System monospace", "colors":["#ffffff","#0d6efd","#212529"], "paired":True},
 ]
 # Preserve the original snapshots alongside the revised custom themes.
 for t in CUSTOM[:3]:
@@ -28,30 +28,34 @@ for t in CUSTOM[:3]:
     t['comparison'] = t['id']
 for original in list(CUSTOM[:3]):
     t = dict(original)
-    t.update(id=original['id']+'-original', name=original['id'].title()+' · Original', revision='original', description='Frozen before the reading refinement. '+original['description'])
+    t.update(id=original['id']+'-original', name=original['id'].title()+' · Original', revision='original', description='Original version, preserved before the reading refinement. '+original['description'])
     CUSTOM.append(t)
+CUSTOM[0].update(
+    description='Folio uses Source Serif 4 for prose and headings, DM Sans for controls, and IBM Plex Mono for code. Libre Caslon Display is an optional display face. The Close Reading book catalog (CRBooks) inspired its cream and forest-green palette.',
+    type='Source Serif 4 · DM Sans · IBM Plex Mono · Optional Caslon',
+)
 for base, family, colors in [
  ('zephyr','Inter',['#ffffff','#3459e6','#495057']),
  ('simplex','Open Sans',['#fcfcfc','#b81d0e','#212529']),
  ('pulse','System sans',['#ffffff','#593196','#444444']),
  ('litera','Georgia',['#ffffff','#2557a0','#343a40']),
  ('darkly','Lato',['#222222','#8db9e8','#eeeeee'])]:
-    CUSTOM.append(dict(id=base+'-reading',name=base.title()+' Reading',group='refined',description='A paired reading adaptation of '+base.title()+': explicit type, spacing, semantic roles, and readable controls.',type=family+' · IBM Plex Mono',colors=colors,paired=True,revision='refined',comparison=base))
+    CUSTOM.append(dict(id=base+'-reading',name=base.title()+' Reading',group='refined',description='A light and dark reading version of '+base.title()+', with defined type sizes, spacing, named color uses, and readable controls.',type=family+' · IBM Plex Mono',colors=colors,paired=True,revision='refined',comparison=base))
 
 
 DESCRIPTIONS = {
     "cerulean":"Soft blue and a familiar interface.", "cosmo":"Clean lines and Source Sans.",
-    "cyborg":"A black canvas with bright cyan accents.", "darkly":"Deep charcoal and colorful details.",
-    "flatly":"Flat surfaces and generous spacing.", "journal":"A journal-like voice and expressive headings.",
+    "cyborg":"Black surfaces with bright cyan accents.", "darkly":"Deep charcoal and colorful details.",
+    "flatly":"Flat surfaces and generous spacing.", "journal":"Journal-style typography and expressive headings.",
     "litera":"An editorial page built around the prose.", "lumen":"Light surfaces with fine shadows.",
     "lux":"Spaced capitals and stark contrast.", "materia":"Material-inspired controls and clean type.",
-    "minty":"Mint and coral with rounded edges.", "morph":"Soft relief on a pale blue canvas.",
+    "minty":"Mint and coral with rounded edges.", "morph":"Raised-style panels on a pale blue background.",
     "pulse":"Purple accents and clear hierarchy.", "quartz":"Violet, translucency, and glass-like panels.",
     "sandstone":"Earthy colors and compact labels.", "simplex":"Small touches of red on a clean page.",
     "sketchy":"Hand-drawn rules and playful type.", "slate":"Steel gray and subtle gradients.",
-    "solar":"A deep teal canvas with warm accents.", "spacelab":"Cool gray with blue details.",
+    "solar":"A deep teal background with warm accents.", "spacelab":"Cool gray with blue details.",
     "superhero":"Midnight blue and warm orange.", "united":"Warm orange and Ubuntu type.",
-    "vapor":"Neon pastels on a purple canvas.", "yeti":"An open page with clean lines.",
+    "vapor":"Neon pastels on a purple background.", "yeti":"An open page with clean lines.",
     "zephyr":"Light shadows and blue accents.",
 }
 

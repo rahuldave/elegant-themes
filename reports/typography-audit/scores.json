@@ -34,9 +34,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 89.2 characters (10/10); mobile 40.1 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 89.2 characters (10/10); mobile 40.1 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -70,7 +70,7 @@
         }
       }
     ],
-    "recommendation": "Shortlist \u00b7 modern UI",
+    "recommendation": "Shortlist  /  modern UI",
     "note": "Inter, a quiet canvas, and restrained components make a good modern alternative. Keep prose narrower than controls.",
     "design": {
       "total": 90,
@@ -203,7 +203,7 @@
           }
         }
       ],
-      "note": "The strongest stock general-purpose design here: clear Inter hierarchy, quiet surfaces, coherent controls, and strong sampled contrast. Narrow prose independently of wider controls."
+      "note": "The strongest stock general-purpose design here has clear Inter hierarchy, quiet surfaces, coherent controls, and strong sampled contrast. Narrow prose independently of wider controls."
     },
     "foundationFlags": []
   },
@@ -242,9 +242,9 @@
         },
         "reasons": {
           "font": "Georgia is a convincing text face here; the serif/sans switch in lists needs attention.",
-          "size": "Body 18.7px desktop / 18.7px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 86.8 characters (10/10); mobile 40.1 (4/5, adapted band).",
+          "size": "Body 18.7px desktop / 18.7px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 86.8 characters (10/10); mobile 40.1 (4/5, adapted band).",
           "space": "Paragraph gap 0.91em desktop / 0.91em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.45 (3/4); grouping 3/3; title/body ratio 2.05 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -278,7 +278,7 @@
         }
       }
     ],
-    "recommendation": "Shortlist \u00b7 prose",
+    "recommendation": "Shortlist  /  prose",
     "note": "The strongest Bootswatch reading option here. Preserve Georgia, but unify list typography and check blue links.",
     "design": {
       "total": 83,
@@ -489,9 +489,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 96.2 characters (8/10); mobile 42.0 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 96.2 characters (8/10); mobile 42.0 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -722,9 +722,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 96.2 characters (8/10); mobile 44.2 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 96.2 characters (8/10); mobile 44.2 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -758,7 +758,7 @@
         }
       }
     ],
-    "recommendation": "Conditional \u00b7 dark",
+    "recommendation": "Conditional  /  dark",
     "note": "The most straightforward dark Bootswatch candidate for documentation. Narrow the prose and repair colored messages and the outline button.",
     "design": {
       "total": 82,
@@ -955,9 +955,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 90.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 90.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -1124,7 +1124,7 @@
           }
         }
       ],
-      "note": "Restrained red accents leave the prose in charge. Buttons have slight gradients, but the sampled foregrounds remain readable. A good low-drama option."
+      "note": "Restrained red accents leave the prose in charge. Buttons have slight gradients, but the sampled foregrounds remain readable. A good option for restrained styling."
     },
     "foundationFlags": []
   },
@@ -1161,9 +1161,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 96.2 characters (8/10); mobile 44.2 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 96.2 characters (8/10); mobile 44.2 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -1406,9 +1406,9 @@
         },
         "reasons": {
           "font": "DM Sans gives prose and interface a consistent, quiet voice.",
-          "size": "Body 18px desktop / 18px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 68.7 characters (10/10); mobile 39.5 (4/5, adapted band).",
+          "size": "Body 18px desktop / 18px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 68.7 characters (10/10); mobile 39.5 (4/5, adapted band).",
           "space": "Paragraph gap 0.89em desktop / 0.89em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.67 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -1456,9 +1456,9 @@
         },
         "reasons": {
           "font": "DM Sans gives prose and interface a consistent, quiet voice.",
-          "size": "Body 18px desktop / 18px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 68.7 characters (10/10); mobile 39.5 (4/5, adapted band).",
+          "size": "Body 18px desktop / 18px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 68.7 characters (10/10); mobile 39.5 (4/5, adapted band).",
           "space": "Paragraph gap 0.89em desktop / 0.89em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.67 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -1492,8 +1492,8 @@
         }
       }
     ],
-    "recommendation": "Current \u00b7 candidate",
-    "note": "18px DM Sans prose, 16px interface and code, 36px titles. The paired teal system remains precise. The 1.60 leading costs eight points relative to the preferred band; a 640px measure and readable mobile code remain strengths.",
+    "recommendation": "Current  /  candidate",
+    "note": "18px DM Sans prose, 16px interface and code, 36px titles. Both modes retain the precise teal design. The 1.60 leading costs eight points relative to the preferred band; a 640px measure and readable mobile code remain strengths.",
     "design": {
       "total": 95,
       "scores": {
@@ -1744,7 +1744,7 @@
           }
         }
       ],
-      "note": "18px DM Sans prose, 16px interface and code, 36px titles. The paired teal system remains precise. The 1.60 leading costs eight points relative to the preferred band; a 640px measure and readable mobile code remain strengths."
+      "note": "18px DM Sans prose, 16px interface and code, 36px titles. Both modes retain the precise teal design. The 1.60 leading costs eight points relative to the preferred band; a 640px measure and readable mobile code remain strengths."
     },
     "foundationFlags": []
   },
@@ -1781,9 +1781,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 95.8 characters (8/10); mobile 42.0 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 95.8 characters (8/10); mobile 42.0 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -2020,9 +2020,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 92.5 characters (8/10); mobile 41.5 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 92.5 characters (8/10); mobile 41.5 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -2251,9 +2251,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 90.8 characters (8/10); mobile 40.1 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 90.8 characters (8/10); mobile 40.1 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -2474,9 +2474,9 @@
         },
         "reasons": {
           "font": "A capable system stack, though less deliberate in identity than Butterick prefers.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -2524,9 +2524,9 @@
         },
         "reasons": {
           "font": "A capable system stack, though less deliberate in identity than Butterick prefers.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -2872,9 +2872,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 18px desktop / 18px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 75.5 characters (10/10); mobile 41.5 (4/5, adapted band).",
+          "size": "Body 18px desktop / 18px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 75.5 characters (10/10); mobile 41.5 (4/5, adapted band).",
           "space": "Paragraph gap 0.89em desktop / 0.89em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.67 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -2922,9 +2922,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 18px desktop / 18px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 75.5 characters (10/10); mobile 41.5 (4/5, adapted band).",
+          "size": "Body 18px desktop / 18px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 75.5 characters (10/10); mobile 41.5 (4/5, adapted band).",
           "space": "Paragraph gap 0.89em desktop / 0.89em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.67 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -2958,8 +2958,8 @@
         }
       }
     ],
-    "recommendation": "Current \u00b7 candidate",
-    "note": "18px Lato and 16px code, now with a designed light companion to the native dark palette. Light syntax families now use repaired named roles, checked on the code surface. Leading remains 1.60; both modes retain distinct syntax families.",
+    "recommendation": "Current  /  candidate",
+    "note": "18px Lato and 16px code, now with a designed light companion to the native dark palette. Light-mode syntax colors use repaired named settings, checked against the code background. Leading remains 1.60; both modes retain distinct syntax token categories.",
     "design": {
       "total": 92,
       "scores": {
@@ -3210,7 +3210,7 @@
           }
         }
       ],
-      "note": "18px Lato and 16px code, now with a designed light companion to the native dark palette. Light syntax families now use repaired named roles, checked on the code surface. Leading remains 1.60; both modes retain distinct syntax families."
+      "note": "18px Lato and 16px code, now with a designed light companion to the native dark palette. Light-mode syntax colors use repaired named settings, checked against the code background. Leading remains 1.60; both modes retain distinct syntax token categories."
     },
     "foundationFlags": []
   },
@@ -3247,9 +3247,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 96.2 characters (8/10); mobile 44.2 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 96.2 characters (8/10); mobile 44.2 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -3283,7 +3283,7 @@
         }
       }
     ],
-    "recommendation": "Conditional \u00b7 sans",
+    "recommendation": "Conditional  /  sans",
     "note": "A restrained sans option with dependable structure. Darken teal links and narrow the default SmallDocs prose column.",
     "design": {
       "total": 79,
@@ -3492,9 +3492,9 @@
         },
         "reasons": {
           "font": "Georgia is a convincing text face; paragraphs and lists now share the serif voice.",
-          "size": "Body 20px desktop / 20px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 65.7 characters (10/10); mobile 35.7 (4/5, adapted band).",
+          "size": "Body 20px desktop / 20px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 65.7 characters (10/10); mobile 35.7 (4/5, adapted band).",
           "space": "Paragraph gap 0.80em desktop / 0.80em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.50 (3/4); grouping 3/3; title/body ratio 1.80 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -3542,9 +3542,9 @@
         },
         "reasons": {
           "font": "Georgia is a convincing text face; paragraphs and lists now share the serif voice.",
-          "size": "Body 20px desktop / 20px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 65.7 characters (10/10); mobile 35.7 (4/5, adapted band).",
+          "size": "Body 20px desktop / 20px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 65.7 characters (10/10); mobile 35.7 (4/5, adapted band).",
           "space": "Paragraph gap 0.80em desktop / 0.80em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.50 (3/4); grouping 3/3; title/body ratio 1.80 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -3578,8 +3578,8 @@
         }
       }
     ],
-    "recommendation": "Current \u00b7 candidate",
-    "note": "20px Georgia continues through prose and lists; UI and code are 16px. Both modes have clear reading roles. Selected navigation now uses the tested foundation fill/ink in both modes. Leading remains 1.60.",
+    "recommendation": "Current  /  candidate",
+    "note": "20px Georgia continues through prose and lists; UI and code are 16px. Both modes have clear reading roles. Selected navigation uses the tested background and text colors from the theme settings in both modes. Leading remains 1.60.",
     "design": {
       "total": 93,
       "scores": {
@@ -3830,7 +3830,7 @@
           }
         }
       ],
-      "note": "20px Georgia continues through prose and lists; UI and code are 16px. Both modes have clear reading roles. Selected navigation now uses the tested foundation fill/ink in both modes. Leading remains 1.60."
+      "note": "20px Georgia continues through prose and lists; UI and code are 16px. Both modes have clear reading roles. Selected navigation uses the tested background and text colors from the theme settings in both modes. Leading remains 1.60."
     },
     "foundationFlags": []
   },
@@ -3869,9 +3869,9 @@
         },
         "reasons": {
           "font": "A familiar system stack, with identity supplied mainly by color.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -4075,9 +4075,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 96.2 characters (8/10); mobile 42.0 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 96.2 characters (8/10); mobile 42.0 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -4320,9 +4320,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 18px desktop / 18px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 72.3 characters (10/10); mobile 39.0 (4/5, adapted band).",
+          "size": "Body 18px desktop / 18px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 72.3 characters (10/10); mobile 39.0 (4/5, adapted band).",
           "space": "Paragraph gap 0.89em desktop / 0.89em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.67 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -4370,9 +4370,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 18px desktop / 18px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 72.3 characters (10/10); mobile 39.0 (4/5, adapted band).",
+          "size": "Body 18px desktop / 18px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 72.3 characters (10/10); mobile 39.0 (4/5, adapted band).",
           "space": "Paragraph gap 0.89em desktop / 0.89em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.67 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -4406,7 +4406,7 @@
         }
       }
     ],
-    "recommendation": "Current \u00b7 candidate",
+    "recommendation": "Current  /  candidate",
     "note": "18px Open Sans and 16px code, with a deliberate dark companion to the native light/red palette. Flat surfaces and explicit state colors remain calm. The new 1.60 leading reduces the fixed typography score.",
     "design": {
       "total": 90,
@@ -4695,9 +4695,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 101.8 characters (5/10); mobile 45.1 (5/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 101.8 characters (5/10); mobile 45.1 (5/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -4905,7 +4905,7 @@
           }
         }
       ],
-      "note": "An unusually calm dark palette, with little decorative noise. Main text just clears the normal-text threshold; status panels and some buttons do not."
+      "note": "An unusually calm dark palette, with little decorative noise. Main text just clears the normal-text threshold, but status panels and some buttons fall below it."
     },
     "foundationFlags": []
   },
@@ -4954,9 +4954,9 @@
         },
         "reasons": {
           "font": "ET Book is purposefully literary, with visibly distinct emphasis.",
-          "size": "Body 20px desktop / 20px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 76.0 characters (10/10); mobile 41.5 (4/5, adapted band).",
+          "size": "Body 20px desktop / 20px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 76.0 characters (10/10); mobile 41.5 (4/5, adapted band).",
           "space": "Paragraph gap 0.80em desktop / 0.80em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.50 (2/4); grouping 3/3; title/body ratio 1.80 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -5004,9 +5004,9 @@
         },
         "reasons": {
           "font": "ET Book is purposefully literary, with visibly distinct emphasis.",
-          "size": "Body 20px desktop / 20px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 76.0 characters (10/10); mobile 41.5 (4/5, adapted band).",
+          "size": "Body 20px desktop / 20px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 76.0 characters (10/10); mobile 41.5 (4/5, adapted band).",
           "space": "Paragraph gap 0.80em desktop / 0.80em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.50 (2/4); grouping 3/3; title/body ratio 1.80 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -5040,8 +5040,8 @@
         }
       }
     ],
-    "recommendation": "Current \u00b7 candidate",
-    "note": "20px ET Book, 16px system monospace code, and 1.60 leading in both modes. Italic sections preserve the literary voice and carry the unchanged rubric deduction. Marginal notes and complex Tufte layouts remain outside this shared specimen.",
+    "recommendation": "Current  /  candidate",
+    "note": "20px ET Book, 16px system monospace code, and 1.60 leading in both modes. Italic section headings preserve the literary voice and carry the unchanged rubric deduction. Marginal notes and complex Tufte layouts remain outside this shared specimen.",
     "design": {
       "total": 92,
       "scores": {
@@ -5292,7 +5292,7 @@
           }
         }
       ],
-      "note": "20px ET Book, 16px system monospace code, and 1.60 leading in both modes. Italic sections preserve the literary voice and carry the unchanged rubric deduction. Marginal notes and complex Tufte layouts remain outside this shared specimen."
+      "note": "20px ET Book, 16px system monospace code, and 1.60 leading in both modes. Italic section headings preserve the literary voice and carry the unchanged rubric deduction. Marginal notes and complex Tufte layouts remain outside this shared specimen."
     },
     "foundationFlags": []
   },
@@ -5343,9 +5343,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 18px desktop / 18px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 72.0 characters (10/10); mobile 38.2 (4/5, adapted band).",
+          "size": "Body 18px desktop / 18px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 72.0 characters (10/10); mobile 38.2 (4/5, adapted band).",
           "space": "Paragraph gap 0.89em desktop / 0.89em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.67 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -5393,9 +5393,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 18px desktop / 18px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 72.0 characters (10/10); mobile 38.2 (4/5, adapted band).",
+          "size": "Body 18px desktop / 18px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 72.0 characters (10/10); mobile 38.2 (4/5, adapted band).",
           "space": "Paragraph gap 0.89em desktop / 0.89em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.67 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -5429,7 +5429,7 @@
         }
       }
     ],
-    "recommendation": "Current \u00b7 candidate",
+    "recommendation": "Current  /  candidate",
     "note": "18px Inter, 16px IBM Plex Mono, paired white/blue and dark companion palettes. Ordinary and state roles are explicit. The type score falls mainly because the new 1.60 leading is outside the fixed preferred band.",
     "design": {
       "total": 93,
@@ -5718,9 +5718,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 101.8 characters (5/10); mobile 45.1 (5/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 101.8 characters (5/10); mobile 45.1 (5/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -5954,10 +5954,10 @@
           "color": 10
         },
         "reasons": {
-          "font": "Source Serif 4 carries prose and ordinary sections; Caslon is available as an optional display role.",
-          "size": "Body 20px desktop / 20px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 63.2 characters (10/10); mobile 34.8 (2/5, adapted band).",
+          "font": "Source Serif 4 carries prose and ordinary section headings; Caslon is available as an optional display role.",
+          "size": "Body 20px desktop / 20px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 63.2 characters (10/10); mobile 34.8 (2/5, adapted band).",
           "space": "Paragraph gap 0.80em desktop / 0.80em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.50 (3/4); grouping 3/3; title/body ratio 1.80 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -6004,10 +6004,10 @@
           "color": 10
         },
         "reasons": {
-          "font": "Source Serif 4 carries prose and ordinary sections; Caslon is available as an optional display role.",
-          "size": "Body 20px desktop / 20px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 63.2 characters (10/10); mobile 34.8 (2/5, adapted band).",
+          "font": "Source Serif 4 carries prose and ordinary section headings; Caslon is available as an optional display role.",
+          "size": "Body 20px desktop / 20px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 63.2 characters (10/10); mobile 34.8 (2/5, adapted band).",
           "space": "Paragraph gap 0.80em desktop / 0.80em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.50 (3/4); grouping 3/3; title/body ratio 1.80 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -6041,8 +6041,8 @@
         }
       }
     ],
-    "recommendation": "Current \u00b7 candidate",
-    "note": "20px Source Serif 4 prose and sections, 16px code, and a 640px measure. Caslon is an optional display role. The 1.60 leading and 1.50 section/body ratio cost points under the fixed Butterick rubric; the warm green identity remains coherent.",
+    "recommendation": "Current  /  candidate",
+    "note": "20px Source Serif 4 prose and section headings, 16px code, and a 640px measure. Caslon is an optional display role. The 1.60 leading and 1.50 section/body ratio cost points under the fixed Butterick rubric; the warm green identity remains coherent.",
     "design": {
       "total": 94,
       "scores": {
@@ -6293,7 +6293,7 @@
           }
         }
       ],
-      "note": "20px Source Serif 4 prose and sections, 16px code, and a 640px measure. Caslon is an optional display role. The 1.60 leading and 1.50 section/body ratio cost points under the fixed Butterick rubric; the warm green identity remains coherent."
+      "note": "20px Source Serif 4 prose and section headings, 16px code, and a 640px measure. Caslon is an optional display role. The 1.60 leading and 1.50 section/body ratio cost points under the fixed Butterick rubric; the warm green identity remains coherent."
     },
     "foundationFlags": []
   },
@@ -6330,9 +6330,9 @@
         },
         "reasons": {
           "font": "System body text remains generic despite the expressive heading family.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -6561,9 +6561,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 101.8 characters (5/10); mobile 45.1 (5/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 101.8 characters (5/10); mobile 45.1 (5/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -6814,9 +6814,9 @@
         },
         "reasons": {
           "font": "Source Serif 4 carries prose, with a distinct monospace role for code.",
-          "size": "Body 20px desktop / 20px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 63.2 characters (10/10); mobile 34.8 (2/5, adapted band).",
+          "size": "Body 20px desktop / 20px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 63.2 characters (10/10); mobile 34.8 (2/5, adapted band).",
           "space": "Paragraph gap 0.80em desktop / 0.80em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.50 (3/4); grouping 3/3; title/body ratio 1.80 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -6864,9 +6864,9 @@
         },
         "reasons": {
           "font": "Source Serif 4 carries prose, with a distinct monospace role for code.",
-          "size": "Body 20px desktop / 20px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 63.2 characters (10/10); mobile 34.8 (2/5, adapted band).",
+          "size": "Body 20px desktop / 20px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 63.2 characters (10/10); mobile 34.8 (2/5, adapted band).",
           "space": "Paragraph gap 0.80em desktop / 0.80em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.50 (3/4); grouping 3/3; title/body ratio 1.80 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -6900,8 +6900,8 @@
         }
       }
     ],
-    "recommendation": "Current \u00b7 candidate",
-    "note": "20px Source Serif 4 with 16px interface and code; both pearl and ink/brass modes remain distinct. The deliberate 1.60 leading and 30px sections reduce the prescriptive type score without erasing its strong visual system.",
+    "recommendation": "Current  /  candidate",
+    "note": "20px Source Serif 4 with 16px interface and code; both pearl and ink/brass modes remain distinct. The chosen 1.60 leading and 30px section headings reduce the prescriptive type score. The visual system remains strong.",
     "design": {
       "total": 95,
       "scores": {
@@ -7152,7 +7152,7 @@
           }
         }
       ],
-      "note": "20px Source Serif 4 with 16px interface and code; both pearl and ink/brass modes remain distinct. The deliberate 1.60 leading and 30px sections reduce the prescriptive type score without erasing its strong visual system."
+      "note": "20px Source Serif 4 with 16px interface and code; both pearl and ink/brass modes remain distinct. The chosen 1.60 leading and 30px section headings reduce the prescriptive type score. The visual system remains strong."
     },
     "foundationFlags": []
   },
@@ -7189,9 +7189,9 @@
         },
         "reasons": {
           "font": "System text is functional; the visual theme carries the personality.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -7420,9 +7420,9 @@
         },
         "reasons": {
           "font": "A deliberate, conventional text family with clear emphasis; no stylistic impediment to prose.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 90.8 characters (8/10); mobile 40.1 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 90.8 characters (8/10); mobile 40.1 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -7699,9 +7699,9 @@
         },
         "reasons": {
           "font": "Readable system text; the generic stack offers little typographic character.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -7922,9 +7922,9 @@
         },
         "reasons": {
           "font": "One-pixel tracking spreads lowercase body text; weight 300 is delicate for small UI.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 86.8 characters (10/10); mobile 38.2 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 86.8 characters (10/10); mobile 38.2 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (1/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -8142,9 +8142,9 @@
         },
         "reasons": {
           "font": "A familiar system stack, with identity supplied mainly by color.",
-          "size": "Body 18px desktop / 18px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 73.2 characters (10/10); mobile 40.1 (4/5, adapted band).",
+          "size": "Body 18px desktop / 18px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 73.2 characters (10/10); mobile 40.1 (4/5, adapted band).",
           "space": "Paragraph gap 0.89em desktop / 0.89em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.67 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -8192,9 +8192,9 @@
         },
         "reasons": {
           "font": "A familiar system stack, with identity supplied mainly by color.",
-          "size": "Body 18px desktop / 18px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.60; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 73.2 characters (10/10); mobile 40.1 (4/5, adapted band).",
+          "size": "Body 18px desktop / 18px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.60; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 73.2 characters (10/10); mobile 40.1 (4/5, adapted band).",
           "space": "Paragraph gap 0.89em desktop / 0.89em mobile (5/5); narrow-screen gutters 16px (5/5).",
           "hierarchy": "Section/body ratio 1.67 (3/4); grouping 3/3; title/body ratio 2.00 (3/3).",
           "code": "Code 16px desktop / 16px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -8228,7 +8228,7 @@
         }
       }
     ],
-    "recommendation": "Current \u00b7 candidate",
+    "recommendation": "Current  /  candidate",
     "note": "18px system sans, 16px code, and authored purple light/dark palettes. The repaired secondary action uses the intended neutral panel and ink. The 1.60 leading is unchanged and still lowers the fixed type score.",
     "design": {
       "total": 91,
@@ -8517,9 +8517,9 @@
         },
         "reasons": {
           "font": "Lato is suitable, but a glow on every line softens the apparent edges of small type.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 96.2 characters (8/10); mobile 44.2 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 96.2 characters (8/10); mobile 44.2 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -8711,7 +8711,7 @@
           }
         }
       ],
-      "note": "The neon identity is coherent, but glow, saturated prose, and colored panels all ask for attention. It fits a playful technology page better than long reading."
+      "note": "The neon identity is coherent, but glow, saturated prose and colored panels compete for attention. It fits a playful technology page better than long reading."
     },
     "foundationFlags": []
   },
@@ -8748,9 +8748,9 @@
         },
         "reasons": {
           "font": "Nunito is a legible, soft sans; its color is scored separately.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -9035,9 +9035,9 @@
         },
         "reasons": {
           "font": "Capable system text, with little distinct typographic identity.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -9322,9 +9322,9 @@
         },
         "reasons": {
           "font": "A capable system stack; the vivid surface is assessed separately.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 95.8 characters (8/10); mobile 41.5 (4/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -9627,9 +9627,9 @@
         },
         "reasons": {
           "font": "DM Sans gives prose and interface a consistent, quiet voice.",
-          "size": "Body 16.66px desktop / 16.66px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.75; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 80.5 characters (10/10); mobile 42.0 (4/5, adapted band).",
+          "size": "Body 16.66px desktop / 16.66px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.75; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 80.5 characters (10/10); mobile 42.0 (4/5, adapted band).",
           "space": "Paragraph gap 1.28em desktop / 1.28em mobile (4/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.68 (3/4); grouping 3/3; title/body ratio 3.07 (1/3).",
           "code": "Code 13.43px desktop / 11.9px mobile (1/4); monospace 3/3; contained scrolling 3/3.",
@@ -9677,9 +9677,9 @@
         },
         "reasons": {
           "font": "DM Sans gives prose and interface a consistent, quiet voice.",
-          "size": "Body 16.66px desktop / 16.66px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.75; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 80.5 characters (10/10); mobile 42.0 (4/5, adapted band).",
+          "size": "Body 16.66px desktop / 16.66px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.75; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 80.5 characters (10/10); mobile 42.0 (4/5, adapted band).",
           "space": "Paragraph gap 1.28em desktop / 1.28em mobile (4/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.68 (3/4); grouping 3/3; title/body ratio 3.07 (1/3).",
           "code": "Code 13.43px desktop / 11.9px mobile (1/4); monospace 3/3; contained scrolling 3/3.",
@@ -9714,7 +9714,7 @@
       }
     ],
     "recommendation": "Refine",
-    "note": "Strong studio identity. Tighten leading and paragraph gaps; keep the rule and teal accents.",
+    "note": "Strong studio identity. Tighten leading and paragraph gaps; keep the line and teal accents.",
     "design": {
       "total": 89,
       "scores": {
@@ -9983,7 +9983,7 @@
           }
         }
       ],
-      "note": "The rule, teal accents, and sans text form the clearest studio identity. Secondary UI recedes well. The vertical rhythm is loose and mobile code is undersized."
+      "note": "The line, teal accents, and sans text form the clearest studio identity. Secondary UI recedes well. The vertical rhythm is loose and mobile code is undersized."
     },
     "foundationFlags": []
   },
@@ -10022,9 +10022,9 @@
         },
         "reasons": {
           "font": "Source Serif 4 carries prose, with a distinct monospace role for code.",
-          "size": "Body 18.36px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.75; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 79.0 characters (10/10); mobile 40.1 (4/5, adapted band).",
+          "size": "Body 18.36px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.75; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 79.0 characters (10/10); mobile 40.1 (4/5, adapted band).",
           "space": "Paragraph gap 1.16em desktop / 1.25em mobile (4/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.71 (3/4); grouping 3/3; title/body ratio 2.93 (1/3).",
           "code": "Code 13.43px desktop / 11.9px mobile (1/4); monospace 3/3; contained scrolling 3/3.",
@@ -10072,9 +10072,9 @@
         },
         "reasons": {
           "font": "Source Serif 4 carries prose, with a distinct monospace role for code.",
-          "size": "Body 18.36px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.75; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 79.0 characters (10/10); mobile 40.1 (4/5, adapted band).",
+          "size": "Body 18.36px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.75; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 79.0 characters (10/10); mobile 40.1 (4/5, adapted band).",
           "space": "Paragraph gap 1.16em desktop / 1.25em mobile (4/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.71 (3/4); grouping 3/3; title/body ratio 2.93 (1/3).",
           "code": "Code 13.43px desktop / 11.9px mobile (1/4); monospace 3/3; contained scrolling 3/3.",
@@ -10378,7 +10378,7 @@
           }
         }
       ],
-      "note": "The dark ink surface and selective brass establish a strong hierarchy. The short title rule is a useful accent. Tighten the page rhythm and complete the control palette."
+      "note": "The dark ink surface and selective brass establish a strong hierarchy. The short title line is a useful accent. Tighten the page rhythm and complete the control palette."
     },
     "foundationFlags": []
   },
@@ -10415,9 +10415,9 @@
         },
         "reasons": {
           "font": "Neucha handwriting and Cabin Sketch headings conflict with sustained technical reading.",
-          "size": "Body 17px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.50; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 116.2 characters (2/10); mobile 49.4 (5/5, adapted band).",
+          "size": "Body 17px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.50; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 116.2 characters (2/10); mobile 49.4 (5/5, adapted band).",
           "space": "Paragraph gap 1.00em desktop / 1.00em mobile (5/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 1.60 (3/4); grouping 3/3; title/body ratio 2.25 (2/3).",
           "code": "Code 14.875px desktop / 14.875px mobile (4/4); monospace 3/3; contained scrolling 3/3.",
@@ -10623,9 +10623,9 @@
         },
         "reasons": {
           "font": "Source Serif 4 is a calm text face; Caslon is reserved for display.",
-          "size": "Body 18.36px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.75; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 79.0 characters (10/10); mobile 40.1 (4/5, adapted band).",
+          "size": "Body 18.36px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.75; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 79.0 characters (10/10); mobile 40.1 (4/5, adapted band).",
           "space": "Paragraph gap 1.16em desktop / 1.25em mobile (4/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 2.13 (1/4); grouping 3/3; title/body ratio 3.49 (1/3).",
           "code": "Code 13.43px desktop / 11.9px mobile (1/4); monospace 3/3; contained scrolling 3/3.",
@@ -10673,9 +10673,9 @@
         },
         "reasons": {
           "font": "Source Serif 4 is a calm text face; Caslon is reserved for display.",
-          "size": "Body 18.36px desktop / 17px mobile; preferred range 15\u201325px.",
-          "leading": "Body leading 1.75; preferred range 1.20\u20131.45.",
-          "measure": "Desktop complete-line mean 79.0 characters (10/10); mobile 40.1 (4/5, adapted band).",
+          "size": "Body 18.36px desktop / 17px mobile; preferred range 15 to 25px.",
+          "leading": "Line spacing 1.75; preferred range 1.20 to 1.45.",
+          "measure": "Desktop average for complete lines 79.0 characters (10/10); mobile 40.1 (4/5, adapted band).",
           "space": "Paragraph gap 1.16em desktop / 1.25em mobile (4/5); narrow-screen gutters 17px (5/5).",
           "hierarchy": "Section/body ratio 2.13 (1/4); grouping 3/3; title/body ratio 3.49 (1/3).",
           "code": "Code 13.43px desktop / 11.9px mobile (1/4); monospace 3/3; contained scrolling 3/3.",
@@ -10710,7 +10710,7 @@
       }
     ],
     "recommendation": "Refine",
-    "note": "Keep the CRBooks character. Tighten prose leading, reduce the display hierarchy, and enlarge code on phones.",
+    "note": "Keep the character of CRBooks, the Close Reading book catalog. Tighten prose leading, reduce the display hierarchy, and enlarge code on phones.",
     "design": {
       "total": 85,
       "scores": {
@@ -10979,7 +10979,7 @@
           }
         }
       ],
-      "note": "The Caslon/green/paper system is distinctive and coherent. The title and H2 consume too much attention; code shrinks on phones. The blue outline button breaks the palette."
+      "note": "The Caslon/green/paper system is distinctive and coherent. The title and second-level headings (H2) draw too much attention, and code shrinks on phones. The blue outline button breaks the palette."
     },
     "foundationFlags": []
   }
