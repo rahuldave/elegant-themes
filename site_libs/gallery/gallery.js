@@ -40,7 +40,7 @@
       frame.dataset.preview = next;
       if (frame.hasAttribute('src') && frame.getAttribute('src') !== next) frame.setAttribute('src',next);
       document.querySelector(`[data-theme-card="${t.id}"] .full-preview`).href = next;
-      frame.title = `${t.name}: ${pageSelect.selectedOptions[0].text}, ${t.paired ? (perThemeMode.get(t.id) || mode) + ' mode' : 'native palette'}`;
+      frame.title = `${t.name}: ${pageSelect.selectedOptions[0].text}, ${t.paired ? (perThemeMode.get(t.id) || mode) + ' mode' : 'stock palette'}`;
     });
     updateButtons();
     saveLocation();
@@ -63,10 +63,10 @@
     card.setAttribute('aria-labelledby',`title-${t.id}`);
     const modeControls = t.paired
       ? `<div class="card-mode" role="group" aria-label="${t.name} color mode"><button data-card-mode="light" data-theme="${t.id}">Light</button><button data-card-mode="dark" data-theme="${t.id}">Dark</button></div>`
-      : '<span class="palette-label">Native palette</span>';
+      : '<span class="palette-label">Stock palette</span>';
     card.innerHTML = `<div class="card-heading"><div class="card-title"><span class="card-number">${String(i+1).padStart(2,'0')}</span><h2 id="title-${t.id}">${t.name}</h2></div>${modeControls}</div>
       <div class="specimen-wrap"><iframe id="preview-${t.id}" title="${t.name} specimen" loading="lazy" data-preview="${previewUrl(t)}" style="--frame-paper:${t.colors[0]}"></iframe></div>
-      <div class="card-details">${t.typeScore ? `<p class="score-line">Typography <strong>${t.typeScore}/100</strong> · Design <strong>${t.designScore}/100</strong> <a href="typography-report.html#theme-${t.id}">${t.reviewFlagged ? 'Repair flags' : 'Why?'}</a></p>` : ''}<p class="card-description">${t.description}</p><div class="card-type-row"><span class="type-label">${t.type}</span><span class="swatches" aria-hidden="true">${t.colors.map(c=>`<i style="--swatch:${c}"></i>`).join('')}</span></div>
+      <div class="card-details">${t.typeScore ? `<p class="score-line">Typography <strong>${t.typeScore}/100</strong> · Design <strong>${t.designScore}/100</strong> <a href="typography-report.html#theme-${t.id}">${t.reviewFlagged ? 'Contrast issues' : 'Score details'}</a></p>` : ''}<p class="card-description">${t.description}</p><div class="card-type-row"><span class="type-label">${t.type}</span><span class="swatches" aria-hidden="true">${t.colors.map(c=>`<i style="--swatch:${c}"></i>`).join('')}</span></div>
       <div class="card-links"><a class="full-preview" href="${previewUrl(t)}" target="_blank" rel="noopener">Full preview ↗</a><a href="${t.source}" target="_blank" rel="noopener">${['custom','refined'].includes(t.group) ? 'Theme source' : 'Original theme'} ↗</a><a href="${t.guide}">Theme handbook</a><span class="family-badge">${t.group === 'custom' ? 'Custom' : t.group === 'bootstrap' ? 'Bootstrap' : t.group === 'refined' ? 'Reading refinement' : 'Bootswatch'}</span></div>
       <div class="install-line"><code>${t.install}</code><button class="copy-command" data-copy="${t.id}" aria-label="Copy ${t.name} installation setting">Copy</button></div></div>`;
     grid.append(card);

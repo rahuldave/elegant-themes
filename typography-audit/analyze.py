@@ -100,18 +100,18 @@ FONT = {
 }
 
 NOTES = {
- 'folio':('Refine','Keep the CRBooks character. Tighten prose leading, reduce the display hierarchy, and enlarge code on phones.'),
- 'atelier':('Refine','Strong studio identity. Tighten leading and paragraph gaps; keep the rule and teal accents.'),
+ 'folio':('Refine','Keep the character of CRBooks, the Close Reading book catalog. Tighten prose leading, reduce the display hierarchy, and enlarge code on phones.'),
+ 'atelier':('Refine','Strong studio identity. Tighten leading and paragraph gaps; keep the line and teal accents.'),
  'nocturne':('Refine','A strong dark reading palette. Tighten leading and raise mobile code size; keep the brass restrained.'),
  'tufte':('Keep as reference','Best Butterick alignment here. Italic section headings and a large title remain conscious exceptions.'),
  'bootstrap':('Baseline','Useful as a control. Narrow the prose column and soften the title scale before treating it as a reading theme.'),
  'cerulean':('Optional','Readable prose, but blue links and headings need stronger contrast on white; little editorial distinction.'),
  'cosmo':('Alternate','A clean sans option. The 102-character desktop measure needs narrowing; link contrast is also close to the threshold.'),
  'cyborg':('Alternate dark','Good body contrast. Its black/cyan character is more technical than bookish; narrow the text column.'),
- 'darkly':('Conditional · dark','The most straightforward dark Bootswatch candidate for documentation. Narrow the prose and repair colored messages and the outline button.'),
- 'flatly':('Conditional · sans','A restrained sans option with dependable structure. Darken teal links and narrow the default SmallDocs prose column.'),
+ 'darkly':('Conditional  /  dark','The most straightforward dark Bootswatch candidate for documentation. Narrow the prose and repair colored messages and the outline button.'),
+ 'flatly':('Conditional  /  sans','A restrained sans option with dependable structure. Darken teal links and narrow the default SmallDocs prose column.'),
  'journal':('Alternate','Expressive headings are attractive, but not enough to give the system-font body a complete editorial voice.'),
- 'litera':('Shortlist · prose','The strongest Bootswatch reading option here. Preserve Georgia, but unify list typography and check blue links.'),
+ 'litera':('Shortlist  /  prose','The strongest Bootswatch reading option here. Preserve Georgia, but unify list typography and check blue links.'),
  'lumen':('Alternate','Clean and usable; the desktop measure is too wide and links need darkening.'),
  'lux':('Special use','Keep for short, formal pages. Remove lowercase tracking, strengthen small text, and avoid all-cap section headings for docs.'),
  'materia':('Alternate','Solid functional UI; the blue link treatment is too light for normal text. Less distinct as an editorial theme.'),
@@ -129,7 +129,7 @@ NOTES = {
  'united':('Alternate','Ubuntu gives a recognizable voice. The orange links need darkening, and the prose column can be narrower.'),
  'vapor':('Special use','A convincing neon aesthetic, but pervasive glow and saturated body text compete with long-form reading.'),
  'yeti':('Alternate','A clean light workhorse. It is useful where a neutral presentation is wanted, after narrowing the prose and darkening links.'),
- 'zephyr':('Shortlist · modern UI','Inter, a quiet canvas, and restrained components make a good modern alternative. Keep prose narrower than controls.'),
+ 'zephyr':('Shortlist  /  modern UI','Inter, a quiet canvas, and restrained components make a good modern alternative. Keep prose narrower than controls.'),
 }
 
 # Editorial observations, independent of the Butterick point bands.
@@ -153,9 +153,9 @@ DESIGN = {
 }
 
 DESIGN_NOTES = {
- 'folio':'The Caslon/green/paper system is distinctive and coherent. The title and H2 consume too much attention; code shrinks on phones. The blue outline button breaks the palette.',
- 'atelier':'The rule, teal accents, and sans text form the clearest studio identity. Secondary UI recedes well. The vertical rhythm is loose and mobile code is undersized.',
- 'nocturne':'The dark ink surface and selective brass establish a strong hierarchy. The short title rule is a useful accent. Tighten the page rhythm and complete the control palette.',
+ 'folio':'The Caslon/green/paper system is distinctive and coherent. The title and second-level headings (H2) draw too much attention, and code shrinks on phones. The blue outline button breaks the palette.',
+ 'atelier':'The line, teal accents, and sans text form the clearest studio identity. Secondary UI recedes well. The vertical rhythm is loose and mobile code is undersized.',
+ 'nocturne':'The dark ink surface and selective brass establish a strong hierarchy. The short title line is a useful accent. Tighten the page rhythm and complete the control palette.',
  'tufte':'A coherent reading page with excellent body scale and a quiet canvas. Italic sections give it a literary voice. This specimen does not exercise Tufte side notes or complex columns.',
  'bootstrap':'The shared SmallDocs structure is clear and the controls are consistent. Its identity remains generic, and the dark outline button needs attention.',
  'cerulean':'Blue headings, links, and controls compete with prose. Gradients add a dated surface treatment without adding useful hierarchy.',
@@ -173,16 +173,16 @@ DESIGN_NOTES = {
  'pulse':'A sound purple-accent UI with consistent grouping. Its content surface is conventional, but the sampled controls have strong contrast.',
  'quartz':'The gradient dominates the page and makes foreground contrast vary by location. Glass panels offer little stable separation. Long prose needs a solid reading surface.',
  'sandstone':'An earthy palette gives a quiet identity, but green links and colored status surfaces are too faint. Most layout quality comes from the shared SmallDocs shell.',
- 'simplex':'Restrained red accents leave the prose in charge. Buttons have slight gradients, but the sampled foregrounds remain readable. A good low-drama option.',
+ 'simplex':'Restrained red accents leave the prose in charge. Buttons have slight gradients, but the sampled foregrounds remain readable. A good option for restrained styling.',
  'sketchy':'A complete and consistent sketchbook personality. Rough borders and handwritten text suit playful material better than the requested elegant documentation.',
  'slate':'Muted dark surfaces support the content, but embossed gradients add visual weight. Colored status panels need contrast repair.',
- 'solar':'An unusually calm dark palette, with little decorative noise. Main text just clears the normal-text threshold; status panels and some buttons do not.',
+ 'solar':'An unusually calm dark palette, with little decorative noise. Main text just clears the normal-text threshold, but status panels and some buttons fall below it.',
  'spacelab':'A functional blue/grey UI whose grey prose and gradient controls are too faint. It has little distinctive editorial identity to offset those repairs.',
  'superhero':'A coherent technical blue/orange palette. Body reading is good; bright status panels and white labels on colored buttons are weaker.',
  'united':'Ubuntu and warm orange give the UI a recognizable voice. Primary and secondary controls need darker text/background combinations.',
- 'vapor':'The neon identity is coherent, but glow, saturated prose, and colored panels all ask for attention. It fits a playful technology page better than long reading.',
+ 'vapor':'The neon identity is coherent, but glow, saturated prose and colored panels compete for attention. It fits a playful technology page better than long reading.',
  'yeti':'An unobtrusive sans interface with consistent controls. Blue buttons and body links need stronger contrast; the editorial character is minimal.',
- 'zephyr':'The strongest stock general-purpose design here: clear Inter hierarchy, quiet surfaces, coherent controls, and strong sampled contrast. Narrow prose independently of wider controls.',
+ 'zephyr':'The strongest stock general-purpose design here has clear Inter hierarchy, quiet surfaces, coherent controls, and strong sampled contrast. Narrow prose independently of wider controls.',
 }
 
 # Original entries retain their first-review editorial awards and observations.
@@ -211,7 +211,7 @@ REFINED_NOTES={
  'darkly-reading':'The charcoal and Lato identity remain. Pale blue outline links and muted status panels repair weak text contrast; the narrower prose and larger code improve the reading surface.',
 }
 for name,note in REFINED_NOTES.items():
-    NOTES[name]=('Refined · candidate',note)
+    NOTES[name]=('Refined  /  candidate',note)
     DESIGN_NOTES[name]=note
     if name.endswith('-reading'):
         base=name.removesuffix('-reading')
@@ -221,20 +221,20 @@ FONT['litera-reading']=(14,'Georgia is a convincing text face; paragraphs and li
 # November review: the same weights, thresholds, and editorial awards. New
 # measurements change the numeric categories; notes describe the current files.
 CURRENT_NOTES = {
- 'folio': '20px Source Serif 4 prose and sections, 16px code, and a 640px measure. Caslon is an optional display role. The 1.60 leading and 1.50 section/body ratio cost points under the fixed Butterick rubric; the warm green identity remains coherent.',
- 'atelier': '18px DM Sans prose, 16px interface and code, 36px titles. The paired teal system remains precise. The 1.60 leading costs eight points relative to the preferred band; a 640px measure and readable mobile code remain strengths.',
- 'nocturne': '20px Source Serif 4 with 16px interface and code; both pearl and ink/brass modes remain distinct. The deliberate 1.60 leading and 30px sections reduce the prescriptive type score without erasing its strong visual system.',
- 'tufte': '20px ET Book, 16px system monospace code, and 1.60 leading in both modes. Italic sections preserve the literary voice and carry the unchanged rubric deduction. Marginal notes and complex Tufte layouts remain outside this shared specimen.',
+ 'folio': '20px Source Serif 4 prose and section headings, 16px code, and a 640px measure. Caslon is an optional display role. The 1.60 leading and 1.50 section/body ratio cost points under the fixed Butterick rubric; the warm green identity remains coherent.',
+ 'atelier': '18px DM Sans prose, 16px interface and code, 36px titles. Both modes retain the precise teal design. The 1.60 leading costs eight points relative to the preferred band; a 640px measure and readable mobile code remain strengths.',
+ 'nocturne': '20px Source Serif 4 with 16px interface and code; both pearl and ink/brass modes remain distinct. The chosen 1.60 leading and 30px section headings reduce the prescriptive type score. The visual system remains strong.',
+ 'tufte': '20px ET Book, 16px system monospace code, and 1.60 leading in both modes. Italic section headings preserve the literary voice and carry the unchanged rubric deduction. Marginal notes and complex Tufte layouts remain outside this shared specimen.',
  'zephyr-reading': '18px Inter, 16px IBM Plex Mono, paired white/blue and dark companion palettes. Ordinary and state roles are explicit. The type score falls mainly because the new 1.60 leading is outside the fixed preferred band.',
  'simplex-reading': '18px Open Sans and 16px code, with a deliberate dark companion to the native light/red palette. Flat surfaces and explicit state colors remain calm. The new 1.60 leading reduces the fixed typography score.',
  'pulse-reading': '18px system sans, 16px code, and authored purple light/dark palettes. The repaired secondary action uses the intended neutral panel and ink. The 1.60 leading is unchanged and still lowers the fixed type score.',
- 'litera-reading': '20px Georgia continues through prose and lists; UI and code are 16px. Both modes have clear reading roles. Selected navigation now uses the tested foundation fill/ink in both modes. Leading remains 1.60.',
- 'darkly-reading': '18px Lato and 16px code, now with a designed light companion to the native dark palette. Light syntax families now use repaired named roles, checked on the code surface. Leading remains 1.60; both modes retain distinct syntax families.',
+ 'litera-reading': '20px Georgia continues through prose and lists; UI and code are 16px. Both modes have clear reading roles. Selected navigation uses the tested background and text colors from the theme settings in both modes. Leading remains 1.60.',
+ 'darkly-reading': '18px Lato and 16px code, now with a designed light companion to the native dark palette. Light-mode syntax colors use repaired named settings, checked against the code background. Leading remains 1.60; both modes retain distinct syntax token categories.',
 }
 for name, note in CURRENT_NOTES.items():
-    NOTES[name] = ('Current · candidate', note)
+    NOTES[name] = ('Current  /  candidate', note)
     DESIGN_NOTES[name] = note
-FONT['folio'] = (15, 'Source Serif 4 carries prose and ordinary sections; Caslon is available as an optional display role.')
+FONT['folio'] = (15, 'Source Serif 4 carries prose and ordinary section headings; Caslon is available as an optional display role.')
 
 def design_assess(t):
     controls=json.loads((ROOT/'controls.json').read_text())
@@ -307,9 +307,9 @@ def assess(id,mode):
       color=body_points+links_points+inline_points+syntax_points)
     reasons={
       'font':font_reason,
-      'size':f'Body {size:g}px desktop / {mobile_size:g}px mobile; preferred range 15–25px.',
-      'leading':f'Body leading {leading:.2f}; preferred range 1.20–1.45.',
-      'measure':f'Desktop complete-line mean {measure:.1f} characters ({desktop_measure}/10); mobile {mobile_measure:.1f} ({mobile_measure_points}/5, adapted band).',
+      'size':f'Body {size:g}px desktop / {mobile_size:g}px mobile; preferred range 15 to 25px.',
+      'leading':f'Line spacing {leading:.2f}; preferred range 1.20 to 1.45.',
+      'measure':f'Desktop average for complete lines {measure:.1f} characters ({desktop_measure}/10); mobile {mobile_measure:.1f} ({mobile_measure_points}/5, adapted band).',
       'space':f'Paragraph gap {gap:.2f}em desktop / {mobile_gap:.2f}em mobile ({para_points}/5); narrow-screen gutters {gutters:g}px ({margin_points}/5).',
       'hierarchy':f'Section/body ratio {section_ratio:.2f} ({section_points}/4); grouping {group_points}/3; title/body ratio {title_ratio:.2f} ({title_points}/3).',
       'code':f'Code {code_size:g}px desktop / {mobile_code:g}px mobile ({code_size_points}/4); monospace {mono_points}/3; contained scrolling {overflow_points}/3.',
