@@ -36,6 +36,9 @@ def main():
             for fg in ['ink', 'muted', 'accent-text', 'secondary-text', 'code-ink']:
                 for bg in ['paper', 'panel', 'code']:
                     check(f'{fg} on {bg}', pair(role(fg), role(bg)), 5, 'source-pair')
+            for fg in data['roles']:
+                if fg.startswith('syntax-'):
+                    check(f'{fg} on code', pair(role(fg), role('code')), 5, 'syntax-pair')
             for fg, bg in [('button-ink', 'primary-fill'), ('primary-hover-ink', 'primary-hover-fill'), ('selected-ink', 'selected-fill')]:
                 check(f'{fg} on {bg}', pair(role(fg), role(bg)), 4.5, 'source-pair')
             for edge in ['focus', 'control-boundary']:

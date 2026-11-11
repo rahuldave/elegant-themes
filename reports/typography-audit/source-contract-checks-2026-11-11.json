@@ -1,0 +1,80 @@
+[
+  {
+    "theme": "pulse-reading",
+    "baseCommit": "e02631d0efe6da4fb8bb36095c0c2f0b0a468146",
+    "unchangedProfileSectionHashes": {
+      "typography": "c6d390bb97397a2a5c75d113e650b51ff3cec83b69e4cd6816c61be55e285831",
+      "spacing": "82346df15482aec087a51cb38c479e28d757ece6f3df20257ce6ca7ddf845b3d",
+      "shape": "1f340c04c2938e59c9bc4726b61668a6fa1767569a15c93c361c64c080af9c72"
+    },
+    "deterministicBuild": true,
+    "rows": 4,
+    "colorChecksPass": true,
+    "lineHeight": 1.6,
+    "version": "0.2.1",
+    "testsPassed": 33,
+    "generatedAssetHashes": {
+      "pulse-reading.css": "cde26256f25054f28b21952fc5bff7deabd3499a7756c68d7055e44622b5e5be",
+      "smalldocs.yml": "4b32f94b780f3ed178e3696cc40d25b37d3a5f447c5624114ea0962d87472681",
+      "pulse-reading-light.css": "cde26256f25054f28b21952fc5bff7deabd3499a7756c68d7055e44622b5e5be",
+      "pulse-reading-light.scss": "bb6ffb9c3426efb90d99a116f29bed546929d952b7edf129fc01e57d337f9abe",
+      "_extension.yml": "2ac573be533fe9e92ef0ec22cd1bce971b3782a25a701cd0c633c1a167b38194",
+      "pulse-reading-dark.css": "67beecb3c77e690c38ce03f1e3969ede4397fe829463c081901d3200f890a886",
+      "pulse-reading-dark.scss": "00f1ae57b0cde9b73a230b657281bd683e4636f348966e068465f67c5f2566dd",
+      "foundations.json": "272ef2054d08336592d526087db1ae6be86beda2d68d27c3ad2c5e9428ec092d",
+      "fonts.css": "f0bc778c07422403ce53edcd9e09e594f1587796988dc2e6f26fa968041132af"
+    }
+  },
+  {
+    "theme": "litera-reading",
+    "baseCommit": "714bb3cf198ef1d4be7fe0f954061e5352d8a407",
+    "unchangedProfileSectionHashes": {
+      "typography": "204de73b411ab6ca92a703ff8fdbd2dc2651b8ffdb88310872ae13d40f150a44",
+      "spacing": "82346df15482aec087a51cb38c479e28d757ece6f3df20257ce6ca7ddf845b3d",
+      "shape": "ed7f4801b74ec6d1fa7e57b29e55b9dbf53f9cd3dabb44fe11da1997fcfd4b42"
+    },
+    "deterministicBuild": true,
+    "rows": 4,
+    "colorChecksPass": true,
+    "lineHeight": 1.6,
+    "version": "0.2.1",
+    "testsPassed": 35,
+    "generatedAssetHashes": {
+      "smalldocs.yml": "b616932a65444f8bc7ac665c5e4e5f046231586602256418d325c22ce1af21b4",
+      "litera-reading.css": "9540ff69f96edf9d79f22bf2d5dc2c6fc20e3db6b7dc434075618896e80a5ac9",
+      "litera-reading-light.css": "9540ff69f96edf9d79f22bf2d5dc2c6fc20e3db6b7dc434075618896e80a5ac9",
+      "_extension.yml": "8bbb19cb82d3e8d15598db6ce0c13b42fde6f9a7ebf359be8b5fc0a2494a8c4b",
+      "foundations.json": "eddd68b2ae7ebfb4b2f98be61da0f53e1cfe7bb0be8b9acb55a1d54ac139de0d",
+      "litera-reading-light.scss": "d4ff2b1719611e3dcfe63fd3d8eda39f0909387fb75a93c589c95691add4312a",
+      "litera-reading-dark.css": "1d41c6845bcf1b75fe071a9e785750cbe3f4923e1262984cfe1d8d0b0af74aae",
+      "litera-reading-dark.scss": "5ca046cf6bd7ddd1271d46bf62ad301441e4ed16b9f71c191947e58af4cd8def",
+      "fonts.css": "f0bc778c07422403ce53edcd9e09e594f1587796988dc2e6f26fa968041132af"
+    }
+  },
+  {
+    "theme": "darkly-reading",
+    "baseCommit": "5a3024001d402ce854b26e1e69b17dea7f1fe4d9",
+    "unchangedProfileSectionHashes": {
+      "typography": "e2dc507a8caf34e6077dfc60f5f1bb32dcbd297011ed8314ea49a6458daa3778",
+      "spacing": "82346df15482aec087a51cb38c479e28d757ece6f3df20257ce6ca7ddf845b3d",
+      "shape": "1f340c04c2938e59c9bc4726b61668a6fa1767569a15c93c361c64c080af9c72"
+    },
+    "deterministicBuild": true,
+    "rows": 4,
+    "colorChecksPass": true,
+    "lineHeight": 1.6,
+    "version": "0.2.1",
+    "testsPassed": 45,
+    "generatedAssetHashes": {
+      "darkly-reading.css": "0a64929c3567ba4249ba987bef24391d5d00601d228ea0eccdee632482e3a81d",
+      "darkly-reading-light.scss": "6c42dd07cf4ca7f4bfb96b6618199d3a72955461031ee51acb7c7bd83be0413c",
+      "smalldocs.yml": "cd32369b6a849e73506a6a9abd521c43f1a12f6876dd44549303be2c0c4d8faa",
+      "darkly-reading-light.css": "78b7815302536c6d5f5141a9482ec7aacfc13b21ef5d9ccef7265aa5968d2d9b",
+      "_extension.yml": "12affd8dcaa5efd192a9176f3ca1629951a27e2ef42e90decb56b7a3f3c2bd5c",
+      "foundations.json": "2396a273d0f6fb8b5788b4105b88710ee925b11834ad355f577f0ff13dfc9b81",
+      "darkly-reading-dark.scss": "0a4251d46f4c65cfbae762e0c6324b9b28175dc78575e05b44c7dda290bd43b3",
+      "fonts.css": "8a630c7aa3fa16074637c4d3813695708fa794037819ecf985cea285448b4378",
+      "darkly-reading-dark.css": "0a64929c3567ba4249ba987bef24391d5d00601d228ea0eccdee632482e3a81d"
+    }
+  }
+]

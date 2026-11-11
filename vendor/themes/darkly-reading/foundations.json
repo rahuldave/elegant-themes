@@ -49,7 +49,13 @@
         "button-ink": "#f7f9fc",
         "candidate-primary-hover-fill": "#4e647b",
         "candidate-primary-hover-ink": "#f7f9fc",
-        "candidate-link-hover": "#4a5e74"
+        "candidate-link-hover": "#4a5e74",
+        "syntax-import": "#006b8f",
+        "syntax-attribute": "#5c6a1e",
+        "syntax-keyword": "#b51b16",
+        "syntax-operator": "#006b8f",
+        "syntax-string": "#1d6e46",
+        "syntax-variable": "#965100"
       },
       "roles": {
         "paper": "anchor-paper",
@@ -75,7 +81,13 @@
         "selected-fill": "anchor-accent",
         "selected-ink": "button-ink",
         "disabled-fill": "anchor-panel",
-        "disabled-ink": "candidate-muted"
+        "disabled-ink": "candidate-muted",
+        "syntax-import": "syntax-import",
+        "syntax-attribute": "syntax-attribute",
+        "syntax-keyword": "syntax-keyword",
+        "syntax-operator": "syntax-operator",
+        "syntax-string": "syntax-string",
+        "syntax-variable": "syntax-variable"
       },
       "states": {
         "success": {
@@ -145,7 +157,13 @@
         "button-ink": "#ffffff",
         "candidate-primary-hover-fill": "#486689",
         "candidate-primary-hover-ink": "#ffffff",
-        "candidate-link-hover": "#97beea"
+        "candidate-link-hover": "#97beea",
+        "syntax-import": "#f97583",
+        "syntax-attribute": "#79b8ff",
+        "syntax-keyword": "#f97583",
+        "syntax-operator": "#e1e4e8",
+        "syntax-string": "#9ecbff",
+        "syntax-variable": "#ffab70"
       },
       "roles": {
         "paper": "anchor-paper",
@@ -171,7 +189,13 @@
         "selected-fill": "anchor-secondary",
         "selected-ink": "button-ink",
         "disabled-fill": "anchor-panel",
-        "disabled-ink": "candidate-muted"
+        "disabled-ink": "candidate-muted",
+        "syntax-import": "syntax-import",
+        "syntax-attribute": "syntax-attribute",
+        "syntax-keyword": "syntax-keyword",
+        "syntax-operator": "syntax-operator",
+        "syntax-string": "syntax-string",
+        "syntax-variable": "syntax-variable"
       },
       "states": {
         "success": {

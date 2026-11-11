@@ -56,19 +56,19 @@
   {
     "name": "pulse-reading",
     "repository": "https://github.com/rahuldave/smalldocs-pulse-reading",
-    "commit": "e02631d0efe6da4fb8bb36095c0c2f0b0a468146",
+    "commit": "f02a1a52b56cd3e69977bf57d8f3fc1f0b55b04c",
     "foundations_sha256": "272ef2054d08336592d526087db1ae6be86beda2d68d27c3ad2c5e9428ec092d"
   },
   {
     "name": "litera-reading",
     "repository": "https://github.com/rahuldave/smalldocs-litera-reading",
-    "commit": "714bb3cf198ef1d4be7fe0f954061e5352d8a407",
+    "commit": "410c77cc808dbc118a57259e943efda0c5df0943",
     "foundations_sha256": "eddd68b2ae7ebfb4b2f98be61da0f53e1cfe7bb0be8b9acb55a1d54ac139de0d"
   },
   {
     "name": "darkly-reading",
     "repository": "https://github.com/rahuldave/smalldocs-darkly-reading",
-    "commit": "5a3024001d402ce854b26e1e69b17dea7f1fe4d9",
-    "foundations_sha256": "b084c63f7487aeb8e93f690258cd7ab0384529ea6007a30656c4c2423124823d"
+    "commit": "c6be88a2c251b6d80c2942dfb280394038d6a7d2",
+    "foundations_sha256": "2396a273d0f6fb8b5788b4105b88710ee925b11834ad355f577f0ff13dfc9b81"
   }
 ]

@@ -66,12 +66,16 @@ def main():
     assert len(checks) == 18
     assert all(c['passes'] for r in checks for c in r['sourceChecks'])
     assert all(not b['profileErrors'] for r in checks for b in r['browser'])
+    assert all(c['passes'] for r in checks for b in r['browser'] for c in b['renderedText']), 'A repaired foundation component still fails'
     shots = json.loads((audit / 'current-screenshots.json').read_text())
     assert len(shots) == 126
     for shot in shots:
         assert hashlib.sha256((audit / shot['file']).read_bytes()).hexdigest() == shot['sha256'], shot['file']
     previous = {t['id']: t for t in json.loads((audit / 'previous-scores.json').read_text())}
     for theme in json.loads((audit / 'scores.json').read_text()):
+        if theme['id'] in owned:
+            assert all(m['scores']['leading'] == 12 for m in theme['modes']), 'Owned prose leading must remain1.60'
+            assert all(m['metrics']['syntaxContrast'] >= 4.5 for m in theme['modes']), theme['id']
         if theme['id'] not in owned:
             assert theme['typography'] == previous[theme['id']]['typography']
             assert theme['design']['total'] == previous[theme['id']]['design']['total']
@@ -96,7 +100,7 @@ def main():
     for theme in themes:
         for page in ('index.html','typography.html','code.html','components.html','foundations.html'):
             assert (OUTPUT / 'previews' / theme['id'] / page).is_file()
-    print('Verified 38 themes, 51 mode variants, 190 specimen pages, 126 fresh screenshots, source hashes, frozen baseline scores, and local HTML/CSS assets. AC215 is excluded.')
+    print('Verified 38 themes, 51 mode variants, 190 specimen pages, 126 dated screenshots, source hashes, frozen baseline scores, and local HTML/CSS assets. AC215 is excluded.')
 
 
 if __name__ == '__main__':

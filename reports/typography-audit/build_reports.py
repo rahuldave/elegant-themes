@@ -31,7 +31,7 @@ def page(filename,title,kicker,lede,body,script=''):
     result=f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{E(title)} · Elegant</title><meta name="description" content="{E(lede)}"><style>{CSS}</style></head>
 <body><a class="skip" href="#main">Skip to content</a><div class="topbar"><nav aria-label="The four reports"><a class="brand" href="index.html">Elegant / Field notes</a>{nav}</nav></div>
-<main id="main"><header class="hero"><p class="eyebrow">{kicker} · 10 November 2026</p><h1>{title}</h1><p class="lede">{lede}</p></header>{body}
+<main id="main"><header class="hero"><p class="eyebrow">{kicker} · 11 November 2026</p><h1>{title}</h1><p class="lede">{lede}</p></header>{body}
 <footer><p>A <a href="https://smallish.dev/">smallish.dev</a> project. Prepared for the Elegant / SmallDocs theme collection. Scores and examples are this review’s interpretation, not endorsements or official grading systems from either author.</p><p>All four pages work from local files. Keep the adjacent <code>typography-audit</code> and <code>history</code> folders with them; it contains our screenshots, measurements, calculation source, and font licenses. The public site links the source books; no book PDF or extracts are distributed.</p><p><a href="typography-audit/scores.json">Scores</a> · <a href="typography-audit/measurements.json">Rendered measurements</a> · <a href="typography-audit/controls.json">Control measurements</a> · <a href="typography-audit/metadata.json">Snapshot and provenance</a></p></footer></main><script>{COMMON_JS}\n{script}</script></body></html>'''
     (OUT/filename).write_text(result)
 

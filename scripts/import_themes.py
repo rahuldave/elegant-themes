@@ -1,4 +1,5 @@
 """Import clean, committed upstream extensions and record exact source identities."""
+import argparse
 import hashlib
 import io
 import json
@@ -12,8 +13,12 @@ NAMES = ['folio', 'atelier', 'nocturne', 'tufte', 'zephyr-reading', 'simplex-rea
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--themes', nargs='+', choices=NAMES, default=NAMES,
+                        help='Import only these reviewed themes; leave other source pins unchanged')
+    names = parser.parse_args().themes
     sources = json.loads((ROOT / 'theme-sources.json').read_text())
-    for name in NAMES:
+    for name in names:
         repo = ROOT.parent / ('smalldocs-' + name)
         if not repo.exists():
             repo = ROOT.parent.parent / ('smalldocs-' + name)

@@ -9,8 +9,9 @@ import importlib.metadata
 import json
 import subprocess
 import sys
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 AUDIT = ROOT / 'reports/typography-audit'
@@ -21,6 +22,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--import-captures', action='store_true',
                         help='Explicitly accept newly recorded captures and their source inputs')
+    parser.add_argument('--review-date', type=date.fromisoformat,
+                        help='Date of an explicit new capture import, in America/New_York')
+    parser.add_argument('--fresh-themes', nargs='+', choices=sorted(OWNED), default=sorted(OWNED),
+                        help='Themes freshly captured in this batch; other recorded captures are retained')
     args = parser.parse_args()
     captures = json.loads((AUDIT / 'current-captures.json').read_text())
     foundations = json.loads((AUDIT / 'foundations-measurements.json').read_text())
@@ -43,16 +48,46 @@ def main():
     evidence_hashes = {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest() for p in evidence_files + fixture_files}
     metadata_path = AUDIT / 'metadata.json'
     if args.import_captures:
-        metadata = dict(date='2026-11-10', gallery='https://rahuldave.com/elegant-themes/', themes=38, mode_variants=51,
+        assert args.review_date, '--review-date is required for a new capture import'
+        fresh = set(args.fresh_themes)
+        recorded_today = {r['id'] for r in captures if datetime.fromisoformat(r['capturedAt']).astimezone(ZoneInfo('America/New_York')).date() == args.review_date}
+        assert recorded_today == fresh, 'Fresh theme list must match capture dates'
+        assert all(datetime.fromisoformat(r['capturedAt']).astimezone(ZoneInfo('America/New_York')).date() == args.review_date for r in captures if r['id'] in fresh), 'Each fresh theme needs its complete dated capture batch'
+        baseline_commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
+        if fresh != OWNED:
+            def committed(path):
+                return subprocess.check_output(['git', 'show', f'{baseline_commit}:{path}'], cwd=ROOT)
+            prior = json.loads(committed('reports/typography-audit/metadata.json'))
+            assert prior['smalldocs_version'] == importlib.metadata.version('smalldocs'), 'Renderer changed: recapture all owned themes'
+            prior_fixtures = {p: digest for p, digest in prior['evidence_hashes'].items() if p.startswith('example/')}
+            current_fixtures = {p: digest for p, digest in evidence_hashes.items() if p.startswith('example/')}
+            assert prior_fixtures == current_fixtures, 'Shared fixture set changed: recapture all owned themes'
+            retained = lambda r: r['id'] not in fresh
+            for filename, current in [('current-captures.json', captures), ('current-screenshots.json', shots), ('foundations-measurements.json', foundations)]:
+                path = f'reports/typography-audit/{filename}'
+                old_bytes = committed(path)
+                assert hashlib.sha256(old_bytes).hexdigest() == prior['evidence_hashes'][path], f'Committed baseline provenance mismatch: {filename}'
+                assert list(filter(retained, json.loads(old_bytes))) == list(filter(retained, current)), f'Retained evidence changed: {filename}'
+            def retained_sources(mapping):
+                return {p: digest for p, digest in mapping.items() if not any(p.startswith(f'vendor/themes/{name}/') for name in fresh)}
+            assert retained_sources(prior['source_hashes']) == retained_sources(hashes), 'Retained source assets changed: include affected themes in the recapture'
+            assert [p for p in prior['theme_sources'] if p['name'] not in fresh] == [p for p in pins if p['name'] not in fresh], 'Retained source pins changed'
+        fresh_type = sum(r['id'] in fresh and r['page'] in {'typography', 'code'} for r in captures)
+        fresh_controls = sum(r['id'] in fresh and r['page'] == 'components' for r in captures)
+        fresh_foundations = sum(r['id'] in fresh and r['page'] == 'foundations' for r in captures)
+        metadata = dict(date=args.review_date.isoformat(), gallery='https://rahuldave.com/elegant-themes/', themes=38, mode_variants=51,
         prose_and_code_observations=204, desktop_components_observations=51, foundation_observations=36,
-        fresh_prose_and_code_observations=72, fresh_components_observations=18, retained_prose_and_code_observations=132, retained_components_observations=33,
+        fresh_themes=sorted(fresh), fresh_prose_and_code_observations=fresh_type,
+        fresh_components_observations=fresh_controls, fresh_foundation_observations=fresh_foundations,
+        retained_prose_and_code_observations=204-fresh_type, retained_components_observations=51-fresh_controls,
+        capture_dates=sorted({datetime.fromisoformat(r['capturedAt']).astimezone(ZoneInfo('America/New_York')).date().isoformat() for r in captures}),
         desktop_css_viewport=[1280, 844], mobile_css_viewport=[390, 844], screenshot_crop_css_pixels=650,
         mobile_method='Actual 390px iframe; CSS reflow, not physical-device emulation',
         settling='Await document.fonts.ready, two animation frames, then declared CSS transition duration plus 40ms',
         smalldocs_version=importlib.metadata.version('smalldocs'), bootstrap_version='5.3.8',
-        method='Nine owned themes freshly measured in both modes. Unchanged stock, native Bootstrap, and original custom observations retained. Fixed rubric weights, bands, and judgment anchors; lower paired mode total wins.',
+        method='The nine-theme November10 capture is supplemented by an explicit dated repair batch. Unchanged owned theme captures and October stock/native/original baselines are retained with their dates. Fixed rubric weights, bands, and judgment anchors; lower paired mode total wins.',
         baseline_gallery_commit='69c7339c', baseline_archive='history/2026-10-16/',
-        source_hashes=hashes, evidence_hashes=evidence_hashes, theme_sources=pins, public_sources=['https://practicaltypography.com/', 'https://refactoringui.com/'],
+        source_hashes=hashes, evidence_hashes=evidence_hashes, theme_sources=pins, previous_review_commit=baseline_commit, public_sources=['https://practicaltypography.com/', 'https://refactoringui.com/'],
         scope='SmallDocs reading specimens. Foundation intended pairs and rendered roles supplement scores. Quarto validation is upstream evidence; no fresh Quarto score, physical projection, device, or comprehensive accessibility certification.')
         # Full baseline identity is recorded in the preserved review-history file.
         metadata['baseline_gallery_commit'] = subprocess.check_output(['git', 'rev-parse', '69c7339'], cwd=ROOT, text=True).strip()

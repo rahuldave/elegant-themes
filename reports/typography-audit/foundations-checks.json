@@ -5438,7 +5438,7 @@
   {
     "id": "pulse-reading",
     "mode": "light",
-    "commit": "e02631d0efe6da4fb8bb36095c0c2f0b0a468146",
+    "commit": "f02a1a52b56cd3e69977bf57d8f3fc1f0b55b04c",
     "sourceChecks": [
       {
         "label": "ink on paper",
@@ -5690,7 +5690,7 @@
           },
           {
             "label": "foundation-secondary",
-            "ratio": 9.74,
+            "ratio": 8.686,
             "minimum": 4.5,
             "passes": true
           },
@@ -5746,18 +5746,18 @@
         "loadedFonts": [
           {
             "family": "IBM Plex Mono",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "500",
-            "style": "normal"
+            "style": "normal",
+            "weight": "500"
           },
           {
             "family": "bootstrap-icons",
-            "weight": "normal",
-            "style": "normal"
+            "style": "normal",
+            "weight": "normal"
           }
         ]
       },
@@ -5785,7 +5785,7 @@
           },
           {
             "label": "foundation-secondary",
-            "ratio": 9.74,
+            "ratio": 8.686,
             "minimum": 4.5,
             "passes": true
           },
@@ -5841,18 +5841,18 @@
         "loadedFonts": [
           {
             "family": "IBM Plex Mono",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "500",
-            "style": "normal"
+            "style": "normal",
+            "weight": "500"
           },
           {
             "family": "bootstrap-icons",
-            "weight": "normal",
-            "style": "normal"
+            "style": "normal",
+            "weight": "normal"
           }
         ]
       }
@@ -5861,7 +5861,7 @@
   {
     "id": "pulse-reading",
     "mode": "dark",
-    "commit": "e02631d0efe6da4fb8bb36095c0c2f0b0a468146",
+    "commit": "f02a1a52b56cd3e69977bf57d8f3fc1f0b55b04c",
     "sourceChecks": [
       {
         "label": "ink on paper",
@@ -6113,9 +6113,9 @@
           },
           {
             "label": "foundation-secondary",
-            "ratio": 1.178,
+            "ratio": 12.222,
             "minimum": 4.5,
-            "passes": false
+            "passes": true
           },
           {
             "label": "foundation-outline",
@@ -6169,18 +6169,18 @@
         "loadedFonts": [
           {
             "family": "IBM Plex Mono",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "500",
-            "style": "normal"
+            "style": "normal",
+            "weight": "500"
           },
           {
             "family": "bootstrap-icons",
-            "weight": "normal",
-            "style": "normal"
+            "style": "normal",
+            "weight": "normal"
           }
         ]
       },
@@ -6208,9 +6208,9 @@
           },
           {
             "label": "foundation-secondary",
-            "ratio": 1.178,
+            "ratio": 12.222,
             "minimum": 4.5,
-            "passes": false
+            "passes": true
           },
           {
             "label": "foundation-outline",
@@ -6264,18 +6264,18 @@
         "loadedFonts": [
           {
             "family": "IBM Plex Mono",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "500",
-            "style": "normal"
+            "style": "normal",
+            "weight": "500"
           },
           {
             "family": "bootstrap-icons",
-            "weight": "normal",
-            "style": "normal"
+            "style": "normal",
+            "weight": "normal"
           }
         ]
       }
@@ -6284,7 +6284,7 @@
   {
     "id": "litera-reading",
     "mode": "light",
-    "commit": "714bb3cf198ef1d4be7fe0f954061e5352d8a407",
+    "commit": "410c77cc808dbc118a57259e943efda0c5df0943",
     "sourceChecks": [
       {
         "label": "ink on paper",
@@ -6560,9 +6560,9 @@
           },
           {
             "label": "foundation-selected",
-            "ratio": 3.712,
+            "ratio": 7.12,
             "minimum": 4.5,
-            "passes": false
+            "passes": true
           },
           {
             "label": "success action",
@@ -6592,18 +6592,18 @@
         "loadedFonts": [
           {
             "family": "IBM Plex Mono",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "500",
-            "style": "normal"
+            "style": "normal",
+            "weight": "500"
           },
           {
             "family": "bootstrap-icons",
-            "weight": "normal",
-            "style": "normal"
+            "style": "normal",
+            "weight": "normal"
           }
         ]
       },
@@ -6655,9 +6655,9 @@
           },
           {
             "label": "foundation-selected",
-            "ratio": 3.712,
+            "ratio": 7.12,
             "minimum": 4.5,
-            "passes": false
+            "passes": true
           },
           {
             "label": "success action",
@@ -6687,18 +6687,18 @@
         "loadedFonts": [
           {
             "family": "IBM Plex Mono",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "500",
-            "style": "normal"
+            "style": "normal",
+            "weight": "500"
           },
           {
             "family": "bootstrap-icons",
-            "weight": "normal",
-            "style": "normal"
+            "style": "normal",
+            "weight": "normal"
           }
         ]
       }
@@ -6707,7 +6707,7 @@
   {
     "id": "litera-reading",
     "mode": "dark",
-    "commit": "714bb3cf198ef1d4be7fe0f954061e5352d8a407",
+    "commit": "410c77cc808dbc118a57259e943efda0c5df0943",
     "sourceChecks": [
       {
         "label": "ink on paper",
@@ -6983,9 +6983,9 @@
           },
           {
             "label": "foundation-selected",
-            "ratio": 3.712,
+            "ratio": 4.588,
             "minimum": 4.5,
-            "passes": false
+            "passes": true
           },
           {
             "label": "success action",
@@ -7015,18 +7015,18 @@
         "loadedFonts": [
           {
             "family": "IBM Plex Mono",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "500",
-            "style": "normal"
+            "style": "normal",
+            "weight": "500"
           },
           {
             "family": "bootstrap-icons",
-            "weight": "normal",
-            "style": "normal"
+            "style": "normal",
+            "weight": "normal"
           }
         ]
       },
@@ -7078,9 +7078,9 @@
           },
           {
             "label": "foundation-selected",
-            "ratio": 3.712,
+            "ratio": 4.588,
             "minimum": 4.5,
-            "passes": false
+            "passes": true
           },
           {
             "label": "success action",
@@ -7110,18 +7110,18 @@
         "loadedFonts": [
           {
             "family": "IBM Plex Mono",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "500",
-            "style": "normal"
+            "style": "normal",
+            "weight": "500"
           },
           {
             "family": "bootstrap-icons",
-            "weight": "normal",
-            "style": "normal"
+            "style": "normal",
+            "weight": "normal"
           }
         ]
       }
@@ -7130,7 +7130,7 @@
   {
     "id": "darkly-reading",
     "mode": "light",
-    "commit": "5a3024001d402ce854b26e1e69b17dea7f1fe4d9",
+    "commit": "c6be88a2c251b6d80c2942dfb280394038d6a7d2",
     "sourceChecks": [
       {
         "label": "ink on paper",
@@ -7236,6 +7236,48 @@
         "minimum": 5,
         "passes": true,
         "kind": "source-pair"
+      },
+      {
+        "label": "syntax-import on code",
+        "ratio": 5.07,
+        "minimum": 5,
+        "passes": true,
+        "kind": "syntax-pair"
+      },
+      {
+        "label": "syntax-attribute on code",
+        "ratio": 5.019,
+        "minimum": 5,
+        "passes": true,
+        "kind": "syntax-pair"
+      },
+      {
+        "label": "syntax-keyword on code",
+        "ratio": 5.663,
+        "minimum": 5,
+        "passes": true,
+        "kind": "syntax-pair"
+      },
+      {
+        "label": "syntax-operator on code",
+        "ratio": 5.07,
+        "minimum": 5,
+        "passes": true,
+        "kind": "syntax-pair"
+      },
+      {
+        "label": "syntax-string on code",
+        "ratio": 5.263,
+        "minimum": 5,
+        "passes": true,
+        "kind": "syntax-pair"
+      },
+      {
+        "label": "syntax-variable on code",
+        "ratio": 5.108,
+        "minimum": 5,
+        "passes": true,
+        "kind": "syntax-pair"
       },
       {
         "label": "button-ink on primary-fill",
@@ -7438,33 +7480,33 @@
         "loadedFonts": [
           {
             "family": "Lato",
-            "weight": "400",
-            "style": "italic"
+            "style": "italic",
+            "weight": "400"
           },
           {
             "family": "Lato",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "Lato",
-            "weight": "700",
-            "style": "normal"
+            "style": "normal",
+            "weight": "700"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "500",
-            "style": "normal"
+            "style": "normal",
+            "weight": "500"
           },
           {
             "family": "bootstrap-icons",
-            "weight": "normal",
-            "style": "normal"
+            "style": "normal",
+            "weight": "normal"
           }
         ]
       },
@@ -7548,33 +7590,33 @@
         "loadedFonts": [
           {
             "family": "Lato",
-            "weight": "400",
-            "style": "italic"
+            "style": "italic",
+            "weight": "400"
           },
           {
             "family": "Lato",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "Lato",
-            "weight": "700",
-            "style": "normal"
+            "style": "normal",
+            "weight": "700"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "500",
-            "style": "normal"
+            "style": "normal",
+            "weight": "500"
           },
           {
             "family": "bootstrap-icons",
-            "weight": "normal",
-            "style": "normal"
+            "style": "normal",
+            "weight": "normal"
           }
         ]
       }
@@ -7583,7 +7625,7 @@
   {
     "id": "darkly-reading",
     "mode": "dark",
-    "commit": "5a3024001d402ce854b26e1e69b17dea7f1fe4d9",
+    "commit": "c6be88a2c251b6d80c2942dfb280394038d6a7d2",
     "sourceChecks": [
       {
         "label": "ink on paper",
@@ -7689,6 +7731,48 @@
         "minimum": 5,
         "passes": true,
         "kind": "source-pair"
+      },
+      {
+        "label": "syntax-import on code",
+        "ratio": 5.01,
+        "minimum": 5,
+        "passes": true,
+        "kind": "syntax-pair"
+      },
+      {
+        "label": "syntax-attribute on code",
+        "ratio": 6.413,
+        "minimum": 5,
+        "passes": true,
+        "kind": "syntax-pair"
+      },
+      {
+        "label": "syntax-keyword on code",
+        "ratio": 5.01,
+        "minimum": 5,
+        "passes": true,
+        "kind": "syntax-pair"
+      },
+      {
+        "label": "syntax-operator on code",
+        "ratio": 10.441,
+        "minimum": 5,
+        "passes": true,
+        "kind": "syntax-pair"
+      },
+      {
+        "label": "syntax-string on code",
+        "ratio": 7.889,
+        "minimum": 5,
+        "passes": true,
+        "kind": "syntax-pair"
+      },
+      {
+        "label": "syntax-variable on code",
+        "ratio": 7.173,
+        "minimum": 5,
+        "passes": true,
+        "kind": "syntax-pair"
       },
       {
         "label": "button-ink on primary-fill",
@@ -7891,33 +7975,33 @@
         "loadedFonts": [
           {
             "family": "Lato",
-            "weight": "400",
-            "style": "italic"
+            "style": "italic",
+            "weight": "400"
           },
           {
             "family": "Lato",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "Lato",
-            "weight": "700",
-            "style": "normal"
+            "style": "normal",
+            "weight": "700"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "500",
-            "style": "normal"
+            "style": "normal",
+            "weight": "500"
           },
           {
             "family": "bootstrap-icons",
-            "weight": "normal",
-            "style": "normal"
+            "style": "normal",
+            "weight": "normal"
           }
         ]
       },
@@ -8001,33 +8085,33 @@
         "loadedFonts": [
           {
             "family": "Lato",
-            "weight": "400",
-            "style": "italic"
+            "style": "italic",
+            "weight": "400"
           },
           {
             "family": "Lato",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "Lato",
-            "weight": "700",
-            "style": "normal"
+            "style": "normal",
+            "weight": "700"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "400",
-            "style": "normal"
+            "style": "normal",
+            "weight": "400"
           },
           {
             "family": "IBM Plex Mono",
-            "weight": "500",
-            "style": "normal"
+            "style": "normal",
+            "weight": "500"
           },
           {
             "family": "bootstrap-icons",
-            "weight": "normal",
-            "style": "normal"
+            "style": "normal",
+            "weight": "normal"
           }
         ]
       }

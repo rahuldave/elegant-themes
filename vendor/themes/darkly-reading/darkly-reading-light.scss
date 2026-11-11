@@ -44,6 +44,12 @@ $callout-color-caution: #803c32;
   --r-selected-ink: #f7f9fc;
   --r-disabled-fill: #eaecef;
   --r-disabled-ink: #4c4f53;
+  --r-syntax-import: #006b8f;
+  --r-syntax-attribute: #5c6a1e;
+  --r-syntax-keyword: #b51b16;
+  --r-syntax-operator: #006b8f;
+  --r-syntax-string: #1d6e46;
+  --r-syntax-variable: #965100;
   --r-link: #50667f;
   --r-button: #556d87;
   --r-on-button: #f7f9fc;
@@ -274,4 +280,14 @@ html body #quarto-content pre.sourceCode span, html body #quarto-content pre cod
 html body #quarto-content .btn { background-image: none; }
 html body #quarto-content .btn:is(.active,[aria-pressed=true]) { text-decoration: underline; text-underline-offset: .25rem; }
 html body #quarto-content .btn:is(:disabled,.disabled,[aria-disabled=true]) { text-decoration: none; }
+
+/* The light companion has a tinted code surface. Resolve the syntax
+   families whose inherited a11y inks fail there, in both Pandoc renderers.
+   Separate families retain separate inks; all other tokens are preserved. */
+html body #quarto-content pre code span.im { color: var(--r-syntax-import); }
+html body #quarto-content pre code span.at { color: var(--r-syntax-attribute); }
+html body #quarto-content pre code span:is(.kw,.cf,.cn,.ot) { color: var(--r-syntax-keyword); }
+html body #quarto-content pre code span:is(.op,.sc) { color: var(--r-syntax-operator); }
+html body #quarto-content pre code span:is(.ch,.ss,.st,.vs) { color: var(--r-syntax-string); }
+html body #quarto-content pre code span:is(.fl,.va) { color: var(--r-syntax-variable); }
 /* Family identity lives in foundations.json: fonts, shape and mode roles. */

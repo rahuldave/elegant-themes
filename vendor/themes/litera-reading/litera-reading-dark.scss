@@ -274,4 +274,9 @@ html body #quarto-content pre.sourceCode span, html body #quarto-content pre cod
 html body #quarto-content .btn { background-image: none; }
 html body #quarto-content .btn:is(.active,[aria-pressed=true]) { text-decoration: underline; text-underline-offset: .25rem; }
 html body #quarto-content .btn:is(:disabled,.disabled,[aria-disabled=true]) { text-decoration: none; }
+
+/* Bootstrap's nav-pill selection otherwise retains the upstream blue/white
+   pair. The named selected roles apply in either mode and remain visible on
+   hover/focus; the underline supplies a cue beyond the fill color. */
+html body #quarto-content .nav-pills .nav-link:not(:disabled):not(.disabled):not([aria-disabled=true]):is(.active,[aria-current=page],[aria-selected=true]) { color: var(--r-selected-ink); background-color: var(--r-selected-fill); text-decoration: underline; text-underline-offset: .25rem; }
 /* Family identity lives in foundations.json: fonts, shape and mode roles. */
